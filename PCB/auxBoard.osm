@@ -1,0 +1,1425 @@
+View {
+Width 4.783464567 
+Height 2.677165354 
+Mag 2.2 
+Center 60.18334m 32.88323m 
+Grid 0.25m 0.25m 
+Index 0 0 
+PrintScale 0.0 
+FullWidth
+ShowHoles
+ShowNames
+ShowValues
+SolidPads
+SavedFrameString "-23 179 1386 827 0 0 1920 1057 " 
+PadFillColor 5898 30146 13107 
+GridColor 57344 57344 65280 
+HoleColor 55000 55000 65535 
+BackgroundColor 65535 65535 65535 
+SelectedSignalTraceColor 12345 54321 6789 
+CustomGrid "12.20 mm x 1 mm" 
+CustomGrid "0.32500 mm x 2.10 mm" 
+CustomGrid "0.65 mm x 0.90 mm" 
+CustomGrid "0.20 mm" 
+CustomGrid "0.10 mm" 
+}
+
+Setup {
+SerialNumber 1567 
+Layers 2 
+TraceWidth 6 
+Spacing 6 
+SolderMaskRing 3 
+PreferMetric 
+}
+GerberOptions {
+NormalLayers yes 
+NormalLayersFlipOdd no 
+NormalLayersFlipEven no 
+PlaneLayers yes 
+PlaneLayersFlipOdd no 
+PlaneLayersFlipEven no 
+SilkLayers yes 
+SilkLayersFlipOdd no 
+SilkLayersFlipEven no 
+SolderMaskLayers yes 
+SolderMaskLayersFlipOdd no 
+SolderMaskLayersFlipEven no 
+FlattenCopperFlood no 
+DrillFile DRILL.TXT 
+Aux1File AUX1.GBR 
+Aux2File AUX2.GBR 
+Silk1File SILK1.GBR 
+Silk2File SILK2.GBR 
+Mask1File MASK1.GBR 
+Mask2File MASK2.GBR 
+Layer1File LAYER1.GBR 
+Layer2File LAYER2.GBR 
+Layer3File LAYER3.GBR 
+Layer4File LAYER4.GBR 
+LayerXFile LAYER%d.GBR 
+AuxXFile AUX%d.GBR 
+}
+
+PostscriptOptions {
+NormalLayers yes 
+NormalLayersFlipOdd no 
+NormalLayersFlipEven no 
+PlaneLayers yes 
+PlaneLayersFlipOdd no 
+PlaneLayersFlipEven no 
+SilkLayers yes 
+SilkLayersFlipOdd no 
+SilkLayersFlipEven no 
+SolderMaskLayers yes 
+SolderMaskLayersFlipOdd no 
+SolderMaskLayersFlipEven no 
+}
+
+
+Type 'U' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 2 2 4 0 8 0 10 2 10 12 }
+}
+
+Type "LGA16 (3x3)" {
+NameData { 0.50m -1.50m 1.75m 0 }
+ValueData { 0.50m -1.50m 2.25m 0 }
+Pad A { Rectangle 0.80m 0.30m }
+Pad B { Rectangle 0.30m 0.80m }
+Pin 1 { A 0 0 -1.25m 1m 0 U }
+Pin 10 { A 0 0 1.25m -0.50m 0 U }
+Pin 11 { A 0 0 1.25m 0 0 U }
+Pin 12 { A 0 0 1.25m 0.50m 0 U }
+Pin 13 { A 0 0 1.25m 1m 0 U }
+Pin 14 { B 0 0 0.50m 1.25m 0 U }
+Pin 15 { B 0 0 0 1.25m 0 U }
+Pin 16 { B 0 0 -0.50m 1.25m 0 U }
+Pin 2 { A 0 0 -1.25m 0.50m 0 U }
+Pin 3 { A 0 0 -1.25m 0 0 U }
+Pin 4 { A 0 0 -1.25m -0.50m 0 U }
+Pin 5 { A 0 0 -1.25m -1m 0 U }
+Pin 6 { B 0 0 -0.50m -1.25m 0 U }
+Pin 7 { B 0 0 0 -1.25m 0 U }
+Pin 8 { B 0 0 0.50m -1.25m 0 U }
+Pin 9 { A 0 0 1.25m -1m 0 U }
+Path Silk
+{ 0 -1.50m W 5 S 5 1.50m -1.50m 1.50m 1.50m -1.50m 1.50m -1.50m -1.50m 0 -1.50m
+}
+Path Silk
+{ -1.87500m 1.25m W 5 S 5 -1.81250m 1.26675m -1.76674m 1.31250m -1.75m 1.37500m
+-1.76674m 1.43750m -1.81250m 1.48326m -1.87500m 1.50m -1.93750m 1.48326m
+-1.98325m 1.43750m -2m 1.37500m -1.98325m 1.31250m -1.93750m 1.26675m -1.87500m
+1.25m }
+}
+
+Type '3' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 10 4 12 8 12 10 10 10 8 8 6 { 6 6 }
+10 4 10 2 8 0 4 0 2 2 }
+}
+
+Type 'P' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 8 12 10 10 10 8 8 6 2 6 }
+}
+
+Type 'T' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 6 0 6 12 { 2 12 }
+10 12 }
+}
+
+Type 'I' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 4 0 4 12 }
+}
+
+Type '-' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 6 10 6 }
+}
+
+Type 'Q' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 2 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 }
+Path Front
+{ 6 4 10 0 }
+}
+
+Type Cap2917 {
+NameData { 0.50m -1.50m 1.75m 0 }
+ValueData { 0.50m -1.25m -2.25m 0 }
+Pad A { Rectangle 2.40m 2.90m }
+Pin M { A 0 0 3.05m 0 0 U }
+Pin P { A 0 0 -3.05m 0 0 U }
+Path Silk
+{ -1.50m 1.50m W 5 S 10 1.50m 1.50m }
+Path Silk
+{ -1.50m -1.50m W 5 S 10 1.50m -1.50m }
+Path Silk
+{ -3.50m 2.50m W 5 S 10 -2.50m 2.50m }
+Path Silk
+{ -3m 3m W 5 S 10 -3m 2m }
+}
+
+Type '_' {
+NameData { 50 0 0 0 }
+ValueData { 50 0 0 0 }
+Path Front
+{ 2 0 10 0 }
+}
+
+Type Ind {
+NameData { 1m -3.50m 4m 0 }
+ValueData { 1m -3.50m -4.50m 0 }
+Pad A { Rectangle 1.70m 2m }
+Pin 1 { A 0 0 0 3m 0 U }
+Pin 2 { A 0 0 0 -3m 0 U }
+Path Silk
+{ 0 -3.50m W 5 S 10 3.50m -3.50m 3.50m 3.50m -3.50m 3.50m -3.50m -3.50m 0
+-3.50m }
+}
+
+Type BAS140 {
+NameData { 0.50m 0 0 0 }
+ValueData { 0.50m 0 -0.50m 0 }
+Pad A { Rectangle 0.60m 0.80m }
+Pin A { A 0 0 0 1.25m 0 U }
+Pin C { A 0 0 0 -1.25m 0 U }
+Path Silk
+{ -0.75m 0 W 5 S 10 -0.75m -1.25m 0.75m -1.25m 0.75m 1.25m -0.75m 1.25m -0.75m
+0 }
+Path Silk
+{ -1m -0.75m W 5 S 10 1m -0.75m }
+}
+
+Type "USB A" {
+NameData { 1m -1m 2.50m 0 }
+ValueData { 1m -1.50m 3.50m 0 }
+Pad A { Circle 1.10m }
+Pad B { Circle 2.50m }
+Pin 1 { A A A -3.50m 0 0.92m P }
+Pin 2 { A A A -1m 0 0.92m P }
+Pin 3 { A A A 1m 0 0.92m P }
+Pin 4 { A A A 3.50m 0 0.92m P }
+Pin S1 { B B B -6.57m -2.71m 2.29999m P }
+Pin S2 { B B B 6.57m -2.71m 2.29999m P }
+Path Silk
+{ 0 -12m W 10 S 10 7m -12m 7m 2m -7m 2m -7m -12m 0 -12m }
+}
+
+Type 'L' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 2 0 10 0 }
+}
+
+Type 'B' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 8 12 10 10 10 8 8 6 { 2 6 }
+10 4 10 2 8 0 2 0 }
+}
+
+Type "USB Micro-B" {
+NameData { 1m -1.95m 1.45m 0 }
+ValueData { 1m -2.50m 2.75m 0 }
+Pad A { Rectangle 0.45m 1.30m }
+Pad B { Circle 1m }
+Pad C { Oval 1.45m 2m }
+Pad D { Oval 1.25m 1.80m }
+Pin 1 { A 0 0 -1.30m 0 0 U }
+Pin 2 { A 0 0 -0.65m 0 0 U }
+Pin 3 { A 0 0 0 0 0 U }
+Pin 4 { A 0 0 0.65m 0 0 U }
+Pin 5 { A 0 0 1.30m 0 0 U }
+Pin S1 { B B B -2.50m -1.05m 0.80m P }
+Pin S2 { B B B 2.50m -1.10m 0.80m P }
+Pin S3 { C C C -3.75m 0 1.30m P }
+Pin S4 { C C C 3.75m -0.05m 1.30m P }
+Pin S5 { D D D -3.90m -3.85m 1.20m P }
+Pin S6 { D D D 3.90m -3.85m 1.20m P }
+Path Silk
+{ 0 -6.20m W 5 S 5 4m -6.20m 4m 0.40m -4m 0.40m -4m -6.20m 0 -6.20m }
+Path Silk
+{ -1.70m 0.50m W 5 S 5 -1.65m 0.51340m -1.61339m 0.55m -1.60m 0.60m -1.61339m
+0.65m -1.65m 0.68661m -1.70m 0.70m -1.75m 0.68661m -1.78660m 0.65m -1.80m
+0.60m -1.78660m 0.55m -1.75m 0.51340m -1.70m 0.50m }
+}
+
+Type DHVQFN16 {
+NameData { 0.50m -1.25m 1.90m 0 }
+ValueData { 0.50m -1.25m 2.40m 0 }
+Pad A { Rectangle 0.30m 0.60m }
+Pad B { Rectangle 0.60m 0.30m }
+Pin 1 { A 0 0 -0.25m 1.55m 0 U }
+Pin 10 { B 0 0 1.05m -1.25m 0 U }
+Pin 11 { B 0 0 1.05m -0.75m 0 U }
+Pin 12 { B 0 0 1.05m -0.25m 0 U }
+Pin 13 { B 0 0 1.05m 0.25m 0 U }
+Pin 14 { B 0 0 1.05m 0.75m 0 U }
+Pin 15 { B 0 0 1.05m 1.25m 0 U }
+Pin 16 { A 0 0 0.25m 1.55m 0 U }
+Pin 2 { B 0 0 -1.05m 1.25m 0 U }
+Pin 3 { B 0 0 -1.05m 0.75m 0 U }
+Pin 4 { B 0 0 -1.05m 0.25m 0 U }
+Pin 5 { B 0 0 -1.05m -0.25m 0 U }
+Pin 6 { B 0 0 -1.05m -0.75m 0 U }
+Pin 7 { B 0 0 -1.05m -1.25m 0 U }
+Pin 8 { A 0 0 -0.25m -1.55m 0 U }
+Pin 9 { A 0 0 0.25m -1.55m 0 U }
+Path Silk
+{ -1.25m 0 W 5 S 10 -1.25m -1.75m 1.25m -1.75m 1.25m 1.75m -1.25m 1.75m -1.25m
+0 }
+}
+
+Type SO8 {
+Note "Small Outline 8 pin package" 
+NameData { 50 0 85 0 }
+ValueData { 0 0 0 0 }
+Pad A { Rectangle 25 80 }
+Pin 1 { A 0 0 0 0 0 U }
+Pin 2 { A 0 0 50 0 0 U }
+Pin 3 { A 0 0 100 0 0 U }
+Pin 4 { A 0 0 150 0 0 U }
+Pin 5 { A 0 0 150 220 0 U }
+Pin 6 { A 0 0 100 220 0 U }
+Pin 7 { A 0 0 50 220 0 U }
+Pin 8 { A 0 0 0 220 0 U }
+Path Silk
+{ -23 60 W 5 173 60 173 160 -23 160 -23 60 -23 95 -3 110 -23 125 -23 60 }
+}
+
+Type 'C' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 }
+}
+
+Type 'O' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 10 }
+}
+
+Type '0' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 10 }
+Path Front
+{ 6 8 6 4 }
+}
+
+Type 'F' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 12 2 12 2 6 { 8 6 }
+2 0 }
+}
+
+Type 'K' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 2 4 { 4 6 { 10 12 }
+10 0 }
+2 0 }
+}
+
+Type 'J' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 4 2 2 4 0 6 0 8 2 8 12 6 12 10 12 }
+}
+
+Type 'H' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 2 6 { 10 6 { 10 0 }
+10 12 }
+2 0 }
+}
+
+Type '5' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 12 2 12 2 6 4 8 8 8 10 6 10 2 8 0 4 0 2 2 }
+}
+
+Type "14 AWG Hole~1~" {
+NameData { 0.50m 0 0 0 }
+ValueData { 1m 0 -0.50m 0 }
+Pad A { Circle 2m }
+Pin 1 { A A A 0 0 1.75m P }
+}
+
+Type "22AWG Hole~1~" {
+NameData { 0.50m -1.75m 1m 0 }
+ValueData { 1m 1.75m -2.75m 0 }
+Pad A { Circle 50 }
+Pin 1 { A A A 0 0 30 P }
+}
+
+Type VIA {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Pad A { Circle 0.70m }
+Pin 1 { A A A 0 0 0.35m P NM }
+}
+
+Type 'Y' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 6 6 { 10 12 }
+6 0 }
+}
+
+Type 'W' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 4 0 6 12 8 0 10 12 }
+}
+
+Type 0402a {
+NameData { 0.50m 0 0 0 }
+ValueData { 0.50m 0 -0.50m 0 }
+Pad A { Rectangle 0.55m 0.60m }
+Pin 1 { A 0 0 0 -0.42500m 0 U }
+Pin 2 { A 0 0 0 0.42500m 0 U }
+}
+
+Type VIAmin~1~ {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Pad A { Circle 18 }
+Pin 1 { A A A 0 0 10 P }
+}
+
+Type 'V' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 6 0 10 12 }
+}
+
+Type 0603 {
+NameData { 0.50m -0.51200m -25 90 }
+ValueData { 50 35 10 0 }
+Pad A { Rectangle 0.90m 0.60m }
+Pin 1 { A 0 0 0 0.75m 0 U }
+Pin 2 { A 0 0 0 -0.75m 0 U }
+Path Silk
+{ -15 15 W 5 S 10 -15 -15 }
+Path Silk
+{ 15 15 W 5 S 10 15 -15 }
+}
+
+Type 'G' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 5 8 5 }
+}
+
+Type '8' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 8 6 10 8 10 10 8 12 4 12 2 10 2 8 4 6 8 6 10 4 10 2 8 0 4 0 2 2 2 4 4
+6 }
+}
+
+Type PLCC-6 {
+NameData { 0.50m -1.50m 2m 0 }
+ValueData { 0.50m -1m 2m 0 }
+Pad A { Rectangle 1.60m 0.70m }
+Pin 1 { A 0 0 -1.70m 1m 0 U }
+Pin 2 { A 0 0 -1.70m 0 0 U }
+Pin 3 { A 0 0 -1.70m -1m 0 U }
+Pin 4 { A 0 0 1.70m -1m 0 U }
+Pin 5 { A 0 0 1.70m 0 0 U }
+Pin 6 { A 0 0 1.70m 1m 0 U }
+Path Silk
+{ 0 -1.75m W 5 S 10 1.75m -1.75m 1.75m 1.75m -1.75m 1.75m -1.75m -1.75m 0
+-1.75m }
+Path Silk
+{ -1.37500m 1.50m W 5 S 10 -1m 1.50m -1m 1.75m -1.75m 1.75m -1.75m 1.50m -1.37500m
+1.50m }
+}
+
+Type 'S' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 8 4 6 8 6 10 4 10 2 8 0 4 0 2 2 }
+}
+
+Type PowerDi {
+NameData { 0.50m -2.50m 1.25m 0 }
+ValueData { 0.50m 1.25m -0.25m 0 }
+Pad A { Rectangle 1.05m 1.50m }
+Pad B { Rectangle 2.40m 1.50m }
+Pin A { A 0 0 -2.37500m 0 0 U }
+Pin C { B 0 0 0 0 0 U }
+Path Silk
+{ -0.40m -1.20m W 5 S 10 0.40m -1.20m }
+}
+
+Type 'X' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 10 0 }
+Path Front
+{ 2 0 10 12 }
+}
+
+Type 'Z' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 10 12 2 0 10 0 }
+}
+
+Type '6' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 5 8 7 4 7 2 5 }
+}
+
+Type '1' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 4 10 6 12 6 0 { 4 0 }
+8 0 }
+}
+
+Type 'D' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 2 12 2 0 8 0 10 2 10 10 }
+}
+
+Type BGA25-6.25x6.25 {
+NameData { 0.50m -2.75m 3.50m 0 }
+ValueData { 0.50m -2.75m 4m 0 }
+Pad A { Circle 0.63m }
+Pin A1 { A 0 0 -100 100 0 U }
+Pin A2 { A 0 0 -50 100 0 U }
+Pin A3 { A 0 0 0 100 0 U }
+Pin A4 { A 0 0 50 100 0 U }
+Pin A5 { A 0 0 100 100 0 U }
+Pin B1 { A 0 0 -100 50 0 U }
+Pin B2 { A 0 0 -50 50 0 U }
+Pin B3 { A 0 0 0 50 0 U }
+Pin B4 { A 0 0 50 50 0 U }
+Pin B5 { A 0 0 100 50 0 U }
+Pin C1 { A 0 0 -100 0 0 U }
+Pin C2 { A 0 0 -50 0 0 U }
+Pin C3 { A 0 0 0 0 0 U }
+Pin C4 { A 0 0 50 0 0 U }
+Pin C5 { A 0 0 100 0 0 U }
+Pin D1 { A 0 0 -100 -50 0 U }
+Pin D2 { A 0 0 -50 -50 0 U }
+Pin D3 { A 0 0 0 -50 0 U }
+Pin D4 { A 0 0 50 -50 0 U }
+Pin D5 { A 0 0 100 -50 0 U }
+Pin E1 { A 0 0 -100 -100 0 U }
+Pin E2 { A 0 0 -50 -100 0 U }
+Pin E3 { A 0 0 0 -100 0 U }
+Pin E4 { A 0 0 50 -100 0 U }
+Pin E5 { A 0 0 100 -100 0 U }
+Path Silk
+{ 0 -3.25m W 5 S 5 3.25m -3.25m 3.25m 3.25m -3.25m 3.25m -3.25m -3.25m 0 -3.25m
+}
+Path Silk
+{ -3.60826m 3.56250m W 5 S 5 -3.54576m 3.57925m -3.50m 3.62500m -3.48326m
+3.68750m -3.50m 3.75m -3.54576m 3.79576m -3.60826m 3.81250m -3.67076m 3.79576m
+-3.71651m 3.75m -3.73326m 3.68750m -3.71651m 3.62500m -3.67076m 3.57925m
+-3.60826m 3.56250m }
+Path Silk
+{ -3.25m 2.75m W 5 S 5 -2.75m 3.25m }
+}
+
+Type "14 AWG Hole" {
+NameData { 0.50m 0 0 0 }
+ValueData { 1m 0 -0.50m 0 }
+Pad A { Circle 66 }
+Pin 1 { A A A 0 0 56 P }
+}
+
+Type "UFD28 (4x5QFN)" {
+NameData { 0.50m -3m -1.50m 90 }
+ValueData { 0.50m -2.50m 2.25m 90 }
+Pad A { Rectangle 0.25m 0.70m }
+Pad B { Rectangle 0.70m 0.25m }
+Pad C { Rectangle 3.65m 2.65m }
+Pin 1 { A 0 0 -1.75m -2m 0 U }
+Pin 10 { B 0 0 2.50m -0.75m 0 U }
+Pin 11 { B 0 0 2.50m -0.25m 0 U }
+Pin 12 { B 0 0 2.50m 0.25m 0 U }
+Pin 13 { B 0 0 2.50m 0.75m 0 U }
+Pin 14 { B 0 0 2.50m 1.25m 0 U }
+Pin 15 { A 0 0 1.75m 2m 0 U }
+Pin 16 { A 0 0 1.25m 2m 0 U }
+Pin 17 { A 0 0 0.75m 2m 0 U }
+Pin 18 { A 0 0 0.25m 2m 0 U }
+Pin 19 { A 0 0 -0.25m 2m 0 U }
+Pin 2 { A 0 0 -1.25m -2m 0 U }
+Pin 20 { A 0 0 -0.75m 2m 0 U }
+Pin 21 { A 0 0 -1.25m 2m 0 U }
+Pin 22 { A 0 0 -1.75m 2m 0 U }
+Pin 23 { B 0 0 -2.50m 1.25m 0 U }
+Pin 24 { B 0 0 -2.50m 0.75m 0 U }
+Pin 25 { B 0 0 -2.50m 0.25m 0 U }
+Pin 26 { B 0 0 -2.50m -0.25m 0 U }
+Pin 27 { B 0 0 -2.50m -0.75m 0 U }
+Pin 28 { B 0 0 -2.50m -1.25m 0 U }
+Pin 29 { C 0 0 0 0 0 U }
+Pin 3 { A 0 0 -0.75m -2m 0 U }
+Pin 4 { A 0 0 -0.25m -2m 0 U }
+Pin 5 { A 0 0 0.25m -2m 0 U }
+Pin 6 { A 0 0 0.75m -2m 0 U }
+Pin 7 { A 0 0 1.25m -2m 0 U }
+Pin 8 { A 0 0 1.75m -2m 0 U }
+Pin 9 { B 0 0 2.50m -1.25m 0 U }
+Path Silk
+{ 0 -2m W 5 S 5 2.50m -2m 2.50m 2m -2.50m 2m -2.50m -2m 0 -2m }
+Path Silk
+{ -2.31250m -2.48326m W 5 S 5 -2.25m -2.46651m -2.20424m -2.42076m -2.18750m
+-2.35826m -2.20424m -2.29576m -2.25m -2.25m -2.31250m -2.23326m -2.37500m
+-2.25m -2.42075m -2.29576m -2.43750m -2.35826m -2.42075m -2.42076m -2.37500m
+-2.46651m -2.31250m -2.48326m }
+}
+
+Type 'c' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 7.5 8 7.5 7 6 8 5.5 8 4.5 7.5 3 6 2 3.5 2 2.5 2.5 1 4.5 0 7 0 9.5 1.5
+}
+}
+
+Type "QFN 5x9" {
+NameData { 1m 0 0 0 }
+ValueData { 1m 0 -1m 0 }
+Pad A { Rectangle 0.70m 0.20m }
+Pad B { Rectangle 0.20m 0.70m }
+Pad C { Rectangle 3.45m 7.13m }
+Pin 1 { A 0 0 -2.40m 3.40m 0 U }
+Pin 10 { A 0 0 -2.40m -0.20m 0 U }
+Pin 11 { A 0 0 -2.40m -0.60m 0 U }
+Pin 12 { A 0 0 -2.40m -1m 0 U }
+Pin 13 { A 0 0 -2.40m -1.40m 0 U }
+Pin 14 { A 0 0 -2.40m -1.80m 0 U }
+Pin 15 { A 0 0 -2.40m -2.20m 0 U }
+Pin 16 { A 0 0 -2.40m -2.60m 0 U }
+Pin 17 { A 0 0 -2.40m -3m 0 U }
+Pin 18 { A 0 0 -2.40m -3.40m 0 U }
+Pin 19 { B 0 0 -1.80m -4.40m 0 U }
+Pin 2 { A 0 0 -2.40m 3m 0 U }
+Pin 20 { B 0 0 -1.40m -4.40m 0 U }
+Pin 21 { B 0 0 -1m -4.40m 0 U }
+Pin 22 { B 0 0 -0.60m -4.40m 0 U }
+Pin 23 { B 0 0 -0.20m -4.40m 0 U }
+Pin 24 { B 0 0 0.20m -4.40m 0 U }
+Pin 25 { B 0 0 0.60m -4.40m 0 U }
+Pin 26 { B 0 0 1m -4.40m 0 U }
+Pin 27 { B 0 0 1.40m -4.40m 0 U }
+Pin 28 { B 0 0 1.80m -4.40m 0 U }
+Pin 29 { A 0 0 2.40m -3.40m 0 U }
+Pin 3 { A 0 0 -2.40m 2.60m 0 U }
+Pin 30 { A 0 0 2.40m -3m 0 U }
+Pin 31 { A 0 0 2.40m -2.60m 0 U }
+Pin 32 { A 0 0 2.40m -2.20m 0 U }
+Pin 33 { A 0 0 2.40m -1.80m 0 U }
+Pin 34 { A 0 0 2.40m -1.40m 0 U }
+Pin 35 { A 0 0 2.40m -1m 0 U }
+Pin 36 { A 0 0 2.40m -0.60m 0 U }
+Pin 37 { A 0 0 2.40m -0.20m 0 U }
+Pin 38 { A 0 0 2.40m 0.20m 0 U }
+Pin 39 { A 0 0 2.40m 0.60m 0 U }
+Pin 4 { A 0 0 -2.40m 2.20m 0 U }
+Pin 40 { A 0 0 2.40m 1m 0 U }
+Pin 41 { A 0 0 2.40m 1.40m 0 U }
+Pin 42 { A 0 0 2.40m 1.80m 0 U }
+Pin 43 { A 0 0 2.40m 2.20m 0 U }
+Pin 44 { A 0 0 2.40m 2.60m 0 U }
+Pin 45 { A 0 0 2.40m 3m 0 U }
+Pin 46 { A 0 0 2.40m 3.40m 0 U }
+Pin 47 { B 0 0 1.80m 4.40m 0 U }
+Pin 48 { B 0 0 1.40m 4.40m 0 U }
+Pin 49 { B 0 0 1m 4.40m 0 U }
+Pin 5 { A 0 0 -2.40m 1.80m 0 U }
+Pin 50 { B 0 0 0.60m 4.40m 0 U }
+Pin 51 { B 0 0 0.20m 4.40m 0 U }
+Pin 52 { B 0 0 -0.20m 4.40m 0 U }
+Pin 53 { B 0 0 -0.60m 4.40m 0 U }
+Pin 54 { B 0 0 -1m 4.40m 0 U }
+Pin 55 { B 0 0 -1.40m 4.40m 0 U }
+Pin 56 { B 0 0 -1.80m 4.40m 0 U }
+Pin 6 { A 0 0 -2.40m 1.40m 0 U }
+Pin 7 { A 0 0 -2.40m 1m 0 U }
+Pin 8 { A 0 0 -2.40m 0.60m 0 U }
+Pin 9 { A 0 0 -2.40m 0.20m 0 U }
+Pin e { C 0 0 0 0 0 U }
+Path Silk
+{ -2.50m 0 W 5 S 10 -2.50m -4.50m 2.50m -4.50m 2.50m 4.50m -2.50m 4.50m -2.50m
+0 }
+Path Silk
+{ -3m 4m W 5 S 10 -2.98477m 3.92347m -2.94142m 3.85858m -2.87653m 3.81523m
+-2.80m 3.80m -2.80m 3.80m -2.72346m 3.81523m -2.65857m 3.85858m -2.61522m
+3.92347m -2.60m 4m -2.61522m 4.07654m -2.65857m 4.14143m -2.72346m 4.18478m
+-2.80m 4.20m -2.80m 4.20m -2.87653m 4.18478m -2.94142m 4.14143m -2.98477m
+4.07654m -3m 4m }
+}
+
+Type XTAL_2520 {
+NameData { 0.50m -0.50m 1.25m 0 }
+ValueData { 0.50m 0 -1.75m 0 }
+Pad A { Rectangle 0.90m 0.80m }
+Pin 1 { A 0 0 -0.87500m 0.72500m 0 U }
+Pin 2 { A 0 0 0.87500m 0.72500m 0 U }
+Pin 3 { A 0 0 0.87500m -0.72500m 0 U }
+Pin 4 { A 0 0 -0.87500m -0.72500m 0 U }
+Path Silk
+{ 0 -1m W 5 S 5 1.25m -1m 1.25m 1m -1.25m 1m -1.25m -1m 0 -1m }
+Path Silk
+{ -1.43750m 1.23325m W 5 S 5 -1.37500m 1.25m -1.32924m 1.29575m -1.31250m
+1.35825m -1.32924m 1.42075m -1.37500m 1.46651m -1.43750m 1.48325m -1.50m
+1.46651m -1.54575m 1.42075m -1.56250m 1.35825m -1.54575m 1.29575m -1.50m
+1.25m -1.43750m 1.23325m }
+}
+
+Type '9' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 2 4 0 8 0 10 2 10 10 8 12 4 12 2 10 2 7 4 5 8 5 10 7 }
+}
+
+Type 'M' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 6 6 10 12 10 0 }
+}
+
+Type 'A' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 6 12 8.5 4.5 { 3.5 4.5 }
+10 0 }
+}
+
+Type "22AWG Hole" {
+NameData { 0.50m -1.75m 1m 0 }
+ValueData { 1m 1.75m -2.75m 0 }
+Pad A { Circle 38 }
+Pin 1 { A A A 0 0 30 P }
+}
+
+Type 'r' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 9 2 0 }
+Path Front
+{ 9.5 6.5 7 8 4.5 8 2 6.5 }
+}
+
+Type VIAmin {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Pad A { Circle 18 }
+Pin 1 { A A A 0 0 10 P NM }
+}
+
+Type "Pi Zero Mounting" {
+NameData { 0.50m -2m 13.75m 0 }
+ValueData { 0.50m 8.75m 13.50m 0 }
+Pad A { Circle 50 }
+Pad B { Circle 3m }
+Pin 1 { A A A -950 10.22999m 35 P }
+Pin 10 { A A A -550 12.77m 35 P }
+Pin 11 { A A A -450 10.23m 35 P }
+Pin 12 { A A A -450 12.77m 35 P }
+Pin 13 { A A A -350 10.23m 35 P }
+Pin 14 { A A A -350 12.77m 35 P }
+Pin 15 { A A A -250 10.23m 35 P }
+Pin 16 { A A A -250 12.77m 35 P }
+Pin 17 { A A A -150 10.23m 35 P }
+Pin 18 { A A A -150 12.77m 35 P }
+Pin 19 { A A A -50 10.23m 35 P }
+Pin 2 { A A A -950 12.77m 35 P }
+Pin 20 { A A A -50 12.77m 35 P }
+Pin 21 { A A A 50 10.23m 35 P }
+Pin 22 { A A A 50 12.77m 35 P }
+Pin 23 { A A A 150 10.23m 35 P }
+Pin 24 { A A A 150 12.77m 35 P }
+Pin 25 { A A A 250 10.23m 35 P }
+Pin 26 { A A A 250 12.77m 35 P }
+Pin 27 { A A A 350 10.23m 35 P }
+Pin 28 { A A A 350 12.77m 35 P }
+Pin 29 { A A A 450 10.23m 35 P }
+Pin 3 { A A A -21.59001m 10.22999m 35 P }
+Pin 30 { A A A 450 12.77m 35 P }
+Pin 31 { A A A 550 10.23m 35 P }
+Pin 32 { A A A 550 12.77m 35 P }
+Pin 33 { A A A 650 10.23m 35 P }
+Pin 34 { A A A 650 12.77m 35 P }
+Pin 35 { A A A 750 10.23m 35 P }
+Pin 36 { A A A 750 12.77m 35 P }
+Pin 37 { A A A 850 10.23m 35 P }
+Pin 38 { A A A 850 12.77m 35 P }
+Pin 39 { A A A 950 10.22999m 35 P }
+Pin 4 { A A A -21.59001m 12.77m 35 P }
+Pin 40 { A A A 950 12.77m 35 P }
+Pin 5 { A A A -750 10.22999m 35 P }
+Pin 6 { A A A -750 12.77m 35 P }
+Pin 7 { A A A -650 10.23m 35 P }
+Pin 8 { A A A -650 12.77m 35 P }
+Pin 9 { A A A -550 10.23m 35 P }
+Pin H1 { B B B -29m 11.50m 2.75m P }
+Pin H2 { B B B -29m -11.50m 2.75m P }
+Pin H4 { B B B 29m 11.50m 2.75m P }
+Path Silk
+{ -29.50m 15m W 10 S 10 29.50m 15m }
+Path Silk
+{ 32.50m 12m W 10 S 10 32.50m -12m }
+Path Silk
+{ -29.50m -15m W 10 S 10 29.50m -15m }
+Path Silk
+{ -32.50m 12m W 10 S 10 -32.50m -12m }
+Path Silk
+{ -32.50m 12m W 10 S 10 -32.46306m 12.46931m -32.35316m 12.92706m -32.17301m
+13.36198m -31.92705m 13.76336m -31.62132m 14.12133m -31.26335m 14.42706m
+-30.86197m 14.67302m -30.42705m 14.85317m -29.96930m 14.96307m -29.50m
+15m }
+Path Silk
+{ -29.50m -15m W 10 S 10 -29.96931m -14.96306m -30.42706m -14.85316m -30.86198m
+-14.67301m -31.26336m -14.42705m -31.62133m -14.12132m -31.92706m -13.76335m
+-32.17302m -13.36197m -32.35317m -12.92705m -32.46307m -12.46930m -32.50m
+-12m }
+Path Silk
+{ 32.50m -12m W 10 S 10 32.46306m -12.46931m 32.35316m -12.92706m 32.17301m
+-13.36198m 31.92705m -13.76336m 31.62132m -14.12133m 31.26335m -14.42706m
+30.86197m -14.67302m 30.42705m -14.85317m 29.96930m -14.96307m 29.50m -15m
+}
+Path Silk
+{ 29.50m 15m W 10 S 10 29.96931m 14.96306m 30.42706m 14.85316m 30.86198m 14.67301m
+31.26336m 14.42705m 31.62133m 14.12132m 31.92706m 13.76335m 32.17302m 13.36197m
+32.35317m 12.92705m 32.46307m 12.46930m 32.50m 12m }
+}
+
+Type IndTPC {
+NameData { 0.50m 0 0 0 }
+ValueData { 0.50m 0 -0.50m 0 }
+Pad A { Rectangle 6.30m 0.95m Spacing -11 }
+Pin 1 { A 0 0 0 2.67500m 0 U }
+Pin 2 { A 0 0 0 -2.67500m 0 U }
+Path Silk
+{ 0 -2.90m W 5 S 10 2.90m -2.90m 2.90m 2.90m -2.90m 2.90m -2.90m -2.90m 0
+-2.90m }
+FloodPath Front
+{ 2m 1m W 5 S 10 1.68530m 1.41414m 1.41414m 1.68530m 1.10m 1.90526m 0.75245m
+2.06733m 0.38203m 2.16658m 0 2.20m -0.38202m 2.16658m -0.75244m 2.06733m
+-1.10m 1.90526m -1.41413m 1.68530m -1.68529m 1.41414m -2m 1m -3.10m 1m
+-3.10m 3.10m 3.10m 3.10m 3.10m 1m 2m 1m }
+FloodPath Front
+{ -2m -1m W 5 S 10 -1.68530m -1.41414m -1.41414m -1.68530m -1.10m -1.90526m
+-0.75245m -2.06733m -0.38203m -2.16658m 0 -2.20m 0.38202m -2.16658m 0.75244m
+-2.06733m 1.10m -1.90526m 1.41413m -1.68530m 1.68529m -1.41414m 2m -1m
+3.10m -1m 3.10m -3.10m -3.10m -3.10m -3.10m -1m -2m -1m }
+}
+
+Type Omega2 {
+NameData { 50 0 0 0 }
+ValueData { 50 0 -50 0 }
+Pad A { Circle 50 }
+Pin 1 { A A A -12.20m 15m 0.80m P }
+Pin 10 { A A A -12.20m -3m 0.80m P }
+Pin 11 { A A A -12.20m -5m 0.80m P }
+Pin 12 { A A A -12.20m -7m 0.80m P }
+Pin 13 { A A A -12.20m -9m 0.80m P }
+Pin 14 { A A A -12.20m -11m 0.80m P }
+Pin 15 { A A A -12.20m -13m 0.80m P }
+Pin 16 { A A A -12.20m -15m 0.80m P }
+Pin 17 { A A A 12.20m -15m 0.80m P }
+Pin 18 { A A A 12.20m -13m 0.80m P }
+Pin 19 { A A A 12.20m -11m 0.80m P }
+Pin 2 { A A A -12.20m 13m 0.80m P }
+Pin 20 { A A A 12.20m -9m 0.80m P }
+Pin 21 { A A A 12.20m -7m 0.80m P }
+Pin 22 { A A A 12.20m -5m 0.80m P }
+Pin 23 { A A A 12.20m -3m 0.80m P }
+Pin 24 { A A A 12.20m -1m 0.80m P }
+Pin 25 { A A A 12.20m 1m 0.80m P }
+Pin 26 { A A A 12.20m 3m 0.80m P }
+Pin 27 { A A A 12.20m 5m 0.80m P }
+Pin 28 { A A A 12.20m 7m 0.80m P }
+Pin 29 { A A A 12.20m 9m 0.80m P }
+Pin 3 { A A A -12.20m 11m 0.80m P }
+Pin 30 { A A A 12.20m 11m 0.80m P }
+Pin 31 { A A A 12.20m 13m 0.80m P }
+Pin 32 { A A A 12.20m 15m 0.80m P }
+Pin 4 { A A A -12.20m 9m 0.80m P }
+Pin 5 { A A A -12.20m 7m 0.80m P }
+Pin 6 { A A A -12.20m 5m 0.80m P }
+Pin 7 { A A A -12.20m 3m 0.80m P }
+Pin 8 { A A A -12.20m 1m 0.80m P }
+Pin 9 { A A A -12.20m -1m 0.80m P }
+Path Silk
+{ 7m 23m W 10 S 10 -13.50m 23m -13.50m -17.50m -11m -20m 9.50m -20m 13.50m
+-16m 13.50m 17m 7m 23m }
+}
+
+Type MS12E {
+NameData { 0.50m -2.25m -1.25m 90 }
+ValueData { 0.50m -2.75m -1m 90 }
+Pad A { Rectangle 0.42m 35 }
+Pad B { Rectangle 2.84500m 65 }
+Pin 1 { A 0 0 -1.62500m -2.10m 0 U }
+Pin 10 { A 0 0 -0.32500m 2.10m 0 U }
+Pin 11 { A 0 0 -0.97500m 2.10m 0 U }
+Pin 12 { A 0 0 -1.62500m 2.10m 0 U }
+Pin 13 { B 0 0 0 0 0 U }
+Pin 2 { A 0 0 -0.97500m -2.10m 0 U }
+Pin 3 { A 0 0 -0.32500m -2.10m 0 U }
+Pin 4 { A 0 0 0.32500m -2.10m 0 U }
+Pin 5 { A 0 0 0.97500m -2.10m 0 U }
+Pin 6 { A 0 0 1.62500m -2.10m 0 U }
+Pin 7 { A 0 0 1.62500m 2.10m 0 U }
+Pin 8 { A 0 0 0.97500m 2.10m 0 U }
+Pin 9 { A 0 0 0.32500m 2.10m 0 U }
+Path Silk
+{ 0 -1.50m W 5 S 5 2m -1.50m 2m 1.50m -2m 1.50m -2m -1.50m 0 -1.50m }
+Path Silk
+{ -2.25m -2.50m W 5 S 5 -2.15432m -2.48096m -2.07322m -2.42677m -2.01903m
+-2.34567m -2m -2.25m -2.01903m -2.15432m -2.07322m -2.07322m -2.15432m
+-2.01903m -2.25m -2m -2.34567m -2.01903m -2.42677m -2.07322m -2.48096m
+-2.15432m -2.50m -2.25m -2.48096m -2.34567m -2.42677m -2.42677m -2.34567m
+-2.48096m -2.25m -2.50m }
+}
+
+Type '2' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 10 4 12 8 12 10 10 10 8 8 6 2 2 2 0 10 0 }
+}
+
+Type 'N' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 10 0 10 12 }
+}
+
+Type "LGA14 (5x3)" {
+NameData { 0.50m -1.75m 2.75m 0 }
+ValueData { 0.50m -1.75m 3.25m 0 }
+Pad A { Rectangle 1.14999m 0.55m }
+Pad B { Rectangle 0.55m 1.14999m }
+Pin 1 { A 0 0 -1.10m 2m 0 U }
+Pin 10 { A 0 0 1.10m -0.40m 0 U }
+Pin 11 { A 0 0 1.10m 0.40m 0 U }
+Pin 12 { A 0 0 1.10m 1.20m 0 U }
+Pin 13 { A 0 0 1.10m 2m 0 U }
+Pin 14 { B 0 0 0 2.10m 0 U }
+Pin 2 { A 0 0 -1.10m 1.20m 0 U }
+Pin 3 { A 0 0 -1.10m 0.40m 0 U }
+Pin 4 { A 0 0 -1.10m -0.40m 0 U }
+Pin 5 { A 0 0 -1.10m -1.20m 0 U }
+Pin 6 { A 0 0 -1.10m -2m 0 U }
+Pin 7 { B 0 0 0 -2.10m 0 U }
+Pin 8 { A 0 0 1.10m -2m 0 U }
+Pin 9 { A 0 0 1.10m -1.20m 0 U }
+Path Silk
+{ -1.50m 0 W 5 S 5 -1.50m -2.50m 1.50m -2.50m 1.50m 2.50m -1.50m 2.50m -1.50m
+0 }
+Path Silk
+{ -2.12500m 2.25m W 5 S 5 -2.06250m 2.26675m -2.01674m 2.31250m -2m 2.37500m
+-2.01674m 2.43750m -2.06250m 2.48326m -2.12500m 2.50m -2.18750m 2.48326m
+-2.23325m 2.43750m -2.25m 2.37500m -2.23325m 2.31250m -2.18750m 2.26675m
+-2.12500m 2.25m }
+}
+
+Type '.' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 5 0 6 0 6 1 5 1 5 0 }
+}
+
+Type SC70-5 {
+NameData { 0.50m -1.25m -1m 90 }
+ValueData { 0.50m -1.75m -1m 90 }
+Pad A { Rectangle 0.40m 1m }
+Pin 1 { A 0 0 -0.65m -0.90m 0 U }
+Pin 2 { A 0 0 0 -0.90m 0 U }
+Pin 3 { A 0 0 0.65m -0.90m 0 U }
+Pin 4 { A 0 0 0.65m 0.90m 0 U }
+Pin 5 { A 0 0 -0.65m 0.90m 0 U }
+Path Silk
+{ 0 -0.75m W 5 S 5 1m -0.75m 1m 0.75m -1m 0.75m -1m -0.75m 0 -0.75m }
+}
+
+Type '/' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 10 12 }
+}
+
+Type 'R' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 8 12 10 10 10 8 8 6 { 2 6 }
+10 0 }
+}
+
+Type "UD16 (3x3QFN)" {
+NameData { 0.50m -1.75m 1.95m 0 }
+ValueData { 0.50m -1.75m 2.50m 0 }
+Pad A { Rectangle 0.70m 0.25m }
+Pad B { Rectangle 0.25m 0.70m }
+Pad C { Rectangle 1.45m 1.45m }
+Pin 1 { A 0 0 -1.40m 0.75m 0 U }
+Pin 10 { A 0 0 1.40m -0.25m 0 U }
+Pin 11 { A 0 0 1.40m 0.25m 0 U }
+Pin 12 { A 0 0 1.40m 0.75m 0 U }
+Pin 13 { B 0 0 0.75m 1.40m 0 U }
+Pin 14 { B 0 0 0.25m 1.40m 0 U }
+Pin 15 { B 0 0 -0.25m 1.40m 0 U }
+Pin 16 { B 0 0 -0.75m 1.40m 0 U }
+Pin 17 { C 0 0 0 0 0 U }
+Pin 2 { A 0 0 -1.40m 0.25m 0 U }
+Pin 3 { A 0 0 -1.40m -0.25m 0 U }
+Pin 4 { A 0 0 -1.40m -0.75m 0 U }
+Pin 5 { B 0 0 -0.75m -1.40m 0 U }
+Pin 6 { B 0 0 -0.25m -1.40m 0 U }
+Pin 7 { B 0 0 0.25m -1.40m 0 U }
+Pin 8 { B 0 0 0.75m -1.40m 0 U }
+Pin 9 { A 0 0 1.40m -0.75m 0 U }
+Path Silk
+{ 0 -1.50m W 5 S 5 1.50m -1.50m 1.50m 1.50m -1.50m 1.50m -1.50m -1.50m 0 -1.50m
+}
+Path Silk
+{ -1.87500m 1m W 5 S 5 -1.81250m 1.01675m -1.76674m 1.06250m -1.75m 1.12500m
+-1.76674m 1.18750m -1.81250m 1.23326m -1.87500m 1.25m -1.93750m 1.23326m
+-1.98325m 1.18750m -2m 1.12500m -1.98325m 1.06250m -1.93750m 1.01675m -1.87500m
+1m }
+}
+
+Type 'E' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 12 2 12 2 6 { 8 6 }
+2 0 10 0 }
+}
+
+Type 0805 {
+NameData { 0.50m 0 0 0 }
+ValueData { 0.50m 0 -50 0 }
+Pad A { Rectangle 1.30m 0.70m }
+Pin 1 { A 0 0 0 0.95m 0 U }
+Pin 2 { A 0 0 0 -0.95m 0 U }
+Path Silk
+{ -0.50m 0.50m W 4 S 4 -0.50m -0.50m }
+Path Silk
+{ 0.50m -0.50m W 4 S 4 0.50m 0.50m }
+}
+
+Type '4' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 8 0 8 12 2 5 10 5 }
+}
+
+Type "Pi Zero Mounting~1~" {
+NameData { 0.50m -2m 13.75m 0 }
+ValueData { 0.50m 8.75m 13.50m 0 }
+Pad A { Circle 50 }
+Pad B { Circle 3m }
+Pin 1 { A A A -950 10.22999m 35 P }
+Pin 10 { A A A -550 12.77m 35 P }
+Pin 11 { A A A -450 10.23m 35 P }
+Pin 12 { A A A -450 12.77m 35 P }
+Pin 13 { A A A -350 10.23m 35 P }
+Pin 14 { A A A -350 12.77m 35 P }
+Pin 15 { A A A -250 10.23m 35 P }
+Pin 16 { A A A -250 12.77m 35 P }
+Pin 17 { A A A -150 10.23m 35 P }
+Pin 18 { A A A -150 12.77m 35 P }
+Pin 19 { A A A -50 10.23m 35 P }
+Pin 2 { A A A -950 12.77m 35 P }
+Pin 20 { A A A -50 12.77m 35 P }
+Pin 21 { A A A 50 10.23m 35 P }
+Pin 22 { A A A 50 12.77m 35 P }
+Pin 23 { A A A 150 10.23m 35 P }
+Pin 24 { A A A 150 12.77m 35 P }
+Pin 25 { A A A 250 10.23m 35 P }
+Pin 26 { A A A 250 12.77m 35 P }
+Pin 27 { A A A 350 10.23m 35 P }
+Pin 28 { A A A 350 12.77m 35 P }
+Pin 29 { A A A 450 10.23m 35 P }
+Pin 3 { A A A -21.59001m 10.22999m 35 P }
+Pin 30 { A A A 450 12.77m 35 P }
+Pin 31 { A A A 550 10.23m 35 P }
+Pin 32 { A A A 550 12.77m 35 P }
+Pin 33 { A A A 650 10.23m 35 P }
+Pin 34 { A A A 650 12.77m 35 P }
+Pin 35 { A A A 750 10.23m 35 P }
+Pin 36 { A A A 750 12.77m 35 P }
+Pin 37 { A A A 850 10.23m 35 P }
+Pin 38 { A A A 850 12.77m 35 P }
+Pin 39 { A A A 950 10.22999m 35 P }
+Pin 4 { A A A -21.59001m 12.77m 35 P }
+Pin 40 { A A A 950 12.77m 35 P }
+Pin 5 { A A A -750 10.22999m 35 P }
+Pin 6 { A A A -750 12.77m 35 P }
+Pin 7 { A A A -650 10.23m 35 P }
+Pin 8 { A A A -650 12.77m 35 P }
+Pin 9 { A A A -550 10.23m 35 P }
+Pin H1 { B B B -29m 11.50m 2.75m P }
+Pin H2 { B B B -29m -11.50m 2.75m P }
+Pin H3 { B B B 29m -11.50m 2.75m P }
+Pin H4 { B B B 29m 11.50m 2.75m P }
+Path Silk
+{ -29.50m 15m W 10 S 10 29.50m 15m }
+Path Silk
+{ 32.50m 12m W 10 S 10 32.50m -12m }
+Path Silk
+{ -29.50m -15m W 10 S 10 29.50m -15m }
+Path Silk
+{ -32.50m 12m W 10 S 10 -32.50m -12m }
+Path Silk
+{ -32.50m 12m W 10 S 10 -32.46306m 12.46931m -32.35316m 12.92706m -32.17301m
+13.36198m -31.92705m 13.76336m -31.62132m 14.12133m -31.26335m 14.42706m
+-30.86197m 14.67302m -30.42705m 14.85317m -29.96930m 14.96307m -29.50m
+15m }
+Path Silk
+{ -29.50m -15m W 10 S 10 -29.96931m -14.96306m -30.42706m -14.85316m -30.86198m
+-14.67301m -31.26336m -14.42705m -31.62133m -14.12132m -31.92706m -13.76335m
+-32.17302m -13.36197m -32.35317m -12.92705m -32.46307m -12.46930m -32.50m
+-12m }
+Path Silk
+{ 32.50m -12m W 10 S 10 32.46306m -12.46931m 32.35316m -12.92706m 32.17301m
+-13.36198m 31.92705m -13.76336m 31.62132m -14.12133m 31.26335m -14.42706m
+30.86197m -14.67302m 30.42705m -14.85317m 29.96930m -14.96307m 29.50m -15m
+}
+Path Silk
+{ 29.50m 15m W 10 S 10 29.96931m 14.96306m 30.42706m 14.85316m 30.86198m 14.67301m
+31.26336m 14.42705m 31.62133m 14.12132m 31.92706m 13.76335m 32.17302m 13.36197m
+32.35317m 12.92705m 32.46307m 12.46930m 32.50m 12m }
+}
+
+Type '7' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 10 12 4 0 }
+}
+
+Type VIA~1~ {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Pad A { Circle 0.70m }
+Pin 1 { A A A 0 0 0.35m P }
+}
+
+
+Part "Pi Zero Mounting" { Name J1 Loc { 106m 34m -90 }
+}
+Part 0603 { Name RDIVL Loc { 64.25m 15m }
+NameData { 0.50m 64.50m 11.75m 90 }
+}
+Part 0805 { Name COUT2 Loc { 79.75m 24.05m }
+NameData { 0.50m 81m 22.80m 90 }
+ValueData { 0 79.75m 22.78m 0 }
+}
+Part SC70-5 { Name U2 Loc { 67.60m 16.85m -90 }
+}
+Part IndTPC { Name LBAL Loc { 75.50m 24.25m -180 }
+NameData { 0.50m 76.50m 20.52500m 0 }
+}
+Part 0603 { Name CHF Loc { 72.75m 11.25m }
+NameData { 0.50m 73m 8.75m 90 }
+}
+Part 0603 { Name RCOMP Loc { 71.50m 11.25m }
+NameData { 0.50m 71.75m 7.75m 90 }
+}
+Part 0603 { Name CCOMP Loc { 70.25m 11.25m 180 }
+NameData { 0.50m 70.50m 7.75m 90 }
+}
+Part 0603 { Name CCC Loc { 70.50m 15.75m }
+NameData { 0.50m 69.75m 15.25m 90 }
+}
+Part 0603 { Name RDIVH Loc { 64.25m 17.25m }
+NameData { 0.50m 64.50m 18.50m 90 }
+}
+Part 0805 { Name COUT1 Loc { 71.25m 24.05m 180 }
+NameData { 0.50m 70m 25.30m -90 }
+}
+Part 0805 { Name CIN Loc { 75.30m 750 90 }
+NameData { 0.50m 75.85m 20.30m 180 }
+}
+Part MS12E { Name U1 Loc { 73.50m 15.50m }
+NameData { 0.50m 71m 13.75m 90 }
+}
+Part Omega2 { Name J2 Loc { 97.80m 25m }
+}
+Part 0603 { Name RRT Loc { 74m 11.25m }
+NameData { 0.50m 74.25m 8.75m 90 }
+}
+Part 0603 { Name CDIVH Loc { 65.50m 17.25m }
+NameData { 0.50m 65.75m 18.50m 90 }
+}
+Part 0603 { Name CDIVL Loc { 66.75m 15.25m 90 }
+NameData { 0.50m 70m 15.50m 180 }
+}
+Part 0805 { Name RJUMP Loc { 69.70m 19.60m }
+NameData { 0.50m 68.70m 18.60m 90 }
+}
+Part 0805 { Name CBOOST Loc { 73.15m 19.60m 180 }
+NameData { 0.50m 71.90m 20.85m -90 }
+ValueData { 50 72.26100m 19.34600m 180 }
+}
+
+
+Signal GND 
+{ CCC-2 CCOMP-2 CDIVL-2 CHF-2 CIN-2 COUT2-2 RDIVL-2 RRT-2 U1-13 U2-2 }
+Signal VBATTOP 
+{ CDIVH-1 CIN-1 COUT1-1 RDIVH-1 U1-8 U2-5 }
+Signal DIV 
+{ CDIVH-2 CDIVL-1 RDIVH-2 RDIVL-1 U2-3 }
+Signal ISET 
+{ U1-1 U2-1 U2-4 }
+Signal INTVCC 
+{ CCC-1 U1-10 U1-4 U1-6 }
+Signal RT 
+{ RRT-1 U1-3 }
+Signal VBATMID 
+{ COUT1-2 COUT2-1 LBAL-2 RJUMP-1 }
+Signal VOSENSE 
+{ RJUMP-2 U1-11 }
+Signal SW 
+{ CBOOST-2 LBAL-1 U1-7 }
+Signal BOOST 
+{ CBOOST-1 U1-9 }
+Signal RUN 
+{ U1-5 }
+Signal ITH 
+{ CHF-1 RCOMP-1 U1-2 }
+Signal COMPZERO 
+{ CCOMP-1 RCOMP-2 }
+
+Layer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 56000 2000 1500 Invisible
+
+}
+Layer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 0 64000 Invisible
+
+}
+
+SilkLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Visible
+
+}
+SilkLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Visible
+
+}
+
+MaskLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Invisible
+
+}
+MaskLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Invisible
+
+}
+
+AuxLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Visible
+
+}
+AuxLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Visible
+
+}
+
+
+PadChange { 1 0 64.25m 14.25m 
+Pad { Rectangle 0.90m 0.60m Spacing -7 Thermal Circle 50 Spacing 6 } P RDIVL-2 Surround 383
+}
+PadChange { 1 0 79.75m 25m 
+Pad { Rectangle 1.30m 0.70m Spacing -7 Thermal Circle 50 Spacing 6 } P COUT2-1 Surround 509
+}
+PadChange { 1 0 79.75m 23.10m 
+Pad { Rectangle 1.30m 0.70m Spacing -7 Thermal Circle 50 Spacing 6 } P COUT2-2 Surround 383
+}
+PadChange { 1 0 66.70m 16.85m 
+Pad { Rectangle 1m 0.40m Spacing -7 Thermal Circle 50 Spacing 6 } P U2-2 Surround 383
+}
+PadChange { 1 0 68.50m 17.50m 
+Pad { Rectangle 1m 0.40m Spacing -7 Thermal Circle 50 Spacing 6 } P U2-5 Surround 284
+}
+PadChange { 1 0 75.50m 21.57500m 
+Pad { Rectangle 6.30m 0.95m Spacing -11 Thermal Circle 50 Spacing 6 } P LBAL-1 Surround 479
+}
+PadChange { 1 0 75.50m 26.92500m 
+Pad { Rectangle 6.30m 0.95m Spacing -11 Thermal Circle 50 Spacing 6 } P LBAL-2 Surround 509
+}
+PadChange { 1 0 72.75m 10.50m 
+Pad { Rectangle 0.90m 0.60m Spacing -7 Thermal Circle 50 Spacing 6 } P CHF-2 Surround 383
+}
+PadChange { 1 0 73.15m 20.55m 
+Pad { Rectangle 1.30m 0.70m Spacing -7 Thermal Circle 50 Spacing 6 } P CBOOST-2 Surround 509
+}
+PadChange { 1 0 70.25m 12m 
+Pad { Rectangle 0.90m 0.60m Spacing -7 Thermal Circle 50 Spacing 6 } P CCOMP-2 Surround 383
+}
+PadChange { 1 0 70.50m 15m 
+Pad { Rectangle 0.90m 0.60m Spacing -7 Thermal Circle 50 Spacing 6 } P CCC-2 Surround 383
+}
+PadChange { 1 0 64.25m 18m 
+Pad { Rectangle 0.90m 0.60m Spacing -7 Thermal Circle 50 Spacing 6 } P RDIVH-1 Surround 256
+}
+PadChange { 1 0 71.25m 23.10m 
+Pad { Rectangle 1.30m 0.70m Spacing -7 Thermal Circle 50 Spacing 6 } P COUT1-1 Surround 415
+}
+PadChange { 1 0 74.35m 750 
+Pad { Rectangle 0.70m 1.30m Spacing -7 Thermal Circle 50 Spacing 6 } P CIN-1 Surround 479
+}
+PadChange { 1 0 76.25m 750 
+Pad { Rectangle 0.70m 1.30m Spacing -7 Thermal Circle 50 Spacing 6 } P CIN-2 Surround 383
+}
+PadChange { 1 0 73.50m 15.50m 
+Pad { Rectangle 2.84500m 65 Spacing -7 Thermal Circle 50 Spacing 6 } P U1-13 Surround 383
+}
+PadChange { 1 0 75.12500m 17.60m 
+Pad { Rectangle 0.42m 35 Spacing -7 Thermal Circle 50 Spacing 6 } P U1-7 Surround 509
+}
+PadChange { 1 0 74.47500m 17.60m 
+Pad { Rectangle 0.42m 35 Spacing -7 Thermal Circle 50 Spacing 6 } P U1-8 Surround 509
+}
+PadChange { 1 0 74m 10.50m 
+Pad { Rectangle 0.90m 0.60m Spacing -7 Thermal Circle 50 Spacing 6 } P RRT-2 Surround 383
+}
+PadChange { 1 0 65.50m 18m 
+Pad { Rectangle 0.90m 0.60m Spacing -7 Thermal Circle 50 Spacing 6 } P CDIVH-1 Surround 256
+}
+PadChange { 1 0 67.50m 15.25m 
+Pad { Rectangle 0.60m 0.90m Spacing -7 Thermal Circle 50 Spacing 6 } P CDIVL-2 Surround 509
+}
+PadChange { 1 0 71.25m 25m 
+Pad { Rectangle 1.30m 0.70m Spacing -7 Thermal Circle 50 Spacing 6 } P COUT1-2 Surround 509
+}
+
+
+Path L 1 { P RDIVL-1 64.25m 15.75m W 0.60m S 6 P RDIVH-2 64.25m 16.50m P CDIVH-2 65.50m
+16.50m 66m 16.20m { P CDIVL-1 66m 15.25m }
+W 0.40m P U2-3 66.70m 16.20m }
+Path L 1 { P RCOMP-1 71.50m 12m W 0.40m S 6 72.23096m 12.60310m 72.43740m 12.80954m
+P U1-2 72.52500m 13.40m 72.61260m 12.80954m P CHF-1 72.75m 12m }
+Path L 1 { P CBOOST-1 73.15m 18.65m W 0.30m S 6 73.51025m 18.34690m 73.68740m
+18.16975m P U1-9 73.82500m 17.60m }
+Path L 1 { P CCOMP-1 70.25m 10.50m W 6 S 6 P RCOMP-2 71.50m 10.50m }
+Path L 1 { P U1-1 71.87500m 13.40m W 6 S 6 69.47246m 13.82140m 69.22140m 14.07246m
+P U2-4 68.50m 16.20m 67.50m 17.50m P U2-1 66.70m 17.50m }
+Path L 1 { P U1-6 75.12500m 13.40m W 0.40m S 6 75.03740m 13.99046m 74.83096m 14.19690m
+74.11904m 14.19690m 73.82500m 14.07310m { 73.53096m 14.19690m 69.65m 14.25m
+69.65m 15.50m P CCC-1 70.50m 16.50m 72.88096m 16.80310m 73.08740m 17.00954m
+P U1-10 73.17500m 17.60m }
+P U1-4 73.82500m 13.40m }
+Path L 1 { P RRT-1 74m 12m W 6 S 6 73.38640m 12.86082m P U1-3 73.17500m 13.40m }
+Path L 1 { P RJUMP-1 69.70m 20.55m W 6 S 6 70.24600m 23.85522m P COUT1-2 71.25m
+25m }
+Path L 1 { P RJUMP-2 69.70m 18.65m W 6 S 6 72.17968m 18.27310m 72.31360m 18.13918m
+P U1-11 72.52500m 17.60m }
+FloodPath L 1 { 71.25m 16.75m W 2 S 5 67.75m 16.75m 67.75m 17.25m 62m 17.25m
+62m 9.25m 81.50m 9.25m 81.50m 23.75m 79m 23.75m 79m 19.75m 75.90m 19.75m
+75.90m 16.75m 71.75m 16.75m }
+FloodPath L 1 { 75.70m 17m W 2 S 5 74.90m 17m 74.90m 20.25m 72.40m 20.25m 72.40m
+22.05m 78.50m 22.05m 78.50m 20.30m 75.70m 20.30m 75.70m 17m }
+FloodPath L 1 { 74.70m 17m W 2 S 5 68m 17m 68m 17.50m 62m 17.50m 62m 20.05m
+70.50m 20.05m 70.50m 23.75m 72m 23.75m 72m 20m 74.70m 20m 74.70m 17m }
+FloodPath L 1 { 70.50m 27.50m W 2 S 5 70.50m 24.50m 72.50m 24.50m 72.50m 26.25m
+78.50m 26.25m 78.50m 24.50m 80.50m 24.50m 80.50m 27.50m 70.50m 27.50m }
+
+
+FloodPath M 1 { 72.30m 26.50m W 2 S 5 72.30m 25.30m 73.50m 25.30m 73.81470m
+25.66413m 74.08586m 25.93529m 74.40m 26.15525m 74.74755m 26.31732m 75.11797m
+26.41657m 75.50m 26.45m 75.88202m 26.41657m 76.25244m 26.31732m 76.60m
+26.15525m 76.91413m 25.93529m 77.18529m 25.66413m 77.40525m 25.35m 77.45525m
+25.30m 78.70m 25.30m 78.70m 26.50m 72.30m 26.50m }
+FloodPath M 1 { 78.70m 21.95m W 2 S 5 78.70m 23.15m 77.55m 23.15m 77.23530m
+22.78587m 76.96414m 22.51471m 76.65m 22.29475m 76.30245m 22.13268m 75.93203m
+22.03343m 75.55m 22m 75.16798m 22.03343m 74.79756m 22.13268m 74.45m 22.29475m
+74.13587m 22.51471m 73.86471m 22.78587m 73.64475m 23.10m 73.59475m 23.15m
+72.30m 23.15m 72.30m 22m 78.70m 21.95m }
+
+
+Tie 1 { 6 0 71.87500m 13.40m 0 72.23096m 12.60310m }
+Tie 1 { 7 0 71.87500m 13.40m 0 72.43740m 12.80954m }
+Tie 1 { 4 0 73.17500m 13.40m 0 72.61260m 12.80954m }
+Tie 1 { 1 0 73.17500m 17.60m 0 73.51025m 18.34690m }
+Tie 1 { 0 0 73.17500m 17.60m 0 73.68740m 18.16975m }
+Tie 1 { 5 0 69.65m 14.25m 0 69.47246m 13.82140m }
+Tie 1 { 4 0 69.65m 14.25m 0 69.22140m 14.07246m }
+Tie 1 { 0 0 74.47500m 13.40m 0 75.03740m 13.99046m }
+Tie 1 { 1 0 74.47500m 13.40m 0 74.83096m 14.19690m }
+Tie 1 { 2 0 74.47500m 13.40m 0 74.11904m 14.19690m }
+Tie 1 { 1 0 73.17500m 13.40m 0 73.53096m 14.19690m }
+Tie 1 { 6 0 72.52500m 17.60m 0 72.88096m 16.80310m }
+Tie 1 { 7 0 72.52500m 17.60m 0 73.08740m 17.00954m }
+Tie 1 { 4 0 73.82500m 13.40m 0 73.38640m 12.86082m }
+Tie 1 { 3 0 70.50m 23.75m 0 70.24600m 23.85522m }
+Tie 1 { 1 0 71.87500m 17.60m 0 72.17968m 18.27310m }
+Tie 1 { 0 0 71.87500m 17.60m 0 72.31360m 18.13918m }
+
+End
