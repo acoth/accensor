@@ -17,8 +17,26 @@ module rpi() {
     translate([11.5,0,2.8]) cube([.2*25.4,2*25.4,5],center=true);
 }
 
+module omega(){
+    cube([42.9,26.4,3.9],center=true);
+    translate([0,12.2,-2.95]) cube([32,2,2],center=true);
+    translate([0,-12.2,-2.95]) cube([32,2,2],center=true);
+}
+module auxBoard(){
+    cube([121.5,40,25.4/16],center=true);
+    translate([32.5,0,-4.25]) rotate([180,0,180]) omega();
+}
+
 module battery() {
-    cube([72,38,19],center=true);
+    cube([101.5,67.5,3.7],center=true);
+    translate([55.75,12.25,0]) cube([10,5,0.1],center=true);
+    translate([55.75,-12.25,0]) cube([10,5,0.1],center=true);
+}
+
+module batteryPack() {
+    translate([0,0,1.9]) battery();
+    translate([0,0,-1.9]) battery();
+    translate([55.75,0,0]) cube([8,40,1.6],center=true);
 }
 
 module led() {
@@ -34,12 +52,12 @@ module usbub() {
 }
 module board() {
     difference(){
-        cube([115,65,25.4/16],center=true);
-        translate([54,29,0]) cylinder(r=1.25,h=10,center=true,$fn=30);
-        translate([54,-29,0]) cylinder(r=1.25,h=10,center=true,$fn=30);
-        translate([31,29,0]) cylinder(r=1.25,h=10,center=true,$fn=30);
-        translate([31,-29,0]) cylinder(r=1.25,h=10,center=true,$fn=30);
-        translate([-54.5,29.5,0]) cylinder(r=1.25,h=10,center=true,$fn=30);}
+        cube([121.5,68,25.4/16],center=true);
+        #translate([56.75,29,0]) cylinder(r=1.25,h=100,center=true,$fn=30);
+        #translate([56.75,-29,0]) cylinder(r=1.25,h=100,center=true,$fn=30);
+        translate([33.75,-29,0]) cylinder(r=1.25,h=100,center=true,$fn=30);
+        #translate([-57.25,29,0]) cylinder(r=1.25,h=100,center=true,$fn=30);
+        #translate([-57.25,-29,0]) cylinder(r=1.25,h=100,center=true,$fn=30);}
 
     for (x= [-53:6.5:45]){
         for(y=[-19.5:5.5:8]){
@@ -50,8 +68,10 @@ module board() {
          translate([3.3,4.64,-2.13]) usbub();
          translate([75.43,6.92,-4.3]) usba();
      }
-     translate([42.5,0,-5]) rpi();
-     translate([-15,1,-10.6]) battery();
+     translate([0,0,-1.6]) rotate([0,0,0]) auxBoard();
+     //translate([42.5,0,-5]) rotate([180,0,90]) omega();
+     //translate([0,0,-10]) battery();
+     rotate([0,0,180]) translate([-5,0,-11.8]) batteryPack();
 }   
 
 module case() {
@@ -96,7 +116,7 @@ module case() {
 
 difference(){
     union(){
-case();
+//case();
 translate([0,0,hb/2-tg-0.8-bclear]) board();
 //translate([0,0,hb/2-tg/2]) cube([4.625*25.4,2.625*25.4,tg],center=true);
 

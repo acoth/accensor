@@ -12,8 +12,6 @@
 327FREQ86           RFREQ8-2         UA01X   8307Y   4331X 354Y 236             
 327FREQ86           U2    -9         UA01X   8169Y   3996X  98Y 276             
 327GND              CBFCIN-M         UA04X   4587Y   4921X 945Y1142             
-327GND              CBYPIN-2         UA04X   7283Y    315X 512Y 276             
-327GND              CBYPIN-2         UA04X   8563Y   1673X 276Y 512             
 327GND              CBGATE-2         UA01X  14764Y   3287X 217Y 236             
 327GND              CBIAS -2         UA01X  16437Y   4035X 236Y 354             
 327GND              CBOUT1-2         UA04X   9488Y   1772X 276Y 512             
@@ -23,6 +21,8 @@
 327GND              CBU4S -2         UA01X  41732Y   4134X 354Y 236             
 327GND              CBU5  -2         UA01X  38976Y   3445X 236Y 354             
 327GND              CBULK -M         UA01X  12736Y   5512X 945Y1142             
+327GND              CBYPIN-2         UA04X   7283Y    315X 512Y 276             
+327GND              CBYPIN-2         UA04X   8563Y   1673X 276Y 512             
 327GND              CCX   -2         UA01X  18012Y   3839X 354Y 236             
 327GND              CI1   -2         UA04X  23579Y   3362X 276Y 512             
 327GND              CI2   -2         UA04X  23579Y   1787X 276Y 512             
@@ -2867,13 +2867,8 @@
 327[3]KRc05r04      URR   -17        UA01X  39134Y  24606X 276Y  79             
 327[3]KRc05r05      Lr01c1-3         UA01X  42323Y   9252X 630Y 276             
 327[3]KRc05r05      URR   -16        UA01X  39134Y  24449X 276Y  79             
-327N/C              U3    -A5        UA01X  23917Y   1575X 248Y 248             
-327N/C              U3    -B4        UA01X  24417Y   2075X 248Y 248             
-327N/C              U3    -D4        UA01X  24417Y   3075X 248Y 248             
-327N/C              U3    -E5        UA01X  23917Y   3575X 248Y 248             
-327N/C              UXL   -10        UA01X  43209Y   4213X 453Y 217             
-327N/C              UXL   -11        UA01X  43209Y   4528X 453Y 217             
-327N/C              UXL   -3         UA01X  42343Y   4528X 453Y 217             
+327N/C              UGL   -25        UA01X   4882Y  25157X  79Y 276             
+327N/C              UGL   -28        UA01X   4409Y  25157X  79Y 276             
 327N/C              J2    -2         UA04X   2382Y   4370X 512Y 177             
 327N/C              J2    -3         UA04X   2382Y   4626X 512Y 177             
 327N/C              U1    -4         UA01X  16929Y   2461X 276Y  98             
@@ -2896,10 +2891,15 @@
 317N/C              J1    -5    D 350PA00X  45760Y   5886X 500Y 500             
 317N/C              J1    -7    D 350PA00X  45760Y   6886X 500Y 500             
 317N/C              J1    -8    D 350PA00X  46760Y   6886X 500Y 500             
-327N/C              UGL   -25        UA01X   4882Y  25157X  79Y 276             
-327N/C              UGL   -28        UA01X   4409Y  25157X  79Y 276             
 327N/C              U2    -2         UA01X   7776Y   2894X  98Y 276             
 317N/C              VIA   -     D 100PA00X   5709Y  20846X 180Y 180             
 317N/C              J3    -2    D 362PA00X  32256Y   4807X 433Y 433             
 317N/C              J3    -3    D 362PA00X  31469Y   4807X 433Y 433             
+327N/C              U3    -A5        UA01X  23917Y   1575X 248Y 248             
+327N/C              U3    -B4        UA01X  24417Y   2075X 248Y 248             
+327N/C              U3    -D4        UA01X  24417Y   3075X 248Y 248             
+327N/C              U3    -E5        UA01X  23917Y   3575X 248Y 248             
+327N/C              UXL   -10        UA01X  43209Y   4213X 453Y 217             
+327N/C              UXL   -11        UA01X  43209Y   4528X 453Y 217             
+327N/C              UXL   -3         UA01X  42343Y   4528X 453Y 217             
 999                                                                             

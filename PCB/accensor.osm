@@ -1,8 +1,8 @@
 View {
 Width 4.783464567 
 Height 2.677165354 
-Mag 2.0 
-Center 72.91195m 41.18129m 
+Mag 2 
+Center 72.73192m 41.07961m 
 Grid 0.25m 0.25m 
 Index 0 0 
 PrintScale 0.0 
@@ -11,12 +11,12 @@ ShowHoles
 ShowNames
 ShowValues
 SolidPads
-SavedFrameString "45 136 1506 920 0 0 1920 1057 " 
+SavedFrameString "44 136 1506 920 0 0 1920 1057 " 
 PadFillColor 5898 30146 13107 
 GridColor 57343 57343 65279 
 HoleColor 55000 55000 65535 
 BackgroundColor 65535 65535 65535 
-SelectedSignalTraceColor 12345 54314 6783 
+SelectedSignalTraceColor 12345 54313 6783 
 CustomGrid "0.05 mm" 
 CustomGrid "6.57 mm x 2.71 mm" 
 CustomGrid "1.40 mm x 0.25 mm" 
@@ -1060,169 +1060,16 @@ Path Silk
 }
 
 
-Part VIA { Name VAGLr03c04 SubDesign 1 Loc { 39m 35.50m }
+Part VIA { Name VIAQR111 SubDesign 3 Loc { 83.57200m 59.91900m }
 }
-Part VIA { Name VAGMr04c05 SubDesign 2 Loc { 78m 41m }
-}
-Part VIAmin { Name VIAGM01 SubDesign 2 Loc { 45.12500m 56.67500m }
-}
-Part VIAmin { Name VIAGLr01c04 SubDesign 1 Loc { 35m 26.50m }
-}
-Part VIAmin { Name VIAQM30 SubDesign 2 Loc { 69.77500m 58.37500m }
-}
-Part VIA { Name VAGMr01c00 SubDesign 2 Loc { 45.50m 24.50m }
-}
-Part VIAmin { Name VIAGM22 SubDesign 2 Loc { 52.14400m 60.16300m }
-}
-Part VIAmin { Name VIAGR31 SubDesign 3 Loc { 90.05m 60.92500m }
-}
-Part VIAmin { Name VIABLr05c01 SubDesign 1 Loc { 17m 48.50m }
-}
-Part VIA { Name VAGMr01c02 SubDesign 2 Loc { 58.50m 24.50m }
-}
-Part VIAmin { Name VIAGRr00c04 SubDesign 3 Loc { 99.50m 21m }
-}
-Part PLCC-6 { Name Lr03c09 SubDesign 2 Loc { 70.20m 35.50m }
-ValueData { 0 69.20m 37.50m 0 }
-}
-Part VIA { Name VIAQL49 SubDesign 1 Loc { 32.07500m 61.77500m }
-}
-Part VIAmin { Name VIAGR3 SubDesign 3 Loc { 84.20m 54.30m }
-}
-Part VIA { Name VIAQR67 SubDesign 3 Loc { 83.57200m 62.58600m }
-}
-Part VIA { Name VIAQR85 SubDesign 3 Loc { 108.46400m 61.69700m }
-}
-Part PLCC-6 { Name Lr04c13 SubDesign 3 Loc { 96.20m 41m }
-ValueData { 0 95.20m 43m 0 }
-}
-Part VIAmin { Name VIAQR95 SubDesign 3 Loc { 87.50900m 54.96600m }
-}
-Part 0603 { Name RRRSET SubDesign 3 Loc { 100.90m 52.55m }
-NameData { 0.50m 101.10m 48.70m 90 }
-}
-Part 0603 { Name RRMSET SubDesign 2 Loc { 65m 52.55m }
-NameData { 0.50m 66.05m 51.60m 90 }
-}
-Part VIAmin { Name VIA20 Loc { 62.59m 6.54m }
-}
-Part VIA { Name VIAQM61 SubDesign 2 Loc { 56.08100m 60.93500m }
-}
-Part VIAmin { Name VIABMr04c04 SubDesign 2 Loc { 75m 32m }
-}
-Part VIAmin { Name VIAQL12 SubDesign 1 Loc { 32.25m 38.40m }
-}
-Part VIAmin { Name VIABL1 SubDesign 1 Loc { 36.99999m 53.10m }
-}
-Part VIA { Name VABMr05c04 SubDesign 2 Loc { 78m 36.50m }
-}
-Part VIA { Name VARLr01c01 SubDesign 1 Loc { 20m 23.50m }
-}
-Part VIAmin { Name VIABLr04c03 SubDesign 1 Loc { 29.50m 43m }
-}
-Part PLCC-6 { Name Lr05c00 SubDesign 1 Loc { 12.20m 46.50m }
-}
-Part VIAmin { Name VIABMr01c01 SubDesign 2 Loc { 49m 26.50m }
-}
-Part VIAmin { Name VIAGMr00c03 SubDesign 2 Loc { 61m 21m }
-}
-Part 0603 { Name RBLSET SubDesign 1 Loc { 40.80m 52.55m }
-NameData { 0.50m 41.05m 48.85m 90 }
-ValueData { 0 41.68900m 52.80400m 0 }
-}
-Part VIA { Name VIAQM77 SubDesign 2 Loc { 62.05m 62.58600m }
-}
-Part 0805 { Name CGRCC SubDesign 3 Loc { 86.20m 65.75m 90 }
-NameData { 0.50m 87.21600m 64.87300m 180 }
-ValueData { 0 86.70m 65.75m 90 }
-}
-Part PLCC-6 { Name Lr05c01 SubDesign 1 Loc { 18.70m 46.50m }
-}
-Part 0805 { Name CBYPIN1 Loc { 18.50m 1.75m back }
-NameData { 0.50m 19.25m 3.50m 0 }
-}
-Part PLCC-6 { Name Lr03c04 SubDesign 1 Loc { 37.70m 35.50m }
-}
-Part VIAmin { Name VIAQR17 SubDesign 3 Loc { 105.77500m 63.47500m }
-}
-Part VIA { Name VIAQL75 SubDesign 1 Loc { 23.51m 62.58600m }
-}
-Part VIAmin { Name VIAGL22 SubDesign 1 Loc { 16.14400m 60.16300m }
-}
-Part VIAmin { Name VIABL7 SubDesign 1 Loc { 34.40m 54.10m }
-}
-Part VIAmin { Name VIAGLr05c01 SubDesign 1 Loc { 16m 48.50m }
-}
-Part PLCC-6 { Name Lr04c03 SubDesign 1 Loc { 31.20m 41m }
-}
-Part VIAmin { Name VIAQR19 SubDesign 3 Loc { 105.35m 63.05m }
-}
-Part VIAmin { Name VIAQM28 SubDesign 2 Loc { 69.77500m 56.25m }
-}
-Part 0603 { Name CX1 Loc { 5.75m 56.75m 180 }
-NameData { 0.50m 6.50m 57.50m -90 }
-}
-Part VIAmin { Name VIA154 Loc { 100.25m 16.50m }
-}
-Part VIAmin { Name VIAQL9 SubDesign 1 Loc { 33.10m 37.55m }
-}
-Part Ind { Name LGL SubDesign 1 Loc { 14.10m 63.10m 180 back }
-NameData { 1m 17.50m 66.75m 0 }
-ValueData { 0 10.60m 67.60m 180 }
-}
-Part VIAmin { Name VIA150 Loc { 100.75m 11m }
-}
-Part VIAmin { Name VIA151 Loc { 119.85m 36.15m }
-}
-Part 0402a { Name RFB1 Loc { 61.57500m 10.50m 90 }
-NameData { 0.50m 59.25m 10.25m 0 }
-ValueData { 50 61.32100m 11.38900m 90 }
-}
-Part "22AWG Hole" { Name JBNTC Loc { 35.75m 11.25m back }
-NameData { 0.50m 36.85m 11.90m 0 }
-}
-Part 0402a { Name RNTC Loc { 38.82500m 10.25m 90 }
-NameData { 0.50m 38m 10.75m 0 }
-ValueData { 50 38.57100m 11.13900m 90 }
-}
-Part VIA { Name VAGLr00c01 SubDesign 1 Loc { 20m 19m }
-}
-Part 0805 { Name CRMCC SubDesign 2 Loc { 62.23393m 65.67503m 90 }
-NameData { 0.50m 63.22693m 64.76303m 180 }
-ValueData { 0.50m 62.73393m 65.67503m 90 }
-}
-Part VIAmin { Name VIA176 Loc { 100.75m 12m }
-}
-Part VIA { Name VIAQL71 SubDesign 1 Loc { 12.46100m 61.69700m }
-}
-Part VIA { Name VIAQM111 SubDesign 2 Loc { 47.57200m 59.91900m }
-}
-Part VIAmin { Name VIAQL8 SubDesign 1 Loc { 36.65m 37.55m }
-}
-Part VIAmin { Name VIAQL95 SubDesign 1 Loc { 15.50900m 54.96600m }
-}
-Part 0603 { Name CGLSS SubDesign 1 Loc { 9.05m 52.80m -90 back }
-NameData { 0.50m 7.95m 52.05m 180 }
-ValueData { 0 9.30400m 53.68900m -90 }
-}
-Part VIAmin { Name VIAQL42 SubDesign 1 Loc { 40.57500m 58.80m }
-}
-Part VIA { Name VABMr05c02 SubDesign 2 Loc { 65m 47.50m }
-}
-Part VIAmin { Name VIAQL18 SubDesign 1 Loc { 33.77500m 57.10m }
+Part VIAmin { Name VIAQR25 SubDesign 3 Loc { 104.50m 57.95m }
 }
 Part VIA { Name VABMr05c03 SubDesign 2 Loc { 71.50m 47.50m }
 }
-Part VIA { Name VIAQR111 SubDesign 3 Loc { 83.57200m 59.91900m }
-}
-Part VIAmin { Name VIAGRr01c03 SubDesign 3 Loc { 93.50m 26.50m }
-}
-Part VIAmin { Name VIAGRr01c00 SubDesign 3 Loc { 74.17500m 26.50m }
-}
-Part VIA { Name VABMr04c02 SubDesign 2 Loc { 65m 42m }
-}
 Part 0805 { Name CBYPIN2 Loc { 20.80m 4.25m 90 back }
 NameData { 0.50m 16.60m 4.50m 180 }
+}
+Part VIAmin { Name VIAGRr01c03 SubDesign 3 Loc { 93.50m 26.50m }
 }
 Part VIA { Name VIA15 Loc { 64.04m 6.04m }
 }
@@ -1232,7 +1079,13 @@ Part VIA { Name VIA7 Loc { 65.04m 4.79m }
 }
 Part VIA { Name VIA6 Loc { 63.79m 4.79m }
 }
-Part VIAmin { Name VIAQR25 SubDesign 3 Loc { 104.50m 57.95m }
+Part VIA { Name VABMr04c02 SubDesign 2 Loc { 65m 42m }
+}
+Part VIA { Name VABMr05c02 SubDesign 2 Loc { 65m 47.50m }
+}
+Part VIAmin { Name VIAGRr01c00 SubDesign 3 Loc { 74.17500m 26.50m }
+}
+Part VIAmin { Name VIAQL18 SubDesign 1 Loc { 33.77500m 57.10m }
 }
 Part VIA { Name VIAQR120 SubDesign 3 Loc { 108.46400m 60.80800m }
 }
@@ -1249,509 +1102,6 @@ Part VIAmin { Name VIAQL33 SubDesign 1 Loc { 40.15m 62.62500m }
 Part VIAmin { Name VIAQR34 SubDesign 3 Loc { 112.57500m 62.20m }
 }
 Part VIAmin { Name VIAGR10 SubDesign 3 Loc { 80.27500m 58.37500m 90 }
-}
-Part VIAmin { Name VIAGR27 SubDesign 3 Loc { 89.62500m 61.35m }
-}
-Part 0603 { Name CCX Loc { 45.75m 9m 180 }
-NameData { 0.50m 46.50m 9.75m -90 }
-}
-Part VIA { Name VARLr01c00 SubDesign 1 Loc { 13.50m 23.50m }
-}
-Part 0805 { Name RRRISP SubDesign 3 Loc { 92.60m 65m back }
-NameData { 0.50m 93.55m 62.85m -90 }
-ValueData { 0.50m 92.60m 64.50m 0 }
-}
-Part VIA { Name VABLr01c02 SubDesign 1 Loc { 26.50m 25.50m }
-}
-Part VIAmin { Name VIAQM31 SubDesign 2 Loc { 69.35m 58.80m }
-}
-Part VIA { Name VIAQR114 SubDesign 3 Loc { 84.46100m 59.03m }
-}
-Part VIA { Name VIAQM109 SubDesign 2 Loc { 75.75m 66m }
-}
-Part VIA { Name VAGRr01c01 SubDesign 3 Loc { 84.50m 24.50m }
-}
-Part VIA { Name VIAQL83 SubDesign 1 Loc { 35.57500m 61.69700m }
-}
-Part 0603 { Name RBLFG SubDesign 1 Loc { 34.35m 52.55m }
-NameData { 0.50m 34.60m 49.25m 90 }
-ValueData { 0 35.23900m 52.80400m 0 }
-}
-Part VIAmin { Name VIABRr03c02 SubDesign 3 Loc { 94.50m 37.50m }
-}
-Part VIA { Name VABMr04c00 SubDesign 2 Loc { 52m 42m }
-}
-Part VIA { Name VARMr04c01 SubDesign 2 Loc { 58.50m 40m }
-}
-Part VIA { Name VARMr04c04 SubDesign 2 Loc { 78m 29m }
-}
-Part SO8 { Name MN1 Loc { 20.50m 6m -90 back }
-}
-Part SO8 { Name MRL SubDesign 1 Loc { 26.87m 51.50m back }
-}
-Part VIA { Name VARLr05c05 SubDesign 1 Loc { 45.50m 45.50m }
-}
-Part VIAmin { Name VIA22 Loc { 16.75m 2.75m }
-}
-Part VIAmin { Name VIARL2 SubDesign 1 Loc { 24.80m 54.10m }
-}
-Part VIAmin { Name VIABLr02c01 SubDesign 1 Loc { 17m 32m }
-}
-Part 0603 { Name RRLRT SubDesign 1 Loc { 21m 52.55m }
-NameData { 0.50m 21.25m 49.35m 90 }
-}
-Part VIAmin { Name VIAQR8 SubDesign 3 Loc { 108.15m 37.55m }
-}
-Part VIA { Name VAGRr03c04 SubDesign 3 Loc { 110.50m 35.50m }
-}
-Part "QFN 5x9" { Name UGR SubDesign 3 Loc { 85m 59.50m 180 }
-NameData { 1m 86.40m 54.40m 180 }
-}
-Part VIAmin { Name VIABRr04c02 SubDesign 3 Loc { 94.50m 43m }
-}
-Part VIAmin { Name VIAQR57 SubDesign 3 Loc { 93.35100m 62.33200m }
-}
-Part VIAmin { Name VIA109 Loc { 7.25m 12.25m }
-}
-Part VIA { Name VARMr03c01 SubDesign 2 Loc { 52m 34.50m }
-}
-Part VIA { Name VIAQM119 SubDesign 2 Loc { 59.51m 59.03m }
-}
-Part PLCC-6 { Name Lr03c05 SubDesign 2 Loc { 44.20m 35.50m }
-ValueData { 0 43.20m 37.50m 0 }
-}
-Part VIA { Name VIAQM118 SubDesign 2 Loc { 60.39900m 59.03m }
-}
-Part VIAmin { Name VIABMr00c03 SubDesign 2 Loc { 62m 21m }
-}
-Part 0805 { Name CGRIN SubDesign 3 Loc { 88.60m 52.60m 180 back }
-NameData { 0.50m 88.85m 51.05m 90 }
-ValueData { 0 88.60m 53.10m 180 }
-}
-Part VIA { Name VIAQL82 SubDesign 1 Loc { 38.24200m 62.58600m }
-}
-Part VIAmin { Name VIAGMr00c00 SubDesign 2 Loc { 41.77500m 20.97500m }
-}
-Part VIAmin { Name VIAGMr04c01 SubDesign 2 Loc { 54.62500m 43.02800m }
-}
-Part VIA { Name VIAQL122 SubDesign 1 Loc { 35.57500m 59.91900m }
-}
-Part 0603 { Name CRMG SubDesign 2 Loc { 61.65m 51.90m -90 }
-NameData { 0.50m 60.80m 50.70m 0 }
-}
-Part VIA { Name VIAQM120 SubDesign 2 Loc { 72.46400m 60.80800m }
-}
-Part VIA { Name VIAQL84 SubDesign 1 Loc { 35.57500m 60.80800m }
-}
-Part VIAmin { Name VIABMr02c04 SubDesign 2 Loc { 68.30m 32.02500m }
-}
-Part 0402a { Name RCS9 Loc { 97.92500m 10.50m 90 }
-NameData { 0.50m 97m 10.82500m 180 }
-}
-Part "14 AWG Hole" { Name JBP Loc { 28.75m 10.75m back }
-NameData { 0.50m 29.20m 11.80m 0 }
-}
-Part Ind { Name LBL SubDesign 1 Loc { 1500 63.10m 180 back }
-NameData { 1m 41.50m 66.75m 0 }
-ValueData { 0 34.60m 67.60m 180 }
-}
-Part VIAmin { Name VIA172 Loc { 21.10m 12.10m }
-}
-Part VIA { Name VIAQR82 SubDesign 3 Loc { 110.24200m 62.58600m }
-}
-Part VIA { Name VIAQM66 SubDesign 2 Loc { 47.57200m 61.69700m }
-}
-Part VIA { Name VIAQM72 SubDesign 2 Loc { 60.39900m 61.69700m }
-}
-Part VIA { Name VIAQL115 SubDesign 1 Loc { 24.39900m 60.80800m }
-}
-Part VIA { Name VIAQL124 SubDesign 1 Loc { 36.46400m 59.03m }
-}
-Part VIAmin { Name VIAQM99 SubDesign 2 Loc { 44.84600m 52.55300m }
-}
-Part 0603 { Name RBLRT SubDesign 1 Loc { 33.42800m 52.42600m -90 back }
-NameData { 0.50m 32.20m 51.80m 180 }
-ValueData { 0 33.68200m 53.31500m -90 }
-}
-Part VIAmin { Name VIA177 Loc { 108.50m 10.25m }
-}
-Part VIAmin { Name VIABMr02c00 SubDesign 2 Loc { 43.77400m 31.09m }
-}
-Part VIA { Name VIAQL123 SubDesign 1 Loc { 35.57500m 59.03m }
-}
-Part VIAmin { Name VIA81 Loc { 35.25m 5.25m }
-}
-Part Cap2917 { Name CBULK Loc { 29.30m 14m }
-ValueData { 0 28.05m 11.75m 0 }
-}
-Part VIAmin { Name VIA117 Loc { 69m 13.50m }
-}
-Part VIAmin { Name VIA75 Loc { 74.25m 51.50m }
-}
-Part VIAmin { Name VIA120 Loc { 69.50m 13.50m }
-}
-Part VIAmin { Name VIA62 Loc { 29.25m 7.50m }
-}
-Part VIAmin { Name VIA57 Loc { 37.75m 4.25m }
-}
-Part VIA { Name VARMr00c00 SubDesign 2 Loc { 45.50m 18m }
-}
-Part VIA { Name VABRr02c02 SubDesign 3 Loc { 97.50m 31m }
-}
-Part VIAmin { Name VIABM1 SubDesign 2 Loc { 72.99999m 53.10m }
-}
-Part VIA { Name VABLr03c00 SubDesign 1 Loc { 13.50m 36.50m }
-}
-Part VIAmin { Name VIA102 Loc { 9.25m 11.25m }
-}
-Part VIAmin { Name VIA105 Loc { 9m 11.75m }
-}
-Part VIAmin { Name VIA95 Loc { 7m 46.75m }
-}
-Part VIAmin { Name VIA115 Loc { 69m 14.50m }
-}
-Part VIAmin { Name VIA122 Loc { 114.75m 65m }
-}
-Part VIAmin { Name VIA84 Loc { 32.25m 6.25m }
-}
-Part VIAmin { Name VIABMr01c04 SubDesign 2 Loc { 68.50m 26.50m }
-}
-Part VIA { Name VIAQR108 SubDesign 3 Loc { 111.50m 65.25m }
-}
-Part VIA { Name VABRr05c02 SubDesign 3 Loc { 97.50m 47.50m }
-}
-Part VIA { Name VIAQR74 SubDesign 3 Loc { 95.51m 61.69700m }
-}
-Part VIAmin { Name VIA91 Loc { 13.25m 50.25m }
-}
-Part VIAmin { Name VIA86 Loc { 31.25m 6.25m }
-}
-Part VIAmin { Name VIA85 Loc { 31.25m 5.75m }
-}
-Part VIAmin { Name VIA77 Loc { 33.25m 5.25m }
-}
-Part VIAmin { Name VIA132 Loc { 60m 21.75m }
-}
-Part VIAmin { Name VIA108 Loc { 7.50m 11.75m }
-}
-Part VIAmin { Name VIAQM41 SubDesign 2 Loc { 76.15m 59.22500m }
-}
-Part VIA { Name VIAQM68 SubDesign 2 Loc { 48.46100m 62.58600m }
-}
-Part 0603 { Name RRMFG SubDesign 2 Loc { 58.40m 52.55m }
-NameData { 0.50m 58.65m 49.15m 90 }
-}
-Part VIA { Name VAGRr03c00 SubDesign 3 Loc { 84.50m 35.50m }
-}
-Part PLCC-6 { Name Lr05c09 SubDesign 2 Loc { 70.20m 46.50m }
-ValueData { 0 69.20m 48.50m 0 }
-}
-Part VIA { Name VABMr01c00 SubDesign 2 Loc { 45.50m 25.50m }
-}
-Part VIAmin { Name VIABMr02c01 SubDesign 2 Loc { 49m 32m }
-}
-Part VIAmin { Name VIAQM22 SubDesign 2 Loc { 68.07500m 59.22500m }
-}
-Part VIAmin { Name VIAQM12 SubDesign 2 Loc { 64.75m 38.40m }
-}
-Part VIAmin { Name VIAQR2 SubDesign 3 Loc { 110.27500m 44.35m }
-}
-Part VIAmin { Name VIAQM38 SubDesign 2 Loc { 76.57500m 60.50m }
-}
-Part VIA { Name VIA1 Loc { 99.50m 65.45m }
-}
-Part VIAmin { Name VIAGL14 SubDesign 1 Loc { 9.35m 63.22500m }
-}
-Part VIA { Name VIAQR83 SubDesign 3 Loc { 107.57500m 61.69700m }
-}
-Part PLCC-6 { Name Lr05c03 SubDesign 1 Loc { 31.20m 46.50m }
-}
-Part VIAmin { Name VIABR2 SubDesign 3 Loc { 108.71800m 54.20400m }
-}
-Part VIA { Name VIAQR71 SubDesign 3 Loc { 84.46100m 61.69700m }
-}
-Part VIAmin { Name VIA93 Loc { 12.50m 51m }
-}
-Part VIAmin { Name VIAQM18 SubDesign 2 Loc { 69.77500m 57.10m }
-}
-Part VIAmin { Name VIA87 Loc { 32.25m 5.25m }
-}
-Part VIA { Name VARMr01c03 SubDesign 2 Loc { 65m 23.50m }
-}
-Part PLCC-6 { Name Lr00c13 SubDesign 3 Loc { 96.20m 19m }
-ValueData { 0 95.20m 21m 0 }
-}
-Part VIA { Name VIAQR70 SubDesign 3 Loc { 86.11200m 62.58600m }
-}
-Part VIAmin { Name VIA92 Loc { 12.50m 50.25m }
-}
-Part VIAmin { Name VIA133 Loc { 59.75m 50.50m }
-}
-Part VIAmin { Name VIA58 Loc { 35.75m 6m }
-}
-Part VIAmin { Name VIAQR88 SubDesign 3 Loc { 84.71500m 64.74500m }
-}
-Part VIAmin { Name VIA88 Loc { 31.25m 5.25m }
-}
-Part VIAmin { Name VIA50 Loc { 38.25m 7.75m }
-}
-Part VIAmin { Name VIA53 Loc { 44.25m 2.50m }
-}
-Part VIAmin { Name VIA61 Loc { 28.75m 7.50m }
-}
-Part VIAmin { Name VIA90 Loc { 13.25m 51m }
-}
-Part VIAmin { Name VIA68 Loc { 26.50m 51m }
-}
-Part VIAmin { Name VIA56 Loc { 46m 4.75m }
-}
-Part VIAmin { Name VIAGM29 SubDesign 2 Loc { 54m 59.50m }
-}
-Part VIA { Name VIAQM79 SubDesign 2 Loc { 71.57500m 62.58600m }
-}
-Part 0603 { Name RRLSET SubDesign 1 Loc { 29m 52.55m }
-NameData { 0.50m 29.20m 48.90m 90 }
-}
-Part VIA { Name VABRr00c00 SubDesign 3 Loc { 77.90m 20m }
-}
-Part VIAmin { Name VIARM5 SubDesign 2 Loc { 56m 64.70m }
-}
-Part VIAmin { Name VIABRr02c02 SubDesign 3 Loc { 94.50m 32m }
-}
-Part VIAmin { Name VIAQR22 SubDesign 3 Loc { 104.07500m 59.22500m }
-}
-Part VIAmin { Name VIAGMr00c04 SubDesign 2 Loc { 67.50m 21m }
-}
-Part 0402a { Name RCS8 Loc { 97.92500m 12m 90 }
-NameData { 0.50m 97m 12.25m 180 }
-}
-Part PLCC-6 { Name Lr01c03 SubDesign 1 Loc { 31.20m 24.50m }
-}
-Part VIAmin { Name VIAGM21 SubDesign 2 Loc { 52.56900m 60.58800m }
-}
-Part BGA25-6.25x6.25 { Name U3 Loc { 63.29m 6.54m 180 }
-NameData { 0.50m 66.29m 3.04m 180 }
-}
-Part VIAmin { Name VIA113 Loc { 9.25m 12.25m }
-}
-Part 0402a { Name RCS10 Loc { 97.92500m 9.75m 90 }
-NameData { 0.50m 97m 10m 180 }
-}
-Part VIAmin { Name VIA175 Loc { 97.50m 12m }
-}
-Part VIAmin { Name VIA97 Loc { 7m 45.25m }
-}
-Part VIAmin { Name VIA73 Loc { 38.75m 51.25m }
-}
-Part VIAmin { Name VIA76 Loc { 85.75m 52m }
-}
-Part VIAmin { Name VIA125 Loc { 115.25m 65m }
-}
-Part VIA { Name VABLr00c01 SubDesign 1 Loc { 20m 20m }
-}
-Part VIAmin { Name VIABLr00c03 SubDesign 1 Loc { 29.50m 21m }
-}
-Part VIA { Name VIAQL50 SubDesign 1 Loc { 32.07500m 60.92500m }
-}
-Part VIAmin { Name VIAGL29 SubDesign 1 Loc { 18m 59.50m }
-}
-Part 0603 { Name RBLFF SubDesign 1 Loc { 35.59998m 52.55m 180 }
-NameData { 0.50m 35.80m 49.30m 90 }
-ValueData { 0 34.71098m 52.29600m 180 }
-}
-Part VIAmin { Name VIAQM86 SubDesign 2 Loc { 72.71800m 64.61800m }
-}
-Part 0603 { Name RGMFG SubDesign 2 Loc { 45.80001m 52.55m }
-NameData { 0.50m 46.05m 49.05m 90 }
-ValueData { 0 46.68901m 52.80400m 0 }
-}
-Part VIA { Name VABRr05c04 SubDesign 3 Loc { 110.50m 47.50m }
-}
-Part VIAmin { Name VIA64 Loc { 44.75m 9.75m }
-}
-Part VIAmin { Name VIAQL89 SubDesign 1 Loc { 15.25500m 55.60100m }
-}
-Part VIA { Name VARMr04c03 SubDesign 2 Loc { 71.50m 40m }
-}
-Part VIAmin { Name VIA89 Loc { 14m 51m }
-}
-Part VIAmin { Name VIA111 Loc { 8.25m 12.25m }
-}
-Part VIAmin { Name VIA134 Loc { 60.25m 49.75m }
-}
-Part VIAmin { Name VIA51 Loc { 38.25m 8.75m }
-}
-Part VIA { Name VARLr00c02 SubDesign 1 Loc { 26.50m 18m }
-}
-Part VIAmin { Name VIAGLr01c02 SubDesign 1 Loc { 22.40m 26.50m }
-}
-Part VIAmin { Name VIAQR46 SubDesign 3 Loc { 101.74200m 49.37800m }
-}
-Part 0603 { Name RBRTS SubDesign 3 Loc { 111.38500m 53.07300m }
-NameData { 0.50m 111.60m 49.75m 90 }
-ValueData { 0 112.27400m 53.32700m 0 }
-}
-Part VIA { Name VABMr00c00 SubDesign 2 Loc { 45.50m 20m }
-}
-Part VIAmin { Name VIAGM7 SubDesign 2 Loc { 46.42900m 54.07700m }
-}
-Part VIA { Name VIAQR52 SubDesign 3 Loc { 80.65100m 61.57m }
-}
-Part VIAmin { Name VIAGLr00c02 SubDesign 1 Loc { 22.40m 20.97500m }
-}
-Part VIAmin { Name VIAGM5 SubDesign 2 Loc { 43.61600m 64.71500m }
-}
-Part SO8 { Name MGM SubDesign 2 Loc { 50.87m 51.60m back }
-}
-Part Cap2917 { Name CBM SubDesign 2 Loc { 68.60m 57.75m 90 back }
-ValueData { 0 70.85m 59m 90 }
-}
-Part VIAmin { Name VIAQR18 SubDesign 3 Loc { 105.77500m 57.10m }
-}
-Part VIA { Name VABLr04c05 SubDesign 1 Loc { 45.50m 42m }
-}
-Part VIAmin { Name VIAQR99 SubDesign 3 Loc { 80.91400m 52.55300m }
-}
-Part VIAmin { Name VIA38 Loc { 25.50m 6.75m }
-}
-Part VIAmin { Name VIAQM92 SubDesign 2 Loc { 52.75m 66.25m }
-}
-Part VIA { Name VAGRr04c04 SubDesign 3 Loc { 110.50m 41m }
-}
-Part "LGA14 (5x3)" { Name UXL Loc { 108.65m 11.10m }
-}
-Part VIAmin { Name VIA40 Loc { 26.50m 6.75m }
-}
-Part VIAmin { Name VIA41 Loc { 27m 6.75m }
-}
-Part VIA { Name VIAQR61 SubDesign 3 Loc { 92.08100m 60.93500m }
-}
-Part VIAmin { Name VIA39 Loc { 26m 6.75m }
-}
-Part 0603 { Name RGLFF SubDesign 1 Loc { 11.20m 52.55m 180 }
-NameData { 0.50m 11.45m 49.30m 90 }
-ValueData { 0 10.31100m 52.29600m 180 }
-}
-Part VIAmin { Name VIAQR14 SubDesign 3 Loc { 108.15m 32.02500m }
-}
-Part VIA { Name VIAGR6 SubDesign 3 Loc { 85.80m 53.20m }
-}
-Part VIAmin { Name VIAQR32 SubDesign 3 Loc { 105.77500m 59.22500m }
-}
-Part VIAmin { Name VIA42 Loc { 23.50m 5m }
-}
-Part SO8 { Name MBM SubDesign 2 Loc { 74.87m 51.60m back }
-}
-Part 0603 { Name CSS86 Loc { 23.25m 9.25m 90 }
-NameData { 0.50m 24.50m 9.15m 0 }
-ValueData { 0.50m 23.75m 9.25m 90 }
-}
-Part VIAmin { Name VIA43 Loc { 23.50m 4.50m }
-}
-Part VIAmin { Name VIA44 Loc { 23.50m 4.10m }
-}
-Part VIAmin { Name VIA45 Loc { 23.50m 6.50m }
-}
-Part 0805 { Name CBOUT3 Loc { 25.30m 7.75m -90 }
-NameData { 0.50m 24.50m 8.65m 0 }
-}
-Part VIAmin { Name VIABMr04c05 SubDesign 2 Loc { 74.40m 43.92500m }
-}
-Part VIAmin { Name VIAGM11 SubDesign 2 Loc { 44.70m 57.95m 90 }
-}
-Part VIAmin { Name VIA46 Loc { 24.25m 10.50m }
-}
-Part VIAmin { Name VIAQL45 SubDesign 1 Loc { 41.42500m 59.65m }
-}
-Part VIAmin { Name VIAGL17 SubDesign 1 Loc { 16.77500m 62.20m }
-}
-Part VIAmin { Name VIAGLr00c00 SubDesign 1 Loc { 9.77500m 20.97500m }
-}
-Part 0805 { Name RIN Loc { 16.20m 2.75m 90 back }
-NameData { 50 14.99500m 1.88500m 180 }
-ValueData { 50 17.47m 2.75m 90 }
-}
-Part VIAmin { Name VIABRr02c01 SubDesign 3 Loc { 88m 32m }
-}
-Part PLCC-6 { Name Lr00c02 SubDesign 1 Loc { 25.20m 19m }
-}
-Part VIA { Name VABMr02c04 SubDesign 2 Loc { 71.50m 31m }
-}
-Part VIA { Name VIAQL113 SubDesign 1 Loc { 11.57200m 59.03m }
-}
-Part VIAmin { Name VIAGL21 SubDesign 1 Loc { 16.56900m 60.58800m }
-}
-Part VIA { Name VABLr04c04 SubDesign 1 Loc { 39m 42m }
-}
-Part VIAmin { Name VIAQR98 SubDesign 3 Loc { 82.55600m 55.47400m }
-}
-Part PLCC-6 { Name Lr04c08 SubDesign 2 Loc { 63.70m 41m }
-ValueData { 0 62.70m 43m 0 }
-}
-Part VIA { Name VAGLr02c03 SubDesign 1 Loc { 32.50m 30m }
-}
-Part VIAmin { Name VIA174 Loc { 97.50m 13.50m }
-}
-Part VIAmin { Name VIAGMr03c00 SubDesign 2 Loc { 43.77400m 35.53500m }
-}
-Part 0402a { Name RCS7 Loc { 97.92500m 11.25m 90 }
-NameData { 0.50m 97m 11.57500m 180 }
-}
-Part PLCC-6 { Name Lr01c08 SubDesign 2 Loc { 63.70m 24.50m }
-ValueData { 0 62.70m 26.50m 0 }
-}
-Part VIAmin { Name VIABL3 SubDesign 1 Loc { 35.90m 54.12500m }
-}
-Part "QFN 5x9" { Name UBR SubDesign 3 Loc { 109m 59.50m 180 }
-NameData { 1m 110.50m 54.50m 180 }
-}
-Part VIAmin { Name VIARL4 SubDesign 1 Loc { 20.80m 65.30m }
-}
-Part VIAmin { Name VIAQM20 SubDesign 2 Loc { 68.92500m 59.22500m }
-}
-Part 0402a { Name RCS3 Loc { 100.50m 15.17500m }
-NameData { 0.50m 100.75m 16m 90 }
-}
-Part 0402a { Name RCS4 Loc { 102.50m 15.17500m }
-NameData { 0.50m 102.75m 16m 90 }
-}
-Part VIAmin { Name VIAQL41 SubDesign 1 Loc { 40.15m 59.22500m }
-}
-Part VIAmin { Name VIA52 Loc { 37m 5m }
-}
-Part VIAmin { Name VIA65 Loc { 44m 9.75m }
-}
-Part VIAmin { Name VIA71 Loc { 49.75m 51m }
-}
-Part VIAmin { Name VIA48 Loc { 38.45m 5.25m }
-}
-Part VIA { Name VAGLr00c00 SubDesign 1 Loc { 13.50m 19m }
-}
-Part VIAmin { Name VIAQM90 SubDesign 2 Loc { 63.44700m 55.47400m }
-}
-Part 0805 { Name CBRIN SubDesign 3 Loc { 112.60m 52.60m 180 back }
-NameData { 0.50m 112.95m 51.05m 90 }
-ValueData { 0 112.60m 53.10m 180 }
-}
-Part VIAmin { Name VIAQM89 SubDesign 2 Loc { 51.25500m 55.60100m }
-}
-Part VIA { Name VIABM6 SubDesign 2 Loc { 73.80m 53.10m }
-}
-Part VIA { Name VIAQL69 SubDesign 1 Loc { 13.22300m 62.58600m }
-}
-Part VIA { Name VARMr03c03 SubDesign 2 Loc { 65m 34.50m }
-}
-Part VIA { Name VABMr00c03 SubDesign 2 Loc { 65m 20m }
-}
-Part VIAmin { Name VIAGM02 SubDesign 2 Loc { 45.55m 57.10m }
-}
-Part VIA { Name VABMr00c02 SubDesign 2 Loc { 58.50m 20m }
-}
-Part VIA { Name VABMr00c01 SubDesign 2 Loc { 52m 20m }
-}
-Part VIA { Name VAGRr04c03 SubDesign 3 Loc { 104m 41m }
-}
-Part VIA { Name VAGMr00c03 SubDesign 2 Loc { 65m 19m }
 }
 Part VIAmin { Name VIAQL21 SubDesign 1 Loc { 32.92500m 62.62500m }
 }
@@ -8729,6 +8079,656 @@ Part VIAmin { Name VIAQR41 SubDesign 3 Loc { 112.15m 59.22500m }
 }
 Part VIA { Name VAGRr02c03 SubDesign 3 Loc { 104m 30m }
 }
+Part VIA { Name VAGLr03c04 SubDesign 1 Loc { 39m 35.50m }
+}
+Part VIA { Name VAGMr04c05 SubDesign 2 Loc { 78m 41m }
+}
+Part VIAmin { Name VIAGM01 SubDesign 2 Loc { 45.12500m 56.67500m }
+}
+Part VIAmin { Name VIAGLr01c04 SubDesign 1 Loc { 35m 26.50m }
+}
+Part VIAmin { Name VIAQM30 SubDesign 2 Loc { 69.77500m 58.37500m }
+}
+Part VIA { Name VAGMr01c00 SubDesign 2 Loc { 45.50m 24.50m }
+}
+Part VIAmin { Name VIAGM22 SubDesign 2 Loc { 52.14400m 60.16300m }
+}
+Part VIAmin { Name VIAGR31 SubDesign 3 Loc { 90.05m 60.92500m }
+}
+Part VIAmin { Name VIABLr05c01 SubDesign 1 Loc { 17m 48.50m }
+}
+Part VIA { Name VAGMr01c02 SubDesign 2 Loc { 58.50m 24.50m }
+}
+Part VIAmin { Name VIAGRr00c04 SubDesign 3 Loc { 99.50m 21m }
+}
+Part PLCC-6 { Name Lr03c09 SubDesign 2 Loc { 70.20m 35.50m }
+ValueData { 0 69.20m 37.50m 0 }
+}
+Part VIA { Name VIAQL49 SubDesign 1 Loc { 32.07500m 61.77500m }
+}
+Part VIAmin { Name VIAGR3 SubDesign 3 Loc { 84.20m 54.30m }
+}
+Part VIA { Name VIAQR67 SubDesign 3 Loc { 83.57200m 62.58600m }
+}
+Part VIA { Name VIAQR85 SubDesign 3 Loc { 108.46400m 61.69700m }
+}
+Part PLCC-6 { Name Lr04c13 SubDesign 3 Loc { 96.20m 41m }
+ValueData { 0 95.20m 43m 0 }
+}
+Part VIAmin { Name VIAQR95 SubDesign 3 Loc { 87.50900m 54.96600m }
+}
+Part 0603 { Name RRRSET SubDesign 3 Loc { 100.90m 52.55m }
+NameData { 0.50m 101.10m 48.70m 90 }
+}
+Part 0603 { Name RRMSET SubDesign 2 Loc { 65m 52.55m }
+NameData { 0.50m 66.05m 51.60m 90 }
+}
+Part VIAmin { Name VIA20 Loc { 62.59m 6.54m }
+}
+Part VIA { Name VIAQM61 SubDesign 2 Loc { 56.08100m 60.93500m }
+}
+Part VIAmin { Name VIABMr04c04 SubDesign 2 Loc { 75m 32m }
+}
+Part VIAmin { Name VIAQL12 SubDesign 1 Loc { 32.25m 38.40m }
+}
+Part VIAmin { Name VIABL1 SubDesign 1 Loc { 36.99999m 53.10m }
+}
+Part VIA { Name VABMr05c04 SubDesign 2 Loc { 78m 36.50m }
+}
+Part VIA { Name VARLr01c01 SubDesign 1 Loc { 20m 23.50m }
+}
+Part VIAmin { Name VIABLr04c03 SubDesign 1 Loc { 29.50m 43m }
+}
+Part PLCC-6 { Name Lr05c00 SubDesign 1 Loc { 12.20m 46.50m }
+}
+Part VIAmin { Name VIABMr01c01 SubDesign 2 Loc { 49m 26.50m }
+}
+Part VIAmin { Name VIAGMr00c03 SubDesign 2 Loc { 61m 21m }
+}
+Part 0603 { Name RBLSET SubDesign 1 Loc { 40.80m 52.55m }
+NameData { 0.50m 41.05m 48.85m 90 }
+ValueData { 0 41.68900m 52.80400m 0 }
+}
+Part VIA { Name VIAQM77 SubDesign 2 Loc { 62.05m 62.58600m }
+}
+Part 0805 { Name CGRCC SubDesign 3 Loc { 86.20m 65.75m 90 }
+NameData { 0.50m 87.21600m 64.87300m 180 }
+ValueData { 0 86.70m 65.75m 90 }
+}
+Part PLCC-6 { Name Lr05c01 SubDesign 1 Loc { 18.70m 46.50m }
+}
+Part 0805 { Name CBYPIN1 Loc { 18.50m 1.75m back }
+NameData { 0.50m 19.25m 3.50m 0 }
+}
+Part PLCC-6 { Name Lr03c04 SubDesign 1 Loc { 37.70m 35.50m }
+}
+Part VIAmin { Name VIAQR17 SubDesign 3 Loc { 105.77500m 63.47500m }
+}
+Part VIA { Name VIAQL75 SubDesign 1 Loc { 23.51m 62.58600m }
+}
+Part VIAmin { Name VIAGL22 SubDesign 1 Loc { 16.14400m 60.16300m }
+}
+Part VIAmin { Name VIABL7 SubDesign 1 Loc { 34.40m 54.10m }
+}
+Part VIAmin { Name VIAGLr05c01 SubDesign 1 Loc { 16m 48.50m }
+}
+Part PLCC-6 { Name Lr04c03 SubDesign 1 Loc { 31.20m 41m }
+}
+Part VIAmin { Name VIAQR19 SubDesign 3 Loc { 105.35m 63.05m }
+}
+Part VIAmin { Name VIAQM28 SubDesign 2 Loc { 69.77500m 56.25m }
+}
+Part 0603 { Name CX1 Loc { 5.75m 56.75m 180 }
+NameData { 0.50m 6.50m 57.50m -90 }
+}
+Part VIAmin { Name VIA154 Loc { 100.25m 16.50m }
+}
+Part VIAmin { Name VIAQL9 SubDesign 1 Loc { 33.10m 37.55m }
+}
+Part Ind { Name LGL SubDesign 1 Loc { 14.10m 63.10m 180 back }
+NameData { 1m 17.50m 66.75m 0 }
+ValueData { 0 10.60m 67.60m 180 }
+}
+Part VIAmin { Name VIA150 Loc { 100.75m 11m }
+}
+Part VIAmin { Name VIA151 Loc { 119.85m 36.15m }
+}
+Part 0402a { Name RFB1 Loc { 61.57500m 10.50m 90 }
+NameData { 0.50m 59.25m 10.25m 0 }
+ValueData { 50 61.32100m 11.38900m 90 }
+}
+Part "22AWG Hole" { Name JBNTC Loc { 35.75m 11.25m back }
+NameData { 0.50m 36.85m 11.90m 0 }
+}
+Part 0402a { Name RNTC Loc { 38.82500m 10.25m 90 }
+NameData { 0.50m 38m 10.75m 0 }
+ValueData { 50 38.57100m 11.13900m 90 }
+}
+Part VIA { Name VAGLr00c01 SubDesign 1 Loc { 20m 19m }
+}
+Part 0805 { Name CRMCC SubDesign 2 Loc { 62.23393m 65.67503m 90 }
+NameData { 0.50m 63.22693m 64.76303m 180 }
+ValueData { 0.50m 62.73393m 65.67503m 90 }
+}
+Part VIAmin { Name VIA176 Loc { 100.75m 12m }
+}
+Part VIA { Name VIAQL71 SubDesign 1 Loc { 12.46100m 61.69700m }
+}
+Part VIA { Name VIAQM111 SubDesign 2 Loc { 47.57200m 59.91900m }
+}
+Part VIAmin { Name VIAQL8 SubDesign 1 Loc { 36.65m 37.55m }
+}
+Part VIAmin { Name VIAQL95 SubDesign 1 Loc { 15.50900m 54.96600m }
+}
+Part 0603 { Name CGLSS SubDesign 1 Loc { 9.05m 52.80m -90 back }
+NameData { 0.50m 7.95m 52.05m 180 }
+ValueData { 0 9.30400m 53.68900m -90 }
+}
+Part VIAmin { Name VIAQL42 SubDesign 1 Loc { 40.57500m 58.80m }
+}
+Part VIAmin { Name VIAGR27 SubDesign 3 Loc { 89.62500m 61.35m }
+}
+Part 0603 { Name CCX Loc { 45.75m 9m 180 }
+NameData { 0.50m 46.50m 9.75m -90 }
+}
+Part VIA { Name VARLr01c00 SubDesign 1 Loc { 13.50m 23.50m }
+}
+Part 0805 { Name RRRISP SubDesign 3 Loc { 92.60m 65m back }
+NameData { 0.50m 93.55m 62.85m -90 }
+ValueData { 0.50m 92.60m 64.50m 0 }
+}
+Part VIA { Name VABLr01c02 SubDesign 1 Loc { 26.50m 25.50m }
+}
+Part VIAmin { Name VIAQM31 SubDesign 2 Loc { 69.35m 58.80m }
+}
+Part VIA { Name VIAQR114 SubDesign 3 Loc { 84.46100m 59.03m }
+}
+Part VIA { Name VIAQM109 SubDesign 2 Loc { 75.75m 66m }
+}
+Part VIA { Name VAGRr01c01 SubDesign 3 Loc { 84.50m 24.50m }
+}
+Part VIA { Name VIAQL83 SubDesign 1 Loc { 35.57500m 61.69700m }
+}
+Part 0603 { Name RBLFG SubDesign 1 Loc { 34.35m 52.55m }
+NameData { 0.50m 34.60m 49.25m 90 }
+ValueData { 0 35.23900m 52.80400m 0 }
+}
+Part VIAmin { Name VIABRr03c02 SubDesign 3 Loc { 94.50m 37.50m }
+}
+Part VIA { Name VABMr04c00 SubDesign 2 Loc { 52m 42m }
+}
+Part VIA { Name VARMr04c01 SubDesign 2 Loc { 58.50m 40m }
+}
+Part VIA { Name VARMr04c04 SubDesign 2 Loc { 78m 29m }
+}
+Part SO8 { Name MN1 Loc { 20.50m 6m -90 back }
+}
+Part SO8 { Name MRL SubDesign 1 Loc { 26.87m 51.50m back }
+}
+Part VIA { Name VARLr05c05 SubDesign 1 Loc { 45.50m 45.50m }
+}
+Part VIAmin { Name VIA22 Loc { 16.75m 2.75m }
+}
+Part VIAmin { Name VIARL2 SubDesign 1 Loc { 24.80m 54.10m }
+}
+Part VIAmin { Name VIABLr02c01 SubDesign 1 Loc { 17m 32m }
+}
+Part 0603 { Name RRLRT SubDesign 1 Loc { 21m 52.55m }
+NameData { 0.50m 21.25m 49.35m 90 }
+}
+Part VIAmin { Name VIAQR8 SubDesign 3 Loc { 108.15m 37.55m }
+}
+Part VIA { Name VAGRr03c04 SubDesign 3 Loc { 110.50m 35.50m }
+}
+Part "QFN 5x9" { Name UGR SubDesign 3 Loc { 85m 59.50m 180 }
+NameData { 1m 86.40m 54.40m 180 }
+}
+Part VIAmin { Name VIABRr04c02 SubDesign 3 Loc { 94.50m 43m }
+}
+Part VIAmin { Name VIAQR57 SubDesign 3 Loc { 93.35100m 62.33200m }
+}
+Part VIAmin { Name VIA109 Loc { 7.25m 12.25m }
+}
+Part VIA { Name VARMr03c01 SubDesign 2 Loc { 52m 34.50m }
+}
+Part VIA { Name VIAQM119 SubDesign 2 Loc { 59.51m 59.03m }
+}
+Part PLCC-6 { Name Lr03c05 SubDesign 2 Loc { 44.20m 35.50m }
+ValueData { 0 43.20m 37.50m 0 }
+}
+Part VIA { Name VIAQM118 SubDesign 2 Loc { 60.39900m 59.03m }
+}
+Part VIAmin { Name VIABMr00c03 SubDesign 2 Loc { 62m 21m }
+}
+Part 0805 { Name CGRIN SubDesign 3 Loc { 88.60m 52.60m 180 back }
+NameData { 0.50m 88.85m 51.05m 90 }
+ValueData { 0 88.60m 53.10m 180 }
+}
+Part VIA { Name VIAQL82 SubDesign 1 Loc { 38.24200m 62.58600m }
+}
+Part VIAmin { Name VIAGMr00c00 SubDesign 2 Loc { 41.77500m 20.97500m }
+}
+Part VIAmin { Name VIAGMr04c01 SubDesign 2 Loc { 54.62500m 43.02800m }
+}
+Part VIA { Name VIAQL122 SubDesign 1 Loc { 35.57500m 59.91900m }
+}
+Part 0603 { Name CRMG SubDesign 2 Loc { 61.65m 51.90m -90 }
+NameData { 0.50m 60.80m 50.70m 0 }
+}
+Part VIA { Name VIAQM120 SubDesign 2 Loc { 72.46400m 60.80800m }
+}
+Part VIA { Name VIAQL84 SubDesign 1 Loc { 35.57500m 60.80800m }
+}
+Part VIAmin { Name VIABMr02c04 SubDesign 2 Loc { 68.30m 32.02500m }
+}
+Part 0402a { Name RCS9 Loc { 97.92500m 10.50m 90 }
+NameData { 0.50m 97m 10.82500m 180 }
+}
+Part "14 AWG Hole" { Name JBP Loc { 28.75m 10.75m back }
+NameData { 0.50m 29.20m 11.80m 0 }
+}
+Part Ind { Name LBL SubDesign 1 Loc { 1500 63.10m 180 back }
+NameData { 1m 41.50m 66.75m 0 }
+ValueData { 0 34.60m 67.60m 180 }
+}
+Part VIAmin { Name VIA172 Loc { 21.10m 12.10m }
+}
+Part VIA { Name VIAQR82 SubDesign 3 Loc { 110.24200m 62.58600m }
+}
+Part VIA { Name VIAQM66 SubDesign 2 Loc { 47.57200m 61.69700m }
+}
+Part VIA { Name VIAQM72 SubDesign 2 Loc { 60.39900m 61.69700m }
+}
+Part VIA { Name VIAQL115 SubDesign 1 Loc { 24.39900m 60.80800m }
+}
+Part VIA { Name VIAQL124 SubDesign 1 Loc { 36.46400m 59.03m }
+}
+Part VIAmin { Name VIAQM99 SubDesign 2 Loc { 44.84600m 52.55300m }
+}
+Part 0603 { Name RBLRT SubDesign 1 Loc { 33.42800m 52.42600m -90 back }
+NameData { 0.50m 32.20m 51.80m 180 }
+ValueData { 0 33.68200m 53.31500m -90 }
+}
+Part VIAmin { Name VIA177 Loc { 108.50m 10.25m }
+}
+Part VIAmin { Name VIABMr02c00 SubDesign 2 Loc { 43.77400m 31.09m }
+}
+Part VIA { Name VIAQL123 SubDesign 1 Loc { 35.57500m 59.03m }
+}
+Part VIAmin { Name VIA81 Loc { 35.25m 5.25m }
+}
+Part Cap2917 { Name CBULK Loc { 29.30m 14m }
+ValueData { 0 28.05m 11.75m 0 }
+}
+Part VIAmin { Name VIA117 Loc { 69m 13.50m }
+}
+Part VIAmin { Name VIA75 Loc { 74.25m 51.50m }
+}
+Part VIAmin { Name VIA120 Loc { 69.50m 13.50m }
+}
+Part VIAmin { Name VIA62 Loc { 29.25m 7.50m }
+}
+Part VIAmin { Name VIA57 Loc { 37.75m 4.25m }
+}
+Part VIA { Name VARMr00c00 SubDesign 2 Loc { 45.50m 18m }
+}
+Part VIA { Name VABRr02c02 SubDesign 3 Loc { 97.50m 31m }
+}
+Part VIAmin { Name VIABM1 SubDesign 2 Loc { 72.99999m 53.10m }
+}
+Part VIA { Name VABLr03c00 SubDesign 1 Loc { 13.50m 36.50m }
+}
+Part VIAmin { Name VIA102 Loc { 9.25m 11.25m }
+}
+Part VIAmin { Name VIA105 Loc { 9m 11.75m }
+}
+Part VIAmin { Name VIA95 Loc { 7m 46.75m }
+}
+Part VIAmin { Name VIA115 Loc { 69m 14.50m }
+}
+Part VIAmin { Name VIA122 Loc { 114.75m 65m }
+}
+Part VIAmin { Name VIA84 Loc { 32.25m 6.25m }
+}
+Part VIAmin { Name VIABMr01c04 SubDesign 2 Loc { 68.50m 26.50m }
+}
+Part VIA { Name VIAQR108 SubDesign 3 Loc { 111.50m 65.25m }
+}
+Part VIA { Name VABRr05c02 SubDesign 3 Loc { 97.50m 47.50m }
+}
+Part VIA { Name VIAQR74 SubDesign 3 Loc { 95.51m 61.69700m }
+}
+Part VIAmin { Name VIA91 Loc { 13.25m 50.25m }
+}
+Part VIAmin { Name VIA86 Loc { 31.25m 6.25m }
+}
+Part VIAmin { Name VIA85 Loc { 31.25m 5.75m }
+}
+Part VIAmin { Name VIA77 Loc { 33.25m 5.25m }
+}
+Part VIAmin { Name VIA132 Loc { 60m 21.75m }
+}
+Part VIAmin { Name VIA108 Loc { 7.50m 11.75m }
+}
+Part VIAmin { Name VIAQM41 SubDesign 2 Loc { 76.15m 59.22500m }
+}
+Part VIA { Name VIAQM68 SubDesign 2 Loc { 48.46100m 62.58600m }
+}
+Part 0603 { Name RRMFG SubDesign 2 Loc { 58.40m 52.55m }
+NameData { 0.50m 58.65m 49.15m 90 }
+}
+Part VIA { Name VAGRr03c00 SubDesign 3 Loc { 84.50m 35.50m }
+}
+Part PLCC-6 { Name Lr05c09 SubDesign 2 Loc { 70.20m 46.50m }
+ValueData { 0 69.20m 48.50m 0 }
+}
+Part VIA { Name VABMr01c00 SubDesign 2 Loc { 45.50m 25.50m }
+}
+Part VIAmin { Name VIABMr02c01 SubDesign 2 Loc { 49m 32m }
+}
+Part VIAmin { Name VIAQM22 SubDesign 2 Loc { 68.07500m 59.22500m }
+}
+Part VIAmin { Name VIAQM12 SubDesign 2 Loc { 64.75m 38.40m }
+}
+Part VIAmin { Name VIAQR2 SubDesign 3 Loc { 110.27500m 44.35m }
+}
+Part VIAmin { Name VIAQM38 SubDesign 2 Loc { 76.57500m 60.50m }
+}
+Part VIA { Name VIA1 Loc { 99.50m 65.45m }
+}
+Part VIAmin { Name VIAGL14 SubDesign 1 Loc { 9.35m 63.22500m }
+}
+Part VIA { Name VIAQR83 SubDesign 3 Loc { 107.57500m 61.69700m }
+}
+Part PLCC-6 { Name Lr05c03 SubDesign 1 Loc { 31.20m 46.50m }
+}
+Part VIAmin { Name VIABR2 SubDesign 3 Loc { 108.71800m 54.20400m }
+}
+Part VIA { Name VIAQR71 SubDesign 3 Loc { 84.46100m 61.69700m }
+}
+Part VIAmin { Name VIA93 Loc { 12.50m 51m }
+}
+Part VIAmin { Name VIAQM18 SubDesign 2 Loc { 69.77500m 57.10m }
+}
+Part VIAmin { Name VIA87 Loc { 32.25m 5.25m }
+}
+Part VIA { Name VARMr01c03 SubDesign 2 Loc { 65m 23.50m }
+}
+Part PLCC-6 { Name Lr00c13 SubDesign 3 Loc { 96.20m 19m }
+ValueData { 0 95.20m 21m 0 }
+}
+Part VIA { Name VIAQR70 SubDesign 3 Loc { 86.11200m 62.58600m }
+}
+Part VIAmin { Name VIA92 Loc { 12.50m 50.25m }
+}
+Part VIAmin { Name VIA133 Loc { 59.75m 50.50m }
+}
+Part VIAmin { Name VIA58 Loc { 35.75m 6m }
+}
+Part VIAmin { Name VIAQR88 SubDesign 3 Loc { 84.71500m 64.74500m }
+}
+Part VIAmin { Name VIA88 Loc { 31.25m 5.25m }
+}
+Part VIAmin { Name VIA50 Loc { 38.25m 7.75m }
+}
+Part VIAmin { Name VIA53 Loc { 44.25m 2.50m }
+}
+Part VIAmin { Name VIA61 Loc { 28.75m 7.50m }
+}
+Part VIAmin { Name VIA90 Loc { 13.25m 51m }
+}
+Part VIAmin { Name VIA68 Loc { 26.50m 51m }
+}
+Part VIAmin { Name VIA56 Loc { 46m 4.75m }
+}
+Part VIAmin { Name VIAGM29 SubDesign 2 Loc { 54m 59.50m }
+}
+Part VIA { Name VIAQM79 SubDesign 2 Loc { 71.57500m 62.58600m }
+}
+Part 0603 { Name RRLSET SubDesign 1 Loc { 29m 52.55m }
+NameData { 0.50m 29.20m 48.90m 90 }
+}
+Part VIA { Name VABRr00c00 SubDesign 3 Loc { 77.90m 20m }
+}
+Part VIAmin { Name VIARM5 SubDesign 2 Loc { 56m 64.70m }
+}
+Part VIAmin { Name VIABRr02c02 SubDesign 3 Loc { 94.50m 32m }
+}
+Part VIAmin { Name VIAQR22 SubDesign 3 Loc { 104.07500m 59.22500m }
+}
+Part VIAmin { Name VIAGMr00c04 SubDesign 2 Loc { 67.50m 21m }
+}
+Part 0402a { Name RCS8 Loc { 97.92500m 12m 90 }
+NameData { 0.50m 97m 12.25m 180 }
+}
+Part PLCC-6 { Name Lr01c03 SubDesign 1 Loc { 31.20m 24.50m }
+}
+Part VIAmin { Name VIAGM21 SubDesign 2 Loc { 52.56900m 60.58800m }
+}
+Part BGA25-6.25x6.25 { Name U3 Loc { 63.29m 6.54m 180 }
+NameData { 0.50m 66.29m 3.04m 180 }
+}
+Part VIAmin { Name VIA113 Loc { 9.25m 12.25m }
+}
+Part 0402a { Name RCS10 Loc { 97.92500m 9.75m 90 }
+NameData { 0.50m 97m 10m 180 }
+}
+Part VIAmin { Name VIA175 Loc { 97.50m 12m }
+}
+Part VIAmin { Name VIA97 Loc { 7m 45.25m }
+}
+Part VIAmin { Name VIA73 Loc { 38.75m 51.25m }
+}
+Part VIAmin { Name VIA76 Loc { 85.75m 52m }
+}
+Part VIAmin { Name VIA125 Loc { 115.25m 65m }
+}
+Part VIA { Name VABLr00c01 SubDesign 1 Loc { 20m 20m }
+}
+Part VIAmin { Name VIABLr00c03 SubDesign 1 Loc { 29.50m 21m }
+}
+Part VIA { Name VIAQL50 SubDesign 1 Loc { 32.07500m 60.92500m }
+}
+Part VIAmin { Name VIAGL29 SubDesign 1 Loc { 18m 59.50m }
+}
+Part 0603 { Name RBLFF SubDesign 1 Loc { 35.59998m 52.55m 180 }
+NameData { 0.50m 35.80m 49.30m 90 }
+ValueData { 0 34.71098m 52.29600m 180 }
+}
+Part VIAmin { Name VIAQM86 SubDesign 2 Loc { 72.71800m 64.61800m }
+}
+Part 0603 { Name RGMFG SubDesign 2 Loc { 45.80001m 52.55m }
+NameData { 0.50m 46.05m 49.05m 90 }
+ValueData { 0 46.68901m 52.80400m 0 }
+}
+Part VIA { Name VABRr05c04 SubDesign 3 Loc { 110.50m 47.50m }
+}
+Part VIAmin { Name VIA64 Loc { 44.75m 9.75m }
+}
+Part VIAmin { Name VIAQL89 SubDesign 1 Loc { 15.25500m 55.60100m }
+}
+Part VIA { Name VARMr04c03 SubDesign 2 Loc { 71.50m 40m }
+}
+Part VIAmin { Name VIA89 Loc { 14m 51m }
+}
+Part VIAmin { Name VIA111 Loc { 8.25m 12.25m }
+}
+Part VIAmin { Name VIA134 Loc { 60.25m 49.75m }
+}
+Part VIAmin { Name VIA51 Loc { 38.25m 8.75m }
+}
+Part VIA { Name VARLr00c02 SubDesign 1 Loc { 26.50m 18m }
+}
+Part VIAmin { Name VIAGLr01c02 SubDesign 1 Loc { 22.40m 26.50m }
+}
+Part VIAmin { Name VIAQR46 SubDesign 3 Loc { 101.74200m 49.37800m }
+}
+Part 0603 { Name RBRTS SubDesign 3 Loc { 111.38500m 53.07300m }
+NameData { 0.50m 111.60m 49.75m 90 }
+ValueData { 0 112.27400m 53.32700m 0 }
+}
+Part VIA { Name VABMr00c00 SubDesign 2 Loc { 45.50m 20m }
+}
+Part VIAmin { Name VIAGM7 SubDesign 2 Loc { 46.42900m 54.07700m }
+}
+Part VIA { Name VIAQR52 SubDesign 3 Loc { 80.65100m 61.57m }
+}
+Part VIAmin { Name VIAGLr00c02 SubDesign 1 Loc { 22.40m 20.97500m }
+}
+Part VIAmin { Name VIAGM5 SubDesign 2 Loc { 43.61600m 64.71500m }
+}
+Part SO8 { Name MGM SubDesign 2 Loc { 50.87m 51.60m back }
+}
+Part Cap2917 { Name CBM SubDesign 2 Loc { 68.60m 57.75m 90 back }
+ValueData { 0 70.85m 59m 90 }
+}
+Part VIAmin { Name VIAQR18 SubDesign 3 Loc { 105.77500m 57.10m }
+}
+Part VIA { Name VABLr04c05 SubDesign 1 Loc { 45.50m 42m }
+}
+Part VIAmin { Name VIAQR99 SubDesign 3 Loc { 80.91400m 52.55300m }
+}
+Part VIAmin { Name VIA38 Loc { 25.50m 6.75m }
+}
+Part VIAmin { Name VIAQM92 SubDesign 2 Loc { 52.75m 66.25m }
+}
+Part VIA { Name VAGRr04c04 SubDesign 3 Loc { 110.50m 41m }
+}
+Part "LGA14 (5x3)" { Name UXL Loc { 108.65m 11.10m }
+}
+Part VIAmin { Name VIA40 Loc { 26.50m 6.75m }
+}
+Part VIAmin { Name VIA41 Loc { 27m 6.75m }
+}
+Part VIA { Name VIAQR61 SubDesign 3 Loc { 92.08100m 60.93500m }
+}
+Part VIAmin { Name VIA39 Loc { 26m 6.75m }
+}
+Part 0603 { Name RGLFF SubDesign 1 Loc { 11.20m 52.55m 180 }
+NameData { 0.50m 11.45m 49.30m 90 }
+ValueData { 0 10.31100m 52.29600m 180 }
+}
+Part VIAmin { Name VIAQR14 SubDesign 3 Loc { 108.15m 32.02500m }
+}
+Part VIA { Name VIAGR6 SubDesign 3 Loc { 85.80m 53.20m }
+}
+Part VIAmin { Name VIAQR32 SubDesign 3 Loc { 105.77500m 59.22500m }
+}
+Part VIAmin { Name VIA42 Loc { 23.50m 5m }
+}
+Part SO8 { Name MBM SubDesign 2 Loc { 74.87m 51.60m back }
+}
+Part 0603 { Name CSS86 Loc { 23.25m 9.25m 90 }
+NameData { 0.50m 24.50m 9.15m 0 }
+ValueData { 0.50m 23.75m 9.25m 90 }
+}
+Part VIAmin { Name VIA43 Loc { 23.50m 4.50m }
+}
+Part VIAmin { Name VIA44 Loc { 23.50m 4.10m }
+}
+Part VIAmin { Name VIA45 Loc { 23.50m 6.50m }
+}
+Part 0805 { Name CBOUT3 Loc { 25.30m 7.75m -90 }
+NameData { 0.50m 24.50m 8.65m 0 }
+}
+Part VIAmin { Name VIABMr04c05 SubDesign 2 Loc { 74.40m 43.92500m }
+}
+Part VIAmin { Name VIAGM11 SubDesign 2 Loc { 44.70m 57.95m 90 }
+}
+Part VIAmin { Name VIA46 Loc { 24.25m 10.50m }
+}
+Part VIAmin { Name VIAQL45 SubDesign 1 Loc { 41.42500m 59.65m }
+}
+Part VIAmin { Name VIAGL17 SubDesign 1 Loc { 16.77500m 62.20m }
+}
+Part VIAmin { Name VIAGLr00c00 SubDesign 1 Loc { 9.77500m 20.97500m }
+}
+Part 0805 { Name RIN Loc { 16.20m 2.75m 90 back }
+NameData { 50 14.99500m 1.88500m 180 }
+ValueData { 50 17.47m 2.75m 90 }
+}
+Part VIAmin { Name VIABRr02c01 SubDesign 3 Loc { 88m 32m }
+}
+Part PLCC-6 { Name Lr00c02 SubDesign 1 Loc { 25.20m 19m }
+}
+Part VIA { Name VABMr02c04 SubDesign 2 Loc { 71.50m 31m }
+}
+Part VIA { Name VIAQL113 SubDesign 1 Loc { 11.57200m 59.03m }
+}
+Part VIAmin { Name VIAGL21 SubDesign 1 Loc { 16.56900m 60.58800m }
+}
+Part VIA { Name VABLr04c04 SubDesign 1 Loc { 39m 42m }
+}
+Part VIAmin { Name VIAQR98 SubDesign 3 Loc { 82.55600m 55.47400m }
+}
+Part PLCC-6 { Name Lr04c08 SubDesign 2 Loc { 63.70m 41m }
+ValueData { 0 62.70m 43m 0 }
+}
+Part VIA { Name VAGLr02c03 SubDesign 1 Loc { 32.50m 30m }
+}
+Part VIAmin { Name VIA174 Loc { 97.50m 13.50m }
+}
+Part VIAmin { Name VIAGMr03c00 SubDesign 2 Loc { 43.77400m 35.53500m }
+}
+Part 0402a { Name RCS7 Loc { 97.92500m 11.25m 90 }
+NameData { 0.50m 97m 11.57500m 180 }
+}
+Part PLCC-6 { Name Lr01c08 SubDesign 2 Loc { 63.70m 24.50m }
+ValueData { 0 62.70m 26.50m 0 }
+}
+Part VIAmin { Name VIABL3 SubDesign 1 Loc { 35.90m 54.12500m }
+}
+Part "QFN 5x9" { Name UBR SubDesign 3 Loc { 109m 59.50m 180 }
+NameData { 1m 110.50m 54.50m 180 }
+}
+Part VIAmin { Name VIARL4 SubDesign 1 Loc { 20.80m 65.30m }
+}
+Part VIAmin { Name VIAQM20 SubDesign 2 Loc { 68.92500m 59.22500m }
+}
+Part 0402a { Name RCS3 Loc { 100.50m 15.17500m }
+NameData { 0.50m 100.75m 16m 90 }
+}
+Part 0402a { Name RCS4 Loc { 102.50m 15.17500m }
+NameData { 0.50m 102.75m 16m 90 }
+}
+Part VIAmin { Name VIAQL41 SubDesign 1 Loc { 40.15m 59.22500m }
+}
+Part VIAmin { Name VIA52 Loc { 37m 5m }
+}
+Part VIAmin { Name VIA65 Loc { 44m 9.75m }
+}
+Part VIAmin { Name VIA71 Loc { 49.75m 51m }
+}
+Part VIAmin { Name VIA48 Loc { 38.45m 5.25m }
+}
+Part VIA { Name VAGLr00c00 SubDesign 1 Loc { 13.50m 19m }
+}
+Part VIAmin { Name VIAQM90 SubDesign 2 Loc { 63.44700m 55.47400m }
+}
+Part 0805 { Name CBRIN SubDesign 3 Loc { 112.60m 52.60m 180 back }
+NameData { 0.50m 112.95m 51.05m 90 }
+ValueData { 0 112.60m 53.10m 180 }
+}
+Part VIAmin { Name VIAQM89 SubDesign 2 Loc { 51.25500m 55.60100m }
+}
+Part VIA { Name VIABM6 SubDesign 2 Loc { 73.80m 53.10m }
+}
+Part VIA { Name VIAQL69 SubDesign 1 Loc { 13.22300m 62.58600m }
+}
+Part VIA { Name VARMr03c03 SubDesign 2 Loc { 65m 34.50m }
+}
+Part VIA { Name VABMr00c03 SubDesign 2 Loc { 65m 20m }
+}
+Part VIAmin { Name VIAGM02 SubDesign 2 Loc { 45.55m 57.10m }
+}
+Part VIA { Name VABMr00c02 SubDesign 2 Loc { 58.50m 20m }
+}
+Part VIA { Name VABMr00c01 SubDesign 2 Loc { 52m 20m }
+}
+Part VIA { Name VAGRr04c03 SubDesign 3 Loc { 104m 41m }
+}
+Part VIA { Name VAGMr00c03 SubDesign 2 Loc { 65m 19m }
+}
 
 
 Signal Mode4622 
@@ -9672,8 +9672,8 @@ Signal [3]KRc05r05
 
 Layer 1 { Outer
 AnnularRing 20 VoidRing 20 SurroundWidth
-10 PathColor 16191 0 35830 Invisible
-PadColor 42573 34976 1831 
+10 PathColor 44980 0 920 Invisible
+PadColor 3623 24939 2907 
 }
 Layer 2 { Inner
 AnnularRing 20 VoidRing 20 SurroundWidth
@@ -9725,6 +9725,54 @@ AnnularRing 20 VoidRing 20 SurroundWidth
 }
 
 
+PadChange { 1 0 83.57200m 62.58600m 
+Pad { Circle 0.70m Spacing -5 Thermal Circle 75 Spacing 20 } P [3]VIAQR67-1 Surround 284
+}
+PadChange { 1 0 108.46400m 61.69700m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR85-1 Surround 256 }
+PadChange { 1 0 100.90m 51.80m 
+Pad { Rectangle 0.90m 0.60m Spacing -6 Thermal Circle 0.70m Spacing 10 } P [3]RRRSET-2 Surround 481
+}
+PadChange { 1 0 65m 51.80m 
+Pad { Rectangle 0.90m 0.60m Spacing -6 Thermal Circle 0.70m Spacing 10 } P [2]RRMSET-2 Surround 481
+}
+PadChange { 1 0 40.80m 51.80m 
+Pad { Rectangle 0.90m 0.60m Spacing -6 Thermal Circle 0.70m Spacing 10 } P [1]RBLSET-2 Surround 449
+}
+PadChange { 1 0 62.05m 62.58600m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM77-1 Surround 256 }
+PadChange { 1 0 87.15m 65.75m 
+Pad { Rectangle 0.70m 1.30m Spacing -6 Thermal Circle 45 Spacing 5 } P [3]CGRCC-2 Surround 375
+}
+PadChange { 1 0 23.51m 62.58600m 
+Pad { Circle 0.70m Spacing -5 Thermal Circle 75 Spacing 20 } P [1]VIAQL75-1 Surround 284
+}
+PadChange { 1 0 5.75m 57.50m 
+Pad { Rectangle 0.90m 0.60m Spacing -6 Thermal Circle 45 Spacing 5 } P CX1-2 Surround 477
+}
+PadChange { 1 0 100.75m 11m 
+Pad { Circle 18 Spacing -6 Thermal Circle 60 Spacing 0.25m } P VIA150-1 Surround 256
+}
+PadChange { 1 0 61.15m 10.50m 
+Pad { Rectangle 0.60m 0.55m Spacing -6 Thermal Circle 50 Spacing 0.25m } P RFB1-2 Surround 449
+}
+PadChange { 1 0 63.18393m 65.67503m 
+Pad { Rectangle 0.70m 1.30m Spacing -6 Thermal Circle 45 Spacing 5 } P [2]CRMCC-2 Surround 375
+}
+PadChange { 1 0 100.75m 12m 
+Pad { Circle 18 Spacing -6 Thermal Circle 60 Spacing 0.25m } P VIA176-1 Surround 368
+}
+PadChange { 1 0 12.46100m 61.69700m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL71-1 Surround 256 }
+PadChange { 1 0 47.57200m 59.91900m 
+Pad { Circle 0.70m Spacing -5 Thermal Circle 75 Spacing 20 } P [2]VIAQM111-1 Surround 284
+}
+PadChange { 1 0 83.57200m 59.91900m 
+Pad { Circle 0.70m Spacing -5 Thermal Circle 75 Spacing 20 } P [3]VIAQR111-1 Surround 284
+}
+PadChange { 1 0 64.04m 6.04m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 65 Spacing 8 } P VIA15-1 Surround 356
+}
 PadChange { 1 0 60.09400m 6.08800m 
 Pad { Circle 0.70m Spacing -6 Thermal Circle 70 Spacing 15 } P VIA17-1 Surround 385
 }
@@ -10842,53 +10890,55 @@ Pad { Rectangle 0.30m 0.60m Spacing -6 Thermal Circle 55 Spacing 0.30m } P U5-8 
 }
 PadChange { 1 0 109.35300m 62.58600m 
 Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR81-1 Surround 256 }
-PadChange { 1 0 83.57200m 62.58600m 
-Pad { Circle 0.70m Spacing -5 Thermal Circle 75 Spacing 20 } P [3]VIAQR67-1 Surround 284
+PadChange { 2 0 78m 41m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VAGMr04c05-1 Surround 511
 }
-PadChange { 1 0 108.46400m 61.69700m 
+PadChange { 2 0 45.50m 24.50m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VAGMr01c00-1 Surround 511
+}
+PadChange { 2 0 58.50m 24.50m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VAGMr01c02-1 Surround 511
+}
+PadChange { 2 0 32.07500m 61.77500m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL49-1 Surround 258 }
+PadChange { 2 0 83.57200m 62.58600m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR67-1 Surround 256 }
+PadChange { 2 0 108.46400m 61.69700m 
 Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR85-1 Surround 256 }
-PadChange { 1 0 100.90m 51.80m 
-Pad { Rectangle 0.90m 0.60m Spacing -6 Thermal Circle 0.70m Spacing 10 } P [3]RRRSET-2 Surround 481
+PadChange { 2 0 56.08100m 60.93500m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM61-1 Surround 256 }
+PadChange { 2 0 78m 36.50m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VABMr05c04-1 Surround 288
 }
-PadChange { 1 0 65m 51.80m 
-Pad { Rectangle 0.90m 0.60m Spacing -6 Thermal Circle 0.70m Spacing 10 } P [2]RRMSET-2 Surround 481
+PadChange { 2 0 20m 23.50m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [1]VARLr01c01-1 Surround 258
 }
-PadChange { 1 0 40.80m 51.80m 
-Pad { Rectangle 0.90m 0.60m Spacing -6 Thermal Circle 0.70m Spacing 10 } P [1]RBLSET-2 Surround 449
-}
-PadChange { 1 0 62.05m 62.58600m 
+PadChange { 2 0 62.05m 62.58600m 
 Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM77-1 Surround 256 }
-PadChange { 1 0 87.15m 65.75m 
-Pad { Rectangle 0.70m 1.30m Spacing -6 Thermal Circle 45 Spacing 5 } P [3]CGRCC-2 Surround 375
-}
-PadChange { 1 0 23.51m 62.58600m 
-Pad { Circle 0.70m Spacing -5 Thermal Circle 75 Spacing 20 } P [1]VIAQL75-1 Surround 284
-}
-PadChange { 1 0 5.75m 57.50m 
-Pad { Rectangle 0.90m 0.60m Spacing -6 Thermal Circle 45 Spacing 5 } P CX1-2 Surround 477
-}
-PadChange { 1 0 100.75m 11m 
-Pad { Circle 18 Spacing -6 Thermal Circle 60 Spacing 0.25m } P VIA150-1 Surround 256
-}
-PadChange { 1 0 61.15m 10.50m 
-Pad { Rectangle 0.60m 0.55m Spacing -6 Thermal Circle 50 Spacing 0.25m } P RFB1-2 Surround 449
-}
-PadChange { 1 0 63.18393m 65.67503m 
-Pad { Rectangle 0.70m 1.30m Spacing -6 Thermal Circle 45 Spacing 5 } P [2]CRMCC-2 Surround 375
-}
-PadChange { 1 0 100.75m 12m 
+PadChange { 2 0 23.51m 62.58600m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL75-1 Surround 256 }
+PadChange { 2 0 100.75m 11m 
+Pad { Circle 18 Thermal Circle 60 Spacing 0.25m } P VIA150-1 Surround 256 }
+PadChange { 2 0 100.75m 12m 
 Pad { Circle 18 Spacing -6 Thermal Circle 60 Spacing 0.25m } P VIA176-1 Surround 368
 }
-PadChange { 1 0 12.46100m 61.69700m 
+PadChange { 2 0 12.46100m 61.69700m 
 Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL71-1 Surround 256 }
-PadChange { 1 0 47.57200m 59.91900m 
-Pad { Circle 0.70m Spacing -5 Thermal Circle 75 Spacing 20 } P [2]VIAQM111-1 Surround 284
+PadChange { 2 0 47.57200m 59.91900m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM111-1 Surround 256 }
+PadChange { 2 0 65m 47.50m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VABMr05c02-1 Surround 288
 }
-PadChange { 1 0 83.57200m 59.91900m 
-Pad { Circle 0.70m Spacing -5 Thermal Circle 75 Spacing 20 } P [3]VIAQR111-1 Surround 284
+PadChange { 2 0 71.50m 47.50m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VABMr05c03-1 Surround 288
 }
-PadChange { 1 0 64.04m 6.04m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 65 Spacing 8 } P VIA15-1 Surround 356
+PadChange { 2 0 83.57200m 59.91900m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR111-1 Surround 256 }
+PadChange { 2 0 65m 42m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VABMr04c02-1 Surround 288
+}
+PadChange { 2 0 64.04m 6.04m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 70 Spacing 15 } P VIA15-1 Surround 368
 }
 PadChange { 2 0 60.09400m 6.08800m 
 Pad { Circle 0.70m Spacing -6 Thermal Circle 70 Spacing 15 } P VIA17-1 Surround 376
@@ -12217,56 +12267,28 @@ Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR81-1 Surround 256 }
 PadChange { 2 0 84.50m 36.50m 
 Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [3]VABRr03c00-1 Surround 288
 }
-PadChange { 2 0 78m 41m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VAGMr04c05-1 Surround 511
+PadChange { 3 0 83.57200m 62.58600m 
+Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [3]VIAQR67-1 Surround 256 }
+PadChange { 3 0 108.46400m 61.69700m 
+Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [3]VIAQR85-1 Surround 256 }
+PadChange { 3 0 62.05m 62.58600m 
+Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [2]VIAQM77-1 Surround 256 }
+PadChange { 3 0 23.51m 62.58600m 
+Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [1]VIAQL75-1 Surround 256 }
+PadChange { 3 0 100.75m 11m 
+Pad { Circle 18 Spacing -6 Thermal Circle 60 Spacing 0.25m } P VIA150-1 Surround 368
 }
-PadChange { 2 0 45.50m 24.50m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VAGMr01c00-1 Surround 511
-}
-PadChange { 2 0 58.50m 24.50m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VAGMr01c02-1 Surround 511
-}
-PadChange { 2 0 32.07500m 61.77500m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL49-1 Surround 258 }
-PadChange { 2 0 83.57200m 62.58600m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR67-1 Surround 256 }
-PadChange { 2 0 108.46400m 61.69700m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR85-1 Surround 256 }
-PadChange { 2 0 56.08100m 60.93500m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM61-1 Surround 256 }
-PadChange { 2 0 78m 36.50m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VABMr05c04-1 Surround 288
-}
-PadChange { 2 0 20m 23.50m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [1]VARLr01c01-1 Surround 258
-}
-PadChange { 2 0 62.05m 62.58600m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM77-1 Surround 256 }
-PadChange { 2 0 23.51m 62.58600m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL75-1 Surround 256 }
-PadChange { 2 0 100.75m 11m 
-Pad { Circle 18 Thermal Circle 60 Spacing 0.25m } P VIA150-1 Surround 256 }
-PadChange { 2 0 100.75m 12m 
+PadChange { 3 0 100.75m 12m 
 Pad { Circle 18 Spacing -6 Thermal Circle 60 Spacing 0.25m } P VIA176-1 Surround 368
 }
-PadChange { 2 0 12.46100m 61.69700m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL71-1 Surround 256 }
-PadChange { 2 0 47.57200m 59.91900m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM111-1 Surround 256 }
-PadChange { 2 0 65m 47.50m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VABMr05c02-1 Surround 288
-}
-PadChange { 2 0 71.50m 47.50m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VABMr05c03-1 Surround 288
-}
-PadChange { 2 0 83.57200m 59.91900m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR111-1 Surround 256 }
-PadChange { 2 0 65m 42m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VABMr04c02-1 Surround 288
-}
-PadChange { 2 0 64.04m 6.04m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 70 Spacing 15 } P VIA15-1 Surround 368
-}
+PadChange { 3 0 12.46100m 61.69700m 
+Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [1]VIAQL71-1 Surround 256 }
+PadChange { 3 0 47.57200m 59.91900m 
+Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [2]VIAQM111-1 Surround 256 }
+PadChange { 3 0 83.57200m 59.91900m 
+Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [3]VIAQR111-1 Surround 256 }
+PadChange { 3 0 64.04m 6.04m 
+Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P VIA15-1 Surround 256 }
 PadChange { 3 0 60.09400m 6.08800m 
 Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P VIA17-1 Surround 256 }
 PadChange { 3 0 108.46400m 60.80800m 
@@ -12691,33 +12713,66 @@ PadChange { 3 0 72.46400m 61.69700m
 Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [2]VIAQM85-1 Surround 256 }
 PadChange { 3 0 109.35300m 62.58600m 
 Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [3]VIAQR81-1 Surround 256 }
-PadChange { 3 0 83.57200m 62.58600m 
-Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [3]VIAQR67-1 Surround 256 }
-PadChange { 3 0 108.46400m 61.69700m 
-Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [3]VIAQR85-1 Surround 256 }
-PadChange { 3 0 62.05m 62.58600m 
-Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [2]VIAQM77-1 Surround 256 }
-PadChange { 3 0 23.51m 62.58600m 
-Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [1]VIAQL75-1 Surround 256 }
-PadChange { 3 0 100.75m 11m 
-Pad { Circle 18 Spacing -6 Thermal Circle 60 Spacing 0.25m } P VIA150-1 Surround 368
+PadChange { 4 0 39m 35.50m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [1]VAGLr03c04-1 Surround 290
 }
-PadChange { 3 0 100.75m 12m 
-Pad { Circle 18 Spacing -6 Thermal Circle 60 Spacing 0.25m } P VIA176-1 Surround 368
+PadChange { 4 0 45.50m 24.50m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VAGMr01c00-1 Surround 290
 }
-PadChange { 3 0 12.46100m 61.69700m 
-Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [1]VIAQL71-1 Surround 256 }
-PadChange { 3 0 47.57200m 59.91900m 
-Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [2]VIAQM111-1 Surround 256 }
-PadChange { 3 0 83.57200m 59.91900m 
-Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P [3]VIAQR111-1 Surround 256 }
-PadChange { 3 0 64.04m 6.04m 
-Pad { Circle 0.70m Thermal Circle 70 Spacing 15 } P VIA15-1 Surround 256 }
+PadChange { 4 0 58.50m 24.50m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VAGMr01c02-1 Surround 290
+}
+PadChange { 4 0 32.07500m 61.77500m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL49-1 Surround 256 }
+PadChange { 4 0 83.57200m 62.58600m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR67-1 Surround 256 }
+PadChange { 4 0 108.46400m 61.69700m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR85-1 Surround 256 }
+PadChange { 4 0 56.08100m 60.93500m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM61-1 Surround 256 }
+PadChange { 4 0 62.05m 62.58600m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM77-1 Surround 256 }
 PadChange { 4 0 18.50m 2.70m 
 Pad { Rectangle 1.30m 0.70m Spacing -6 Thermal Circle 50 Spacing 0.25m } P CBYPIN1-1 Surround 509
 }
 PadChange { 4 0 18.50m 0.80m 
 Pad { Rectangle 1.30m 0.70m Spacing -6 Thermal Circle 50 Spacing 0.25m } P CBYPIN1-2 Surround 509
+}
+PadChange { 4 0 23.51m 62.58600m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL75-1 Surround 256 }
+PadChange { 4 0 14.10m 60.10m 
+Pad { Rectangle 1.70m 2m Thermal Circle 60 Spacing 20 } P [1]LGL-1 Surround 511 }
+PadChange { 4 0 14.87m 57.18800m 
+Pad { Rectangle 25 80 Thermal Circle 60 Spacing 20 } P [1]MGL-8 Surround 511 }
+PadChange { 4 0 16.60m 57.10m 
+Pad { Rectangle 1.50m 2.40m Thermal Circle 60 Spacing 20 } P [1]DGL-C Surround 511
+}
+PadChange { 4 0 13.60m 57.18800m 
+Pad { Rectangle 25 80 Thermal Circle 60 Spacing 20 } P [1]MGL-7 Surround 511 }
+PadChange { 4 0 12.33m 57.18800m 
+Pad { Rectangle 25 80 Thermal Circle 60 Spacing 20 } P [1]MGL-6 Surround 511 }
+PadChange { 4 0 11.06m 57.18800m 
+Pad { Rectangle 25 80 Thermal Circle 60 Spacing 20 } P [1]MGL-5 Surround 511 }
+PadChange { 4 0 20m 19m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [1]VAGLr00c01-1 Surround 290
+}
+PadChange { 4 0 12.46100m 61.69700m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL71-1 Surround 256 }
+PadChange { 4 0 47.57200m 59.91900m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM111-1 Surround 256 }
+PadChange { 4 0 8.30m 52.80m 
+Pad { Rectangle 0.60m 0.90m Thermal Circle 60 Spacing 20 } P [1]CGLSS-2 Surround 256
+}
+PadChange { 4 0 83.57200m 59.91900m 
+Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR111-1 Surround 256 }
+PadChange { 4 0 19.85m 4.25m 
+Pad { Rectangle 0.70m 1.30m Spacing -6 Thermal Circle 50 Spacing 0.25m } P CBYPIN2-1 Surround 383
+}
+PadChange { 4 0 21.75m 4.25m 
+Pad { Rectangle 0.70m 1.30m Spacing -6 Thermal Circle 50 Spacing 0.25m } P CBYPIN2-2 Surround 383
+}
+PadChange { 4 0 64.04m 6.04m 
+Pad { Circle 0.70m Spacing -6 Thermal Circle 80 Spacing 13 } P VIA15-1 Surround 376
 }
 PadChange { 4 0 60.09400m 6.08800m 
 Pad { Circle 0.70m Spacing -6 Thermal Circle 70 Spacing 15 } P VIA17-1 Surround 256
@@ -14194,65 +14249,94 @@ Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR81-1 Surround 256 }
 PadChange { 4 0 104m 30m 
 Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [3]VAGRr02c03-1 Surround 290
 }
-PadChange { 4 0 39m 35.50m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [1]VAGLr03c04-1 Surround 290
-}
-PadChange { 4 0 45.50m 24.50m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VAGMr01c00-1 Surround 290
-}
-PadChange { 4 0 58.50m 24.50m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [2]VAGMr01c02-1 Surround 290
-}
-PadChange { 4 0 32.07500m 61.77500m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL49-1 Surround 256 }
-PadChange { 4 0 83.57200m 62.58600m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR67-1 Surround 256 }
-PadChange { 4 0 108.46400m 61.69700m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR85-1 Surround 256 }
-PadChange { 4 0 56.08100m 60.93500m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM61-1 Surround 256 }
-PadChange { 4 0 62.05m 62.58600m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM77-1 Surround 256 }
-PadChange { 4 0 23.51m 62.58600m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL75-1 Surround 256 }
-PadChange { 4 0 14.10m 60.10m 
-Pad { Rectangle 1.70m 2m Thermal Circle 60 Spacing 20 } P [1]LGL-1 Surround 511 }
-PadChange { 4 0 14.87m 57.18800m 
-Pad { Rectangle 25 80 Thermal Circle 60 Spacing 20 } P [1]MGL-8 Surround 511 }
-PadChange { 4 0 16.60m 57.10m 
-Pad { Rectangle 1.50m 2.40m Thermal Circle 60 Spacing 20 } P [1]DGL-C Surround 511
-}
-PadChange { 4 0 13.60m 57.18800m 
-Pad { Rectangle 25 80 Thermal Circle 60 Spacing 20 } P [1]MGL-7 Surround 511 }
-PadChange { 4 0 12.33m 57.18800m 
-Pad { Rectangle 25 80 Thermal Circle 60 Spacing 20 } P [1]MGL-6 Surround 511 }
-PadChange { 4 0 11.06m 57.18800m 
-Pad { Rectangle 25 80 Thermal Circle 60 Spacing 20 } P [1]MGL-5 Surround 511 }
-PadChange { 4 0 20m 19m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 75 Spacing 20 } P [1]VAGLr00c01-1 Surround 290
-}
-PadChange { 4 0 12.46100m 61.69700m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [1]VIAQL71-1 Surround 256 }
-PadChange { 4 0 47.57200m 59.91900m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [2]VIAQM111-1 Surround 256 }
-PadChange { 4 0 8.30m 52.80m 
-Pad { Rectangle 0.60m 0.90m Thermal Circle 60 Spacing 20 } P [1]CGLSS-2 Surround 256
-}
-PadChange { 4 0 83.57200m 59.91900m 
-Pad { Circle 0.70m Thermal Circle 75 Spacing 20 } P [3]VIAQR111-1 Surround 256 }
-PadChange { 4 0 19.85m 4.25m 
-Pad { Rectangle 0.70m 1.30m Spacing -6 Thermal Circle 50 Spacing 0.25m } P CBYPIN2-1 Surround 383
-}
-PadChange { 4 0 21.75m 4.25m 
-Pad { Rectangle 0.70m 1.30m Spacing -6 Thermal Circle 50 Spacing 0.25m } P CBYPIN2-2 Surround 383
-}
-PadChange { 4 0 64.04m 6.04m 
-Pad { Circle 0.70m Spacing -6 Thermal Circle 80 Spacing 13 } P VIA15-1 Surround 376
-}
 
 MaskPadChange { 1 36.25m 5.10m 
 Pad { Rectangle 1.30m 0.70m Spacing -6 } P RBATIS-1 }
 
+Path L 1 D 1 { P [1]VAGLr03c04-1 39m 35.50m W 0.70m S 5 P [1]Lr03c04-5 39.40m 35.50m
+}
+Path L 1 D 2 { P [2]VAGMr04c05-1 78m 41m W 0.70m S 5 P [2]Lr04c10-5 78.40m 41m }
+Path L 1 D 2 { P [2]VIAGM01-1 45.12500m 56.67500m W 5 S 5 45.72360m 56.68090m P [2]UGM-44 46.60m
+56.90m }
+Path L 1 D 1 { P [1]VIAGLr01c04-1 35m 26.50m W 5 S 5 35.00950m 25.07110m 35.12110m
+24.95950m P [1]Lr01c04-2 36m 24.50m }
+Path L 1 D 2 { P [2]VIAQM30-1 69.77500m 58.37500m W 5 S 5 P [2]UBM-40 70.60m 58.50m
+}
+Path L 1 D 2 { P [2]VAGMr01c00-1 45.50m 24.50m W 0.70m S 5 P [2]Lr01c05-5 45.90m
+24.50m }
+Path L 1 D 2 { P [2]VIAGM22-1 52.14400m 60.16300m W 5 S 5 P [2]UGM-11 51.40m 60.10m
+}
+Path L 1 D 3 { P [3]VIAGR31-1 90.05m 60.92500m W 5 S 5 90.67360m 60.41910m 90.91910m
+60.17360m 90.91910m 59.82640m 90.67310m 59.22118m 90.21410m 58.33030m 89.22470m
+57.34090m 87.82890m 56.60950m P [3]UGR-2 87.40m 56.50m }
+Path L 1 D 1 { P [1]VIABLr05c01-1 17m 48.50m W 5 S 5 P [1]Lr05c01-1 17m 47.50m }
+Path L 1 D 2 { P [2]VAGMr01c02-1 58.50m 24.50m W 0.70m S 5 P [2]Lr01c07-5 58.90m
+24.50m }
+Path L 1 D 3 { P [3]VIAGRr00c04-1 99.50m 21m W 5 S 5 100.00950m 19.57110m 100.12110m
+19.45950m P [3]Lr00c14-2 101m 19m }
+Path L 1 D 2 { P [2]Lr03c09-3 68.50m 34.50m W 5 S 5 67.62110m 34.95950m 67.50950m
+35.07110m 67.25550m 35.96588m 67.15990m 37.39340m 67.15990m 48.66260m 67.88920m
+50.37156m 67.93387m 50.50315m 67.93387m 52.39711m 67.92650m 54.62588m 66.22650m
+57.22588m 63.94050m 59.87890m 63.82890m 59.99050m P [2]URM-11 63.40m 60.10m
+}
+Path L 1 D 3 { P [3]VIAQR95-1 87.50900m 54.96600m W 5 S 5 P [3]UGR-56 86.80m 55.10m
+}
+Path L 1 D 3 { P [3]RRRSET-1 100.90m 53.30m W 5 S 5 100.49450m 53.78412m 100.23412m
+54.04450m 99.87460m 54.36910m P [3]URR-56 98.80m 55.10m }
+Path L 1 D 2 { P [2]RRMSET-1 65m 53.30m W 5 S 5 64.23412m 54.04450m 63.87460m 54.36910m
+P [2]URM-56 62.80m 55.10m }
+Path L 1 { P VIA20-1 62.59m 6.54m W 18 S 5 P U3-C4 62.02m 6.54m }
+Path L 1 D 2 { P [2]VIABMr04c04-1 75m 32m W 5 S 5 P [2]Lr02c10-1 75m 31m }
+Path L 1 D 1 { P [1]VIABL1-1 36.99999m 53.10m W 5 S 5 37.39110m 53.92518m P [1]UBL-53 37.60m
+55.10m }
+Path L 1 D 2 { P [2]VABMr05c04-1 78m 36.50m W 0.70m S 5 P [2]Lr03c10-6 78.40m 36.50m
+}
+Path L 1 D 1 { P [1]VARLr01c01-1 20m 23.50m W 0.70m S 5 P [1]Lr01c01-4 20.40m 23.50m
+}
+Path L 1 D 1 { P [1]VIABLr04c03-1 29.50m 43m W 5 S 5 P [1]Lr04c03-1 29.50m 42m }
+Path L 1 D 2 { P [2]VIABMr01c01-1 49m 26.50m W 5 S 5 P [2]Lr01c06-1 49m 25.50m }
+Path L 1 D 2 { P [2]VIAGMr00c03-1 61m 21m W 5 S 5 61.00950m 19.57110m 61.12110m
+19.45950m P [2]Lr00c08-2 62m 19m }
+Path L 1 D 1 { P [1]Lr05c01-3 17m 45.50m W 5 S 5 17.87890m 45.95950m 17.99050m
+46.07110m 18.07350m 54.62588m 19.73324m 57.21418m 22.05950m 59.87890m 22.17110m
+59.99050m P [1]URL-36 22.60m 60.10m }
+Path L 1 D 1 { P [1]Lr03c04-3 36m 34.50m W 5 S 5 36.87890m 34.95950m 36.99050m
+35.07110m 37.08m 37.22610m 37.24450m 40.46588m 37.49850m 45.86066m 37.49850m
+48.13934m 37.15210m 48.98404m 36.60904m 49.52710m 33.48606m 49.87467m 33.25134m
+50.03741m 32.50744m 50.78131m 32.38255m 50.99104m 32.18050m 54.73110m 30.48050m
+57.33110m 27.94050m 60.27890m 27.82890m 60.39050m P [1]URL-12 27.40m 60.50m
+}
+Path L 1 D 3 { P [3]VIAQR17-1 105.77500m 63.47500m W 5 S 5 106m 62.75m 106.15m
+62.55m P [3]UBR-30 106.60m 62.50m }
+Path L 1 D 1 { P [1]VIAGL22-1 16.14400m 60.16300m W 5 S 5 P [1]UGL-11 15.40m 60.10m
+}
+Path L 1 D 1 { P [1]VIABL7-1 34.40m 54.10m W 5 S 5 35.37890m 54.55950m 35.49050m
+54.67110m P [1]UBL-48 35.60m 55.10m }
+Path L 1 D 1 { P [1]VIAGLr05c01-1 16m 48.50m W 5 S 5 16.00950m 47.07110m 16.12110m
+46.95950m P [1]Lr05c01-2 17m 46.50m }
+Path L 1 D 3 { P [3]VIAQR19-1 105.35m 63.05m W 5 S 5 105.89600m 62.44478m 106.04478m
+62.29600m 106.17110m 62.20950m P [3]UBR-31 106.60m 62.10m }
+Path L 1 D 2 { P [2]VIAQM28-1 69.77500m 56.25m W 5 S 5 70.26385m 56.42373m P [2]UBM-45 70.60m
+56.50m }
+Path L 1 { P RFB1-1 62m 10.50m W 0.25m S 5 P U3-E4 62.02m 9.08m }
+Path L 1 { P JBNTC-1 35.75m 11.25m W 0.25m S 5 P RNTC-2 38.40m 10.25m 38.84562m
+9.54800m P U1-14 39.75m 9m }
+Path L 1 D 1 { P [1]VAGLr00c01-1 20m 19m W 0.70m S 5 P [1]Lr00c01-5 20.40m 19m }
+Path L 1 D 1 { P [1]VIAQL95-1 15.50900m 54.96600m W 5 S 5 P [1]UGL-56 14.80m 55.10m
+}
+Path L 1 D 1 { P [1]VIAQL42-1 40.57500m 58.80m W 5 S 5 39.97640m 58.80590m P [1]UBL-8 39.40m
+58.90m }
+Path L 1 D 2 { P [2]VABMr05c02-1 65m 47.50m W 0.70m S 5 P [2]Lr05c08-6 65.40m 47.50m
+}
+Path L 1 D 1 { P [1]VIAQL18-1 33.77500m 57.10m W 5 S 5 P [1]UBL-43 34.60m 57.30m
+}
+Path L 1 D 2 { P [2]VABMr05c03-1 71.50m 47.50m W 0.70m S 5 P [2]Lr05c09-6 71.90m
+47.50m }
+Path L 1 D 3 { P [3]VIAGRr01c03-1 93.50m 26.50m W 5 S 5 93.50950m 25.07110m 93.62110m
+24.95950m P [3]Lr01c13-2 94.50m 24.50m }
+Path L 1 D 3 { P [3]VIAGRr01c00-1 74.17500m 26.50m W 5 S 5 73.90949m 25.92890m
+73.90949m 25.07110m 74.02109m 24.95950m P [3]Lr01c10-2 74.89999m 24.50m }
+Path L 1 D 2 { P [2]VABMr04c02-1 65m 42m W 0.70m S 5 P [2]Lr04c08-6 65.40m 42m }
 Path L 1 D 3 { P [3]VIAQR25-1 104.50m 57.95m W 5 S 5 104.22118m 58.12690m 103.40190m
 58.94618m 103.40190m 59.50382m 103.79618m 59.89810m 104.43574m 60.40610m
 106.17110m 61.19050m P [3]UBR-33 106.60m 61.30m }
@@ -16393,90 +16477,6 @@ Path L 1 D 3 { P [3]VIAQR41-1 112.15m 59.22500m W 5 S 5 P [3]UBR-9 111.40m 59.30
 }
 Path L 1 D 3 { P [3]VAGRr02c03-1 104m 30m W 0.70m S 5 P [3]Lr02c14-5 104.40m 30m
 }
-Path L 1 D 1 { P [1]VAGLr03c04-1 39m 35.50m W 0.70m S 5 P [1]Lr03c04-5 39.40m 35.50m
-}
-Path L 1 D 2 { P [2]VAGMr04c05-1 78m 41m W 0.70m S 5 P [2]Lr04c10-5 78.40m 41m }
-Path L 1 D 2 { P [2]VIAGM01-1 45.12500m 56.67500m W 5 S 5 45.72360m 56.68090m P [2]UGM-44 46.60m
-56.90m }
-Path L 1 D 1 { P [1]VIAGLr01c04-1 35m 26.50m W 5 S 5 35.00950m 25.07110m 35.12110m
-24.95950m P [1]Lr01c04-2 36m 24.50m }
-Path L 1 D 2 { P [2]VIAQM30-1 69.77500m 58.37500m W 5 S 5 P [2]UBM-40 70.60m 58.50m
-}
-Path L 1 D 2 { P [2]VAGMr01c00-1 45.50m 24.50m W 0.70m S 5 P [2]Lr01c05-5 45.90m
-24.50m }
-Path L 1 D 2 { P [2]VIAGM22-1 52.14400m 60.16300m W 5 S 5 P [2]UGM-11 51.40m 60.10m
-}
-Path L 1 D 3 { P [3]VIAGR31-1 90.05m 60.92500m W 5 S 5 90.67360m 60.41910m 90.91910m
-60.17360m 90.91910m 59.82640m 90.67310m 59.22118m 90.21410m 58.33030m 89.22470m
-57.34090m 87.82890m 56.60950m P [3]UGR-2 87.40m 56.50m }
-Path L 1 D 1 { P [1]VIABLr05c01-1 17m 48.50m W 5 S 5 P [1]Lr05c01-1 17m 47.50m }
-Path L 1 D 2 { P [2]VAGMr01c02-1 58.50m 24.50m W 0.70m S 5 P [2]Lr01c07-5 58.90m
-24.50m }
-Path L 1 D 3 { P [3]VIAGRr00c04-1 99.50m 21m W 5 S 5 100.00950m 19.57110m 100.12110m
-19.45950m P [3]Lr00c14-2 101m 19m }
-Path L 1 D 2 { P [2]Lr03c09-3 68.50m 34.50m W 5 S 5 67.62110m 34.95950m 67.50950m
-35.07110m 67.25550m 35.96588m 67.15990m 37.39340m 67.15990m 48.66260m 67.88920m
-50.37156m 67.93387m 50.50315m 67.93387m 52.39711m 67.92650m 54.62588m 66.22650m
-57.22588m 63.94050m 59.87890m 63.82890m 59.99050m P [2]URM-11 63.40m 60.10m
-}
-Path L 1 D 3 { P [3]VIAQR95-1 87.50900m 54.96600m W 5 S 5 P [3]UGR-56 86.80m 55.10m
-}
-Path L 1 D 3 { P [3]RRRSET-1 100.90m 53.30m W 5 S 5 100.49450m 53.78412m 100.23412m
-54.04450m 99.87460m 54.36910m P [3]URR-56 98.80m 55.10m }
-Path L 1 D 2 { P [2]RRMSET-1 65m 53.30m W 5 S 5 64.23412m 54.04450m 63.87460m 54.36910m
-P [2]URM-56 62.80m 55.10m }
-Path L 1 { P VIA20-1 62.59m 6.54m W 18 S 5 P U3-C4 62.02m 6.54m }
-Path L 1 D 2 { P [2]VIABMr04c04-1 75m 32m W 5 S 5 P [2]Lr02c10-1 75m 31m }
-Path L 1 D 1 { P [1]VIABL1-1 36.99999m 53.10m W 5 S 5 37.39110m 53.92518m P [1]UBL-53 37.60m
-55.10m }
-Path L 1 D 2 { P [2]VABMr05c04-1 78m 36.50m W 0.70m S 5 P [2]Lr03c10-6 78.40m 36.50m
-}
-Path L 1 D 1 { P [1]VARLr01c01-1 20m 23.50m W 0.70m S 5 P [1]Lr01c01-4 20.40m 23.50m
-}
-Path L 1 D 1 { P [1]VIABLr04c03-1 29.50m 43m W 5 S 5 P [1]Lr04c03-1 29.50m 42m }
-Path L 1 D 2 { P [2]VIABMr01c01-1 49m 26.50m W 5 S 5 P [2]Lr01c06-1 49m 25.50m }
-Path L 1 D 2 { P [2]VIAGMr00c03-1 61m 21m W 5 S 5 61.00950m 19.57110m 61.12110m
-19.45950m P [2]Lr00c08-2 62m 19m }
-Path L 1 D 1 { P [1]Lr05c01-3 17m 45.50m W 5 S 5 17.87890m 45.95950m 17.99050m
-46.07110m 18.07350m 54.62588m 19.73324m 57.21418m 22.05950m 59.87890m 22.17110m
-59.99050m P [1]URL-36 22.60m 60.10m }
-Path L 1 D 1 { P [1]Lr03c04-3 36m 34.50m W 5 S 5 36.87890m 34.95950m 36.99050m
-35.07110m 37.08m 37.22610m 37.24450m 40.46588m 37.49850m 45.86066m 37.49850m
-48.13934m 37.15210m 48.98404m 36.60904m 49.52710m 33.48606m 49.87467m 33.25134m
-50.03741m 32.50744m 50.78131m 32.38255m 50.99104m 32.18050m 54.73110m 30.48050m
-57.33110m 27.94050m 60.27890m 27.82890m 60.39050m P [1]URL-12 27.40m 60.50m
-}
-Path L 1 D 3 { P [3]VIAQR17-1 105.77500m 63.47500m W 5 S 5 106m 62.75m 106.15m
-62.55m P [3]UBR-30 106.60m 62.50m }
-Path L 1 D 1 { P [1]VIAGL22-1 16.14400m 60.16300m W 5 S 5 P [1]UGL-11 15.40m 60.10m
-}
-Path L 1 D 1 { P [1]VIABL7-1 34.40m 54.10m W 5 S 5 35.37890m 54.55950m 35.49050m
-54.67110m P [1]UBL-48 35.60m 55.10m }
-Path L 1 D 1 { P [1]VIAGLr05c01-1 16m 48.50m W 5 S 5 16.00950m 47.07110m 16.12110m
-46.95950m P [1]Lr05c01-2 17m 46.50m }
-Path L 1 D 3 { P [3]VIAQR19-1 105.35m 63.05m W 5 S 5 105.89600m 62.44478m 106.04478m
-62.29600m 106.17110m 62.20950m P [3]UBR-31 106.60m 62.10m }
-Path L 1 D 2 { P [2]VIAQM28-1 69.77500m 56.25m W 5 S 5 70.26385m 56.42373m P [2]UBM-45 70.60m
-56.50m }
-Path L 1 { P RFB1-1 62m 10.50m W 0.25m S 5 P U3-E4 62.02m 9.08m }
-Path L 1 { P JBNTC-1 35.75m 11.25m W 0.25m S 5 P RNTC-2 38.40m 10.25m 38.84562m
-9.54800m P U1-14 39.75m 9m }
-Path L 1 D 1 { P [1]VAGLr00c01-1 20m 19m W 0.70m S 5 P [1]Lr00c01-5 20.40m 19m }
-Path L 1 D 1 { P [1]VIAQL95-1 15.50900m 54.96600m W 5 S 5 P [1]UGL-56 14.80m 55.10m
-}
-Path L 1 D 1 { P [1]VIAQL42-1 40.57500m 58.80m W 5 S 5 39.97640m 58.80590m P [1]UBL-8 39.40m
-58.90m }
-Path L 1 D 2 { P [2]VABMr05c02-1 65m 47.50m W 0.70m S 5 P [2]Lr05c08-6 65.40m 47.50m
-}
-Path L 1 D 1 { P [1]VIAQL18-1 33.77500m 57.10m W 5 S 5 P [1]UBL-43 34.60m 57.30m
-}
-Path L 1 D 2 { P [2]VABMr05c03-1 71.50m 47.50m W 0.70m S 5 P [2]Lr05c09-6 71.90m
-47.50m }
-Path L 1 D 3 { P [3]VIAGRr01c03-1 93.50m 26.50m W 5 S 5 93.50950m 25.07110m 93.62110m
-24.95950m P [3]Lr01c13-2 94.50m 24.50m }
-Path L 1 D 3 { P [3]VIAGRr01c00-1 74.17500m 26.50m W 5 S 5 73.90949m 25.92890m
-73.90949m 25.07110m 74.02109m 24.95950m P [3]Lr01c10-2 74.89999m 24.50m }
-Path L 1 D 2 { P [2]VABMr04c02-1 65m 42m W 0.70m S 5 P [2]Lr04c08-6 65.40m 42m }
 FloodPath L 1 D 3 { 25m 6m W 2 S 5 25m 3.75m 36m 3.75m 36m 7m 30.75m 7m 30.75m
 12m 27.75m 12m 27.75m 15.75m 24.75m 15.75m 24.75m 12.25m 25m 11.75m 25m
 0 11.25m 0 11.25m 15.75m 10.50m 16.75m 10.25m 48.25m 14.75m 48.25m 14.75m
@@ -16660,6 +16660,78 @@ FloodPath L 2 { 11.31800m 53.06100m W 2 S 5 18.50m 53m 18.43m 62.71300m 22.50m
 }
 FloodPath L 2 { 13.25m 12m W 2 S 5 10.75m 9.75m 21.75m 4m 30.25m 4m 30.25m 8.25m
 34.75m 10m 34.75m 12m 13.25m 12m }
+Path L 3 D 2 { P [2]VIAGM01-1 45.12500m 56.67500m W 5 S 5 45.13090m 56.07640m 46.00990m
+53.90340m 47.85850m 51.96765m 48.07250m 48.56565m P [2]VIAGMr04c00-1 48.27500m
+43.02800m }
+Path L 3 D 3 { P [3]VIAGR31-1 90.05m 60.92500m W 5 S 5 90.67360m 60.41910m 98.52911m
+53.89450m 98.99450m 53.42911m 99.91690m 52.50640m 100.16240m 52.26090m
+P [3]VIAGRr05c04-1 105.29800m 49.37800m }
+Path L 3 D 3 { P [3]VIAGRr00c04-1 99.50m 21m W 5 S 5 98.04050m 25.72389m 96.95950m
+28.77611m 95.93510m 49.09448m 95.09448m 49.93510m 92.69118m 51.75290m 92.29690m
+52.14718m 87.08990m 58.43552m 86.83590m 58.79474m 86.83590m 59.77326m 87.47090m
+60.44182m 87.86518m 60.83610m P [3]VIAGR20-1 88.14400m 61.01300m }
+Path L 3 D 2 { P [2]VIABMr04c04-1 75m 32m W 5 S 5 77.45950m 36.72389m 79.30250m
+39.46045m 79.30250m 48.03955m 78.07850m 49.28479m 77.69750m 50.04679m 77.07410m
+53.78248m 75.47690m 58.94618m 75.47690m 59.50382m 75.87118m 59.89810m P [2]VIAQM39-1 76.15m
+60.07500m }
+Path L 3 D 1 { P [1]VIAQL12-1 32.25m 38.40m W 5 S 5 36.37510m 42.85440m 36.37510m
+43.20160m 34.28190m 47.79508m 34.08910m 49.00004m 31.21890m 53.59142m 30.89890m
+55.65964m 30.43050m 60.59589m 30.43050m 62.10411m 30.89589m 62.56950m 32.75140m
+63.04410m P [1]VIAQL19-1 33.35m 63.05m }
+Path L 3 D 2 { P [2]VIABMr01c01-1 49m 26.50m W 5 S 5 52.22389m 26.04050m 52.54050m
+25.72389m 52.98090m 20.80140m 53.22640m 20.55590m 58.17089m 17.20550m 65.32911m
+17.20550m 69.09448m 19.56490m 72.24999m 21.68950m 73.31050m 22.75001m 73.75590m
+26.67360m 77.45950m 31.22389m 79.81050m 33.75001m 80.08090m 37.67360m 80.82650m
+38.82913m 80.82650m 48.67087m 79.60250m 49.91611m 79.22150m 50.67811m 77.84410m
+58.97360m P [2]VIAQM45-1 77.42500m 59.65m }
+Path L 3 D 2 { P [2]VIAGMr00c03-1 61m 21m W 5 S 5 57.95950m 28.77611m 55.91910m
+48.67360m 50.32790m 58.58430m 50.32790m 59.98370m 51.47090m 61.29182m 51.86518m
+61.68610m P [2]VIAGM18-1 52.14400m 61.86300m }
+Path L 3 D 3 { P [3]VIAQR17-1 105.77500m 63.47500m W 5 S 5 105.17640m 63.46910m
+102.79067m 62.82350m 102.17650m 62.20933m 102.04890m 58.96536m 102.04890m
+56.93464m 102.71090m 53.38098m 103.18690m 52.76898m 105.71710m 49.55160m
+105.76790m 48.04330m 105.97110m 43.96360m 105.97110m 43.61640m 104.54050m
+39.77611m P [3]VIAQR12-1 103.75m 38.40m }
+Path L 3 D 1 { P [1]VIAGL22-1 16.14400m 60.16300m W 5 S 5 15.73818m 59.95710m 15.34390m
+59.56282m 15.34390m 59.00518m 15.59790m 58.64596m 20.55090m 52.25240m 20.79640m
+52.00690m 24.51536m 50.95110m 25.95110m 49.51536m 27.29450m 47.82911m P [1]VIAGLr04c03-1 28.50m
+43m }
+Path L 3 D 1 { P [1]VIAGLr05c01-1 16m 48.50m W 5 S 5 14.41910m 51.17360m 14.17360m
+51.41910m 12.61596m 52.17290m 11.47290m 53.31596m 10.84810m 54.25060m 10.60260m
+54.49610m 10.38240m 54.54690m 10.13690m 54.79240m P [1]VIAGL00-1 9.55m 56.25m
+}
+Path L 3 D 3 { P [3]VIAQR19-1 105.35m 63.05m W 5 S 5 104.75140m 63.04410m 102.89589m
+62.56950m 102.43050m 62.10411m 102.30290m 58.86014m 102.30290m 57.03986m
+102.96490m 53.48620m 103.44090m 52.87420m 105.97110m 49.65682m 106.02190m
+48.14852m 106.22510m 44.06882m 106.22510m 43.51118m P [3]VIAQR11-1 104.60m
+38.40m }
+Path L 3 D 2 { P [2]VIAQM28-1 69.77500m 56.25m W 5 S 5 69.50490m 55.64760m 69.50490m
+54.53840m 69.98090m 53.92640m 74.22310m 48.87882m 74.32690m 48.22118m 75.83510m
+44.51948m 75.83510m 43.33052m 73.05650m 39.35523m 72.14477m 38.44350m 70.85523m
+38.44350m P [2]VIAQM7-1 69.23m 38.45600m }
+Path L 3 D 1 { P [1]VIAQL9-1 33.10m 37.55m W 5 S 5 33.51910m 38.22640m 33.53090m
+38.57360m 36.88310m 42.64396m 36.88310m 43.41204m 34.78990m 48.00552m 34.59710m
+49.21048m 31.72690m 53.80186m 31.40690m 55.87008m 31.31890m 57.46074m 31.31890m
+58.43926m 31.65590m 59.39860m 31.90140m 59.64410m 32.24860m 59.64410m P [1]VIAQL20-1 32.92500m
+59.22500m }
+Path L 3 D 1 { P [1]VIAQL8-1 36.65m 37.55m W 5 S 5 37.06910m 38.22640m 38.15310m
+42.11786m 38.15310m 43.93814m 37.69750m 44.96045m 36.64410m 48.77360m 36.12110m
+49.84180m 33.25090m 54.43318m 32.93090m 56.50140m 32.93090m 56.84860m 33.34410m
+57.35140m P [1]VIAQL29-1 33.35m 57.95m }
+Path L 3 D 1 { P [1]VIAQL42-1 40.57500m 58.80m W 5 S 5 42.47110m 50.22648m 42.95110m
+45.51536m 42.95110m 42.48464m 41.76590m 37.25582m 41.06450m 33.64479m 39.85521m
+32.43550m 38.77611m 31.54050m 38.45950m 31.22389m 36.67310m 20.72118m 1428.3
+20.32690m 34.72118m 20.32690m 32.82911m 20.79450m P [1]VIABLr00c03-1 29.50m
+21m }
+Path L 3 D 1 { P [1]VIAQL18-1 33.77500m 57.10m W 5 S 5 35.35910m 55.37182m 35.35910m
+54.81418m 35.22690m 54.40382m 35.22690m 53.84618m 37.40610m 49.08926m 38.45950m
+45.27611m 39.19410m 44.52360m 39.20590m 44.17640m P [1]VIAQL1-1 39.62500m
+43.50m }
+Path L 3 D 3 { P [3]VIAGRr01c00-1 74.17500m 26.50m W 5 S 5 78.22389m 28.45950m
+78.54050m 28.77611m 80.06450m 33.64479m 82.91910m 42.82640m 82.91910m 43.17360m
+82.85710m 49.29760m 82.58850m 51.44155m 80.73990m 53.37730m 79.94390m 56.18574m
+79.85590m 57.35140m 79.85590m 57.69860m P [3]VIAGR10-1 80.27500m 58.37500m
+}
 Path L 3 D 3 { P [3]VIAQR25-1 104.50m 57.95m W 5 S 5 104.50590m 57.35140m 104.99690m
 54.32796m 105.47290m 53.71596m 108.00310m 50.49858m 108.38410m 49.12704m
 108.38410m 48.35896m 108.25710m 42.38996m P [3]VIAQR7-1 108.15m 38.40m }
@@ -17391,84 +17463,34 @@ Path L 3 D 3 { P [3]VIAGR23-1 88.56900m 59.73800m W 5 S 5 87.84340m 59.70310m 87
 Path L 3 D 1 { P [1]VIAGLr04c02-1 22.50m 43m W 5 S 5 22.91910m 48.32640m 22.91910m
 48.67360m 22.67360m 48.91910m 19.84942m 49.72090m 15.12496m 54.03890m 9.72360m
 59.21910m P [1]VIAGL07-1 9.12500m 59.22500m }
-Path L 3 D 2 { P [2]VIAGM01-1 45.12500m 56.67500m W 5 S 5 45.13090m 56.07640m 46.00990m
-53.90340m 47.85850m 51.96765m 48.07250m 48.56565m P [2]VIAGMr04c00-1 48.27500m
-43.02800m }
-Path L 3 D 3 { P [3]VIAGR31-1 90.05m 60.92500m W 5 S 5 90.67360m 60.41910m 98.52911m
-53.89450m 98.99450m 53.42911m 99.91690m 52.50640m 100.16240m 52.26090m
-P [3]VIAGRr05c04-1 105.29800m 49.37800m }
-Path L 3 D 3 { P [3]VIAGRr00c04-1 99.50m 21m W 5 S 5 98.04050m 25.72389m 96.95950m
-28.77611m 95.93510m 49.09448m 95.09448m 49.93510m 92.69118m 51.75290m 92.29690m
-52.14718m 87.08990m 58.43552m 86.83590m 58.79474m 86.83590m 59.77326m 87.47090m
-60.44182m 87.86518m 60.83610m P [3]VIAGR20-1 88.14400m 61.01300m }
-Path L 3 D 2 { P [2]VIABMr04c04-1 75m 32m W 5 S 5 77.45950m 36.72389m 79.30250m
-39.46045m 79.30250m 48.03955m 78.07850m 49.28479m 77.69750m 50.04679m 77.07410m
-53.78248m 75.47690m 58.94618m 75.47690m 59.50382m 75.87118m 59.89810m P [2]VIAQM39-1 76.15m
-60.07500m }
-Path L 3 D 1 { P [1]VIAQL12-1 32.25m 38.40m W 5 S 5 36.37510m 42.85440m 36.37510m
-43.20160m 34.28190m 47.79508m 34.08910m 49.00004m 31.21890m 53.59142m 30.89890m
-55.65964m 30.43050m 60.59589m 30.43050m 62.10411m 30.89589m 62.56950m 32.75140m
-63.04410m P [1]VIAQL19-1 33.35m 63.05m }
-Path L 3 D 2 { P [2]VIABMr01c01-1 49m 26.50m W 5 S 5 52.22389m 26.04050m 52.54050m
-25.72389m 52.98090m 20.80140m 53.22640m 20.55590m 58.17089m 17.20550m 65.32911m
-17.20550m 69.09448m 19.56490m 72.24999m 21.68950m 73.31050m 22.75001m 73.75590m
-26.67360m 77.45950m 31.22389m 79.81050m 33.75001m 80.08090m 37.67360m 80.82650m
-38.82913m 80.82650m 48.67087m 79.60250m 49.91611m 79.22150m 50.67811m 77.84410m
-58.97360m P [2]VIAQM45-1 77.42500m 59.65m }
-Path L 3 D 2 { P [2]VIAGMr00c03-1 61m 21m W 5 S 5 57.95950m 28.77611m 55.91910m
-48.67360m 50.32790m 58.58430m 50.32790m 59.98370m 51.47090m 61.29182m 51.86518m
-61.68610m P [2]VIAGM18-1 52.14400m 61.86300m }
-Path L 3 D 3 { P [3]VIAQR17-1 105.77500m 63.47500m W 5 S 5 105.17640m 63.46910m
-102.79067m 62.82350m 102.17650m 62.20933m 102.04890m 58.96536m 102.04890m
-56.93464m 102.71090m 53.38098m 103.18690m 52.76898m 105.71710m 49.55160m
-105.76790m 48.04330m 105.97110m 43.96360m 105.97110m 43.61640m 104.54050m
-39.77611m P [3]VIAQR12-1 103.75m 38.40m }
-Path L 3 D 1 { P [1]VIAGL22-1 16.14400m 60.16300m W 5 S 5 15.73818m 59.95710m 15.34390m
-59.56282m 15.34390m 59.00518m 15.59790m 58.64596m 20.55090m 52.25240m 20.79640m
-52.00690m 24.51536m 50.95110m 25.95110m 49.51536m 27.29450m 47.82911m P [1]VIAGLr04c03-1 28.50m
-43m }
-Path L 3 D 1 { P [1]VIAGLr05c01-1 16m 48.50m W 5 S 5 14.41910m 51.17360m 14.17360m
-51.41910m 12.61596m 52.17290m 11.47290m 53.31596m 10.84810m 54.25060m 10.60260m
-54.49610m 10.38240m 54.54690m 10.13690m 54.79240m P [1]VIAGL00-1 9.55m 56.25m
-}
-Path L 3 D 3 { P [3]VIAQR19-1 105.35m 63.05m W 5 S 5 104.75140m 63.04410m 102.89589m
-62.56950m 102.43050m 62.10411m 102.30290m 58.86014m 102.30290m 57.03986m
-102.96490m 53.48620m 103.44090m 52.87420m 105.97110m 49.65682m 106.02190m
-48.14852m 106.22510m 44.06882m 106.22510m 43.51118m P [3]VIAQR11-1 104.60m
-38.40m }
-Path L 3 D 2 { P [2]VIAQM28-1 69.77500m 56.25m W 5 S 5 69.50490m 55.64760m 69.50490m
-54.53840m 69.98090m 53.92640m 74.22310m 48.87882m 74.32690m 48.22118m 75.83510m
-44.51948m 75.83510m 43.33052m 73.05650m 39.35523m 72.14477m 38.44350m 70.85523m
-38.44350m P [2]VIAQM7-1 69.23m 38.45600m }
-Path L 3 D 1 { P [1]VIAQL9-1 33.10m 37.55m W 5 S 5 33.51910m 38.22640m 33.53090m
-38.57360m 36.88310m 42.64396m 36.88310m 43.41204m 34.78990m 48.00552m 34.59710m
-49.21048m 31.72690m 53.80186m 31.40690m 55.87008m 31.31890m 57.46074m 31.31890m
-58.43926m 31.65590m 59.39860m 31.90140m 59.64410m 32.24860m 59.64410m P [1]VIAQL20-1 32.92500m
-59.22500m }
-Path L 3 D 1 { P [1]VIAQL8-1 36.65m 37.55m W 5 S 5 37.06910m 38.22640m 38.15310m
-42.11786m 38.15310m 43.93814m 37.69750m 44.96045m 36.64410m 48.77360m 36.12110m
-49.84180m 33.25090m 54.43318m 32.93090m 56.50140m 32.93090m 56.84860m 33.34410m
-57.35140m P [1]VIAQL29-1 33.35m 57.95m }
-Path L 3 D 1 { P [1]VIAQL42-1 40.57500m 58.80m W 5 S 5 42.47110m 50.22648m 42.95110m
-45.51536m 42.95110m 42.48464m 41.76590m 37.25582m 41.06450m 33.64479m 39.85521m
-32.43550m 38.77611m 31.54050m 38.45950m 31.22389m 36.67310m 20.72118m 1428.3
-20.32690m 34.72118m 20.32690m 32.82911m 20.79450m P [1]VIABLr00c03-1 29.50m
-21m }
-Path L 3 D 1 { P [1]VIAQL18-1 33.77500m 57.10m W 5 S 5 35.35910m 55.37182m 35.35910m
-54.81418m 35.22690m 54.40382m 35.22690m 53.84618m 37.40610m 49.08926m 38.45950m
-45.27611m 39.19410m 44.52360m 39.20590m 44.17640m P [1]VIAQL1-1 39.62500m
-43.50m }
-Path L 3 D 3 { P [3]VIAGRr01c00-1 74.17500m 26.50m W 5 S 5 78.22389m 28.45950m
-78.54050m 28.77611m 80.06450m 33.64479m 82.91910m 42.82640m 82.91910m 43.17360m
-82.85710m 49.29760m 82.58850m 51.44155m 80.73990m 53.37730m 79.94390m 56.18574m
-79.85590m 57.35140m 79.85590m 57.69860m P [3]VIAGR10-1 80.27500m 58.37500m
-}
 FloodPath L 3 { 113.50m 66.75m W 5 S 5 113.75m 68m 121.50m 68m 121.50m 0 0 0
 0 68m 113.75m 68m 113.50m 66.75m W 2 112.50m 16.75m W 5 67.25m 16.75m 67.25m
 12.50m 116.50m 12.75m W 2 116.50m 66.75m 113.50m 66.75m }
 FloodPath L 3 { 112.75m 16.50m W 2 S 5 67.50m 16.50m 67.50m 12.75m 76.50m 12.75m
 77m 13m 77.75m 13m 78.25m 12.75m 116m 13m 116m 66.50m 113.75m 66.50m 112.75m
 16.50m }
+Path L 4 D 1 { P [1]VIABLr05c01-1 17m 48.50m W 5 S 5 19.45950m 45.27611m 19.77611m
+44.95950m 26.17089m 44.70550m P [1]VIAQL2-1 38.77500m 44.35m }
+Path L 4 D 3 { P [3]VIAQR95-1 87.50900m 54.96600m W 5 S 5 87.60m 55.30m 87.80m
+55.55m 89.42890m 55.70950m P [3]RGRSET-1 90.30300m 55.95800m }
+Path L 4 { P VIA20-1 62.59m 6.54m W 18 S 5 P RFREQ-1 63.04m 6.54m }
+Path L 4 D 1 { P [1]VIAQL12-1 32.25m 38.40m W 5 S 5 29.88404m 38.42710m 28.11596m
+38.42710m 15.82640m 37.91910m P [1]VIABLr03c00-1 11.05m 37.55m }
+Path L 4 D 1 { P [1]VIABLr04c03-1 29.50m 43m W 5 S 5 32.82911m 42.79450m 33.29450m
+42.32911m 36.21910m 38.57360m 36.23090m 38.22640m P [1]VIAQL8-1 36.65m 37.55m
+}
+Path L 4 D 1 { P [1]VIABL7-1 34.40m 54.10m W 5 S 5 34.20m 53.25m 32.29910m 53.06650m
+P [1]CBLSS-1 31.61400m 52.68m }
+Path L 4 D 1 { P [1]VIAQL9-1 33.10m 37.55m W 5 S 5 32.63404m 37.47290m 31.86596m
+37.47290m P [1]VIABLr03c03-1 29.50m 37.50m }
+Path L 4 D 1 { P [1]LGL-1 14.10m 60.10m W 1.50m S 5 14.23900m 57.25200m { P [1]MGL-7 13.60m
+57.18800m W 2m P [1]MGL-6 12.33m 57.18800m W 0.80m P [1]MGL-5 11.06m 57.18800m
+}
+W 2m P [1]MGL-8 14.87m 57.18800m W 1.50m P [1]DGL-C 16.60m 57.10m }
+Path L 4 D 1 { P [1]LGL-2 14.10m 66.10m W 1m S 5 P [1]RGLISP-1 8.01600m 65.71500m
+W 18 P [1]VIAGL4-1 8.41600m 65.31500m }
+Path L 4 D 1 { P [1]VIAQL95-1 15.50900m 54.96600m W 5 S 5 15.65m 55.35m 15.95m
+55.60m 17.42890m 55.70950m P [1]RGLSET-1 18.30300m 55.95800m }
 Path L 4 D 1 { P [1]VIABLr02c01-1 17m 32m W 5 S 5 22.32640m 32.41910m 34.12360m
 32.45590m P [1]VIAQL15-1 35.80m 32.87500m }
 Path L 4 D 3 { P [3]VIAQR8-1 108.15m 37.55m W 5 S 5 107.73090m 38.22640m 107.71910m
@@ -17764,28 +17786,6 @@ Path L 4 D 2 { P [2]VIAQM95-1 51.50900m 54.96600m W 5 S 5 51.60m 55.30m 51.85m
 Path L 4 D 2 { P [2]VIABM7-1 70.40m 54.10m W 5 S 5 70.30m 53.25m 68.29910m 53.06650m
 P [2]CBMSS-1 67.61400m 52.68m }
 Path L 4 D 1 { P [1]VIABL5-1 32.20m 64.70m W 18 S 5 P [1]RBLISP-2 32.60m 64.15m }
-Path L 4 D 1 { P [1]VIABLr05c01-1 17m 48.50m W 5 S 5 19.45950m 45.27611m 19.77611m
-44.95950m 26.17089m 44.70550m P [1]VIAQL2-1 38.77500m 44.35m }
-Path L 4 D 3 { P [3]VIAQR95-1 87.50900m 54.96600m W 5 S 5 87.60m 55.30m 87.80m
-55.55m 89.42890m 55.70950m P [3]RGRSET-1 90.30300m 55.95800m }
-Path L 4 { P VIA20-1 62.59m 6.54m W 18 S 5 P RFREQ-1 63.04m 6.54m }
-Path L 4 D 1 { P [1]VIAQL12-1 32.25m 38.40m W 5 S 5 29.88404m 38.42710m 28.11596m
-38.42710m 15.82640m 37.91910m P [1]VIABLr03c00-1 11.05m 37.55m }
-Path L 4 D 1 { P [1]VIABLr04c03-1 29.50m 43m W 5 S 5 32.82911m 42.79450m 33.29450m
-42.32911m 36.21910m 38.57360m 36.23090m 38.22640m P [1]VIAQL8-1 36.65m 37.55m
-}
-Path L 4 D 1 { P [1]VIABL7-1 34.40m 54.10m W 5 S 5 34.20m 53.25m 32.29910m 53.06650m
-P [1]CBLSS-1 31.61400m 52.68m }
-Path L 4 D 1 { P [1]VIAQL9-1 33.10m 37.55m W 5 S 5 32.63404m 37.47290m 31.86596m
-37.47290m P [1]VIABLr03c03-1 29.50m 37.50m }
-Path L 4 D 1 { P [1]LGL-1 14.10m 60.10m W 1.50m S 5 14.23900m 57.25200m { P [1]MGL-7 13.60m
-57.18800m W 2m P [1]MGL-6 12.33m 57.18800m W 0.80m P [1]MGL-5 11.06m 57.18800m
-}
-W 2m P [1]MGL-8 14.87m 57.18800m W 1.50m P [1]DGL-C 16.60m 57.10m }
-Path L 4 D 1 { P [1]LGL-2 14.10m 66.10m W 1m S 5 P [1]RGLISP-1 8.01600m 65.71500m
-W 18 P [1]VIAGL4-1 8.41600m 65.31500m }
-Path L 4 D 1 { P [1]VIAQL95-1 15.50900m 54.96600m W 5 S 5 15.65m 55.35m 15.95m
-55.60m 17.42890m 55.70950m P [1]RGLSET-1 18.30300m 55.95800m }
 FloodPath L 4 D 1 { 46.50m 47.50m W 2 S 5 46.50m 45.50m 40m 40m 40m 17.50m 7m
 17.50m 7m 51m 10.68300m 51.02900m 11.75m 49.75m 22.36700m 49.25100m 24.65300m
 48.48900m 36.50m 48.50m 43m 48.50m 43m 47.50m 46.50m 47.50m }
@@ -17878,6 +17878,73 @@ Path A 1 { 60.75m 0 W 5 S 5 2m 0 1.60982m 0.03843m 1.23464m 0.15225m 0.88886m
 1.23464m 121.16294m 0.88886m 120.91422m 0.58579m 120.61115m 0.33707m 120.26537m
 0.15225m 119.89019m 0.03843m 119.50m 0 60.75m 0 }
 
+Tie 1 { 6 0 45.55m 57.10m 0 45.72360m 56.68090m }
+Tie 1 { 4 0 36m 25.50m 0 35.00950m 25.07110m }
+Tie 1 { 5 0 36m 25.50m 0 35.12110m 24.95950m }
+Tie 1 { 1 0 90.50m 60m 0 90.67360m 60.41910m }
+Tie 1 { 0 0 90.50m 60m 0 90.91910m 60.17360m }
+Tie 1 { 7 0 90.50m 60m 0 90.91910m 59.82640m }
+Tie 1 { 7 0 90.41910m 59.32640m 0 90.67310m 59.22118m }
+Tie 1 { 7 0 89.96010m 58.43552m 0 90.21410m 58.33030m }
+Tie 1 { 6 0 89.11948m 57.59490m 0 89.22470m 57.34090m }
+Tie 1 { 6 0 87.40m 56.90m 0 87.82890m 56.60950m }
+Tie 1 { 4 0 101m 20m 0 100.00950m 19.57110m }
+Tie 1 { 5 0 101m 20m 0 100.12110m 19.45950m }
+Tie 1 { 5 0 68.50m 35.50m 0 67.62110m 34.95950m }
+Tie 1 { 4 0 68.50m 35.50m 0 67.50950m 35.07110m }
+Tie 1 { 4 0 67.50950m 36.07110m 0 67.25550m 35.96588m }
+Tie 1 { 4 0 67.57900m 37.56700m 0 67.15990m 37.39340m }
+Tie 1 { 3 0 67.57900m 48.48900m 0 67.15990m 48.66260m }
+Tie 1 { 7 0 67.63520m 50.47678m 0 67.88920m 50.37156m }
+Tie 1 { 7 0 67.67987m 50.60837m 0 67.93387m 50.50315m }
+Tie 1 { 0 0 67.67987m 52.29189m 0 67.93387m 52.39711m }
+Tie 1 { 0 0 67.67250m 54.52066m 0 67.92650m 54.62588m }
+Tie 1 { 0 0 65.97250m 57.12066m 0 66.22650m 57.22588m }
+Tie 1 { 0 0 63.40m 59.70m 0 63.94050m 59.87890m }
+Tie 1 { 1 0 63.40m 59.70m 0 63.82890m 59.99050m }
+Tie 1 { 0 0 100.24050m 53.67890m 0 100.49450m 53.78412m }
+Tie 1 { 1 0 100.12890m 53.79050m 0 100.23412m 54.04450m }
+Tie 1 { 1 0 99.70100m 53.95m 0 99.87460m 54.36910m }
+Tie 1 { 1 0 64.12890m 53.79050m 0 64.23412m 54.04450m }
+Tie 1 { 1 0 63.70100m 53.95m 0 63.87460m 54.36910m }
+Tie 1 { 7 0 37.13710m 54.03040m 0 37.39110m 53.92518m }
+Tie 1 { 4 0 62m 20m 0 61.00950m 19.57110m }
+Tie 1 { 5 0 62m 20m 0 61.12110m 19.45950m }
+Tie 1 { 6 0 17m 46.50m 0 17.87890m 45.95950m }
+Tie 1 { 7 0 17m 46.50m 0 17.99050m 46.07110m }
+Tie 1 { 3 0 18.32750m 54.52066m 0 18.07350m 54.62588m }
+Tie 1 { 3 0 19.98724m 57.10896m 0 19.73324m 57.21418m }
+Tie 1 { 3 0 22.60m 59.70m 0 22.05950m 59.87890m }
+Tie 1 { 2 0 22.60m 59.70m 0 22.17110m 59.99050m }
+Tie 1 { 6 0 36m 35.50m 0 36.87890m 34.95950m }
+Tie 1 { 7 0 36m 35.50m 0 36.99050m 35.07110m }
+Tie 1 { 3 0 37.33400m 37.12088m 0 37.08m 37.22610m }
+Tie 1 { 7 0 36.99050m 40.57110m 0 37.24450m 40.46588m }
+Tie 1 { 7 0 37.24450m 45.96588m 0 37.49850m 45.86066m }
+Tie 1 { 0 0 37.24450m 48.03412m 0 37.49850m 48.13934m }
+Tie 1 { 0 0 36.89810m 48.87882m 0 37.15210m 48.98404m }
+Tie 1 { 1 0 36.50382m 49.27310m 0 36.60904m 49.52710m }
+Tie 1 { 5 0 33.59128m 50.12867m 0 33.48606m 49.87467m }
+Tie 1 { 5 0 33.35656m 50.29141m 0 33.25134m 50.03741m }
+Tie 1 { 4 0 32.76144m 50.88653m 0 32.50744m 50.78131m }
+Tie 1 { 4 0 32.63655m 51.09626m 0 32.38255m 50.99104m }
+Tie 1 { 0 0 31.92650m 54.62588m 0 32.18050m 54.73110m }
+Tie 1 { 0 0 30.22650m 57.22588m 0 30.48050m 57.33110m }
+Tie 1 { 0 0 27.40m 60.10m 0 27.94050m 60.27890m }
+Tie 1 { 1 0 27.40m 60.10m 0 27.82890m 60.39050m }
+Tie 1 { 6 0 35.20m 55.10m 0 35.37890m 54.55950m }
+Tie 1 { 7 0 35.20m 55.10m 0 35.49050m 54.67110m }
+Tie 1 { 4 0 17m 47.50m 0 16.00950m 47.07110m }
+Tie 1 { 5 0 17m 47.50m 0 16.12110m 46.95950m }
+Tie 1 { 4 0 106.15m 62.55m 0 105.89600m 62.44478m }
+Tie 1 { 5 0 106.15m 62.55m 0 106.04478m 62.29600m }
+Tie 1 { 5 0 106.60m 62.50m 0 106.17110m 62.20950m }
+Tie 1 { 5 0 40.15m 59.22500m 0 39.97640m 58.80590m }
+Tie 1 { 4 0 94.50m 25.50m 0 93.50950m 25.07110m }
+Tie 1 { 5 0 94.50m 25.50m 0 93.62110m 24.95950m }
+Tie 1 { 3 0 74.89999m 25.50m 0 73.90949m 25.92890m }
+Tie 1 { 4 0 74.89999m 25.50m 0 73.90949m 25.07110m }
+Tie 1 { 5 0 74.89999m 25.50m 0 74.02109m 24.95950m }
 Tie 1 { 5 0 104.32640m 58.38090m 0 104.22118m 58.12690m }
 Tie 1 { 4 0 103.65590m 59.05140m 0 103.40190m 58.94618m }
 Tie 1 { 3 0 103.65590m 59.39860m 0 103.40190m 59.50382m }
@@ -20006,73 +20073,6 @@ Tie 1 { 4 0 107.50m 47.50m 0 106.50950m 47.07110m }
 Tie 1 { 5 0 107.50m 47.50m 0 106.62110m 46.95950m }
 Tie 1 { 4 0 23.50m 42m 0 22.50950m 41.57110m }
 Tie 1 { 5 0 23.50m 42m 0 22.62110m 41.45950m }
-Tie 1 { 6 0 45.55m 57.10m 0 45.72360m 56.68090m }
-Tie 1 { 4 0 36m 25.50m 0 35.00950m 25.07110m }
-Tie 1 { 5 0 36m 25.50m 0 35.12110m 24.95950m }
-Tie 1 { 1 0 90.50m 60m 0 90.67360m 60.41910m }
-Tie 1 { 0 0 90.50m 60m 0 90.91910m 60.17360m }
-Tie 1 { 7 0 90.50m 60m 0 90.91910m 59.82640m }
-Tie 1 { 7 0 90.41910m 59.32640m 0 90.67310m 59.22118m }
-Tie 1 { 7 0 89.96010m 58.43552m 0 90.21410m 58.33030m }
-Tie 1 { 6 0 89.11948m 57.59490m 0 89.22470m 57.34090m }
-Tie 1 { 6 0 87.40m 56.90m 0 87.82890m 56.60950m }
-Tie 1 { 4 0 101m 20m 0 100.00950m 19.57110m }
-Tie 1 { 5 0 101m 20m 0 100.12110m 19.45950m }
-Tie 1 { 5 0 68.50m 35.50m 0 67.62110m 34.95950m }
-Tie 1 { 4 0 68.50m 35.50m 0 67.50950m 35.07110m }
-Tie 1 { 4 0 67.50950m 36.07110m 0 67.25550m 35.96588m }
-Tie 1 { 4 0 67.57900m 37.56700m 0 67.15990m 37.39340m }
-Tie 1 { 3 0 67.57900m 48.48900m 0 67.15990m 48.66260m }
-Tie 1 { 7 0 67.63520m 50.47678m 0 67.88920m 50.37156m }
-Tie 1 { 7 0 67.67987m 50.60837m 0 67.93387m 50.50315m }
-Tie 1 { 0 0 67.67987m 52.29189m 0 67.93387m 52.39711m }
-Tie 1 { 0 0 67.67250m 54.52066m 0 67.92650m 54.62588m }
-Tie 1 { 0 0 65.97250m 57.12066m 0 66.22650m 57.22588m }
-Tie 1 { 0 0 63.40m 59.70m 0 63.94050m 59.87890m }
-Tie 1 { 1 0 63.40m 59.70m 0 63.82890m 59.99050m }
-Tie 1 { 0 0 100.24050m 53.67890m 0 100.49450m 53.78412m }
-Tie 1 { 1 0 100.12890m 53.79050m 0 100.23412m 54.04450m }
-Tie 1 { 1 0 99.70100m 53.95m 0 99.87460m 54.36910m }
-Tie 1 { 1 0 64.12890m 53.79050m 0 64.23412m 54.04450m }
-Tie 1 { 1 0 63.70100m 53.95m 0 63.87460m 54.36910m }
-Tie 1 { 7 0 37.13710m 54.03040m 0 37.39110m 53.92518m }
-Tie 1 { 4 0 62m 20m 0 61.00950m 19.57110m }
-Tie 1 { 5 0 62m 20m 0 61.12110m 19.45950m }
-Tie 1 { 6 0 17m 46.50m 0 17.87890m 45.95950m }
-Tie 1 { 7 0 17m 46.50m 0 17.99050m 46.07110m }
-Tie 1 { 3 0 18.32750m 54.52066m 0 18.07350m 54.62588m }
-Tie 1 { 3 0 19.98724m 57.10896m 0 19.73324m 57.21418m }
-Tie 1 { 3 0 22.60m 59.70m 0 22.05950m 59.87890m }
-Tie 1 { 2 0 22.60m 59.70m 0 22.17110m 59.99050m }
-Tie 1 { 6 0 36m 35.50m 0 36.87890m 34.95950m }
-Tie 1 { 7 0 36m 35.50m 0 36.99050m 35.07110m }
-Tie 1 { 3 0 37.33400m 37.12088m 0 37.08m 37.22610m }
-Tie 1 { 7 0 36.99050m 40.57110m 0 37.24450m 40.46588m }
-Tie 1 { 7 0 37.24450m 45.96588m 0 37.49850m 45.86066m }
-Tie 1 { 0 0 37.24450m 48.03412m 0 37.49850m 48.13934m }
-Tie 1 { 0 0 36.89810m 48.87882m 0 37.15210m 48.98404m }
-Tie 1 { 1 0 36.50382m 49.27310m 0 36.60904m 49.52710m }
-Tie 1 { 5 0 33.59128m 50.12867m 0 33.48606m 49.87467m }
-Tie 1 { 5 0 33.35656m 50.29141m 0 33.25134m 50.03741m }
-Tie 1 { 4 0 32.76144m 50.88653m 0 32.50744m 50.78131m }
-Tie 1 { 4 0 32.63655m 51.09626m 0 32.38255m 50.99104m }
-Tie 1 { 0 0 31.92650m 54.62588m 0 32.18050m 54.73110m }
-Tie 1 { 0 0 30.22650m 57.22588m 0 30.48050m 57.33110m }
-Tie 1 { 0 0 27.40m 60.10m 0 27.94050m 60.27890m }
-Tie 1 { 1 0 27.40m 60.10m 0 27.82890m 60.39050m }
-Tie 1 { 6 0 35.20m 55.10m 0 35.37890m 54.55950m }
-Tie 1 { 7 0 35.20m 55.10m 0 35.49050m 54.67110m }
-Tie 1 { 4 0 17m 47.50m 0 16.00950m 47.07110m }
-Tie 1 { 5 0 17m 47.50m 0 16.12110m 46.95950m }
-Tie 1 { 4 0 106.15m 62.55m 0 105.89600m 62.44478m }
-Tie 1 { 5 0 106.15m 62.55m 0 106.04478m 62.29600m }
-Tie 1 { 5 0 106.60m 62.50m 0 106.17110m 62.20950m }
-Tie 1 { 5 0 40.15m 59.22500m 0 39.97640m 58.80590m }
-Tie 1 { 4 0 94.50m 25.50m 0 93.50950m 25.07110m }
-Tie 1 { 5 0 94.50m 25.50m 0 93.62110m 24.95950m }
-Tie 1 { 3 0 74.89999m 25.50m 0 73.90949m 25.92890m }
-Tie 1 { 4 0 74.89999m 25.50m 0 73.90949m 25.07110m }
-Tie 1 { 5 0 74.89999m 25.50m 0 74.02109m 24.95950m }
 Tie 2 { 1 0 24.20m 54.10m 0 24.37360m 54.51910m }
 Tie 2 { 2 0 24.20m 54.10m 0 24.02640m 54.51910m }
 Tie 2 { 3 0 24.20m 54.10m 0 23.78090m 54.27360m }
@@ -20253,6 +20253,172 @@ Tie 2 { 7 0 34.19410m 63.30140m 0 34.44810m 63.19618m }
 Tie 2 { 0 0 34.19410m 63.64860m 0 34.44810m 63.75382m }
 Tie 2 { 4 0 10.42900m 54.07700m 0 10.04800m 53.91918m }
 Tie 2 { 4 0 82.42900m 54.07700m 0 82.04800m 53.91918m }
+Tie 3 { 4 0 45.55m 56.25m 0 45.13090m 56.07640m }
+Tie 3 { 4 0 46.42900m 54.07700m 0 46.00990m 53.90340m }
+Tie 3 { 0 0 47.60450m 51.86243m 0 47.85850m 51.96765m }
+Tie 3 { 0 0 47.81850m 48.46043m 0 48.07250m 48.56565m }
+Tie 3 { 1 0 90.50m 60m 0 90.67360m 60.41910m }
+Tie 3 { 1 0 98.42389m 53.64050m 0 98.52911m 53.89450m }
+Tie 3 { 0 0 98.74050m 53.32389m 0 98.99450m 53.42911m }
+Tie 3 { 4 0 100.33600m 52.68m 0 99.91690m 52.50640m }
+Tie 3 { 5 0 100.33600m 52.68m 0 100.16240m 52.26090m }
+Tie 3 { 0 0 97.50m 25.50m 0 98.04050m 25.72389m }
+Tie 3 { 4 0 97.50m 29m 0 96.95950m 28.77611m }
+Tie 3 { 0 0 95.68110m 48.98926m 0 95.93510m 49.09448m }
+Tie 3 { 1 0 94.98926m 49.68110m 0 95.09448m 49.93510m }
+Tie 3 { 5 0 92.79640m 52.00690m 0 92.69118m 51.75290m }
+Tie 3 { 4 0 92.55090m 52.25240m 0 92.29690m 52.14718m }
+Tie 3 { 4 0 87.34390m 58.54074m 0 87.08990m 58.43552m }
+Tie 3 { 4 0 87.08990m 58.89996m 0 86.83590m 58.79474m }
+Tie 3 { 3 0 87.08990m 59.66804m 0 86.83590m 59.77326m }
+Tie 3 { 3 0 87.72490m 60.33660m 0 87.47090m 60.44182m }
+Tie 3 { 2 0 87.97040m 60.58210m 0 87.86518m 60.83610m }
+Tie 3 { 3 0 78m 36.50m 0 77.45950m 36.72389m }
+Tie 3 { 7 0 79.04850m 39.56567m 0 79.30250m 39.46045m }
+Tie 3 { 0 0 79.04850m 47.93433m 0 79.30250m 48.03955m }
+Tie 3 { 4 0 78.33250m 49.39001m 0 78.07850m 49.28479m }
+Tie 3 { 4 0 77.95150m 50.15201m 0 77.69750m 50.04679m }
+Tie 3 { 0 0 76.82010m 53.67726m 0 77.07410m 53.78248m }
+Tie 3 { 4 0 75.73090m 59.05140m 0 75.47690m 58.94618m }
+Tie 3 { 3 0 75.73090m 59.39860m 0 75.47690m 59.50382m }
+Tie 3 { 2 0 75.97640m 59.64410m 0 75.87118m 59.89810m }
+Tie 3 { 7 0 35.95600m 43.02800m 0 36.37510m 42.85440m }
+Tie 3 { 0 0 35.95600m 43.02800m 0 36.37510m 43.20160m }
+Tie 3 { 4 0 34.53590m 47.90030m 0 34.28190m 47.79508m }
+Tie 3 { 0 0 33.83510m 48.89482m 0 34.08910m 49.00004m }
+Tie 3 { 4 0 31.47290m 53.69664m 0 31.21890m 53.59142m }
+Tie 3 { 4 0 31.15290m 55.76486m 0 30.89890m 55.65964m }
+Tie 3 { 4 0 30.68450m 60.70111m 0 30.43050m 60.59589m }
+Tie 3 { 3 0 30.68450m 61.99889m 0 30.43050m 62.10411m }
+Tie 3 { 2 0 31.00111m 62.31550m 0 30.89589m 62.56950m }
+Tie 3 { 2 0 32.92500m 62.62500m 0 32.75140m 63.04410m }
+Tie 3 { 1 0 52m 25.50m 0 52.22389m 26.04050m }
+Tie 3 { 0 0 52m 25.50m 0 52.54050m 25.72389m }
+Tie 3 { 4 0 53.40m 20.97500m 0 52.98090m 20.80140m }
+Tie 3 { 5 0 53.40m 20.97500m 0 53.22640m 20.55590m }
+Tie 3 { 5 0 58.27611m 17.45950m 0 58.17089m 17.20550m }
+Tie 3 { 6 0 65.22389m 17.45950m 0 65.32911m 17.20550m }
+Tie 3 { 6 0 68.98926m 19.81890m 0 69.09448m 19.56490m }
+Tie 3 { 6 0 72.14477m 21.94350m 0 72.24999m 21.68950m }
+Tie 3 { 7 0 73.05650m 22.85523m 0 73.31050m 22.75001m }
+Tie 3 { 3 0 74.17500m 26.50m 0 73.75590m 26.67360m }
+Tie 3 { 3 0 78m 31m 0 77.45950m 31.22389m }
+Tie 3 { 7 0 79.55650m 33.85523m 0 79.81050m 33.75001m }
+Tie 3 { 3 0 80.50m 37.50m 0 80.08090m 37.67360m }
+Tie 3 { 7 0 80.57250m 38.93435m 0 80.82650m 38.82913m }
+Tie 3 { 0 0 80.57250m 48.56565m 0 80.82650m 48.67087m }
+Tie 3 { 4 0 79.76200m 50.90200m 0 79.22150m 50.67811m }
+Tie 3 { 0 0 77.42500m 58.80m 0 77.84410m 58.97360m }
+Tie 3 { 4 0 58.50m 29m 0 57.95950m 28.77611m }
+Tie 3 { 0 0 55.50m 48.50m 0 55.91910m 48.67360m }
+Tie 3 { 4 0 50.58190m 58.68952m 0 50.32790m 58.58430m }
+Tie 3 { 3 0 50.58190m 59.87848m 0 50.32790m 59.98370m }
+Tie 3 { 3 0 51.72490m 61.18660m 0 51.47090m 61.29182m }
+Tie 3 { 2 0 51.97040m 61.43210m 0 51.86518m 61.68610m }
+Tie 3 { 2 0 105.35m 63.05m 0 105.17640m 63.46910m }
+Tie 3 { 2 0 102.89589m 62.56950m 0 102.79067m 62.82350m }
+Tie 3 { 3 0 102.43050m 62.10411m 0 102.17650m 62.20933m }
+Tie 3 { 3 0 102.30290m 58.86014m 0 102.04890m 58.96536m }
+Tie 3 { 4 0 102.30290m 57.03986m 0 102.04890m 56.93464m }
+Tie 3 { 4 0 102.96490m 53.48620m 0 102.71090m 53.38098m }
+Tie 3 { 4 0 103.44090m 52.87420m 0 103.18690m 52.76898m }
+Tie 3 { 0 0 105.29800m 49.37800m 0 105.71710m 49.55160m }
+Tie 3 { 4 0 106.02190m 48.14852m 0 105.76790m 48.04330m }
+Tie 3 { 0 0 105.55200m 43.79m 0 105.97110m 43.96360m }
+Tie 3 { 7 0 105.55200m 43.79m 0 105.97110m 43.61640m }
+Tie 3 { 7 0 104m 40m 0 104.54050m 39.77611m }
+Tie 3 { 2 0 15.84340m 59.70310m 0 15.73818m 59.95710m }
+Tie 3 { 3 0 15.59790m 59.45760m 0 15.34390m 59.56282m }
+Tie 3 { 4 0 15.59790m 59.11040m 0 15.34390m 59.00518m }
+Tie 3 { 4 0 15.85190m 58.75118m 0 15.59790m 58.64596m }
+Tie 3 { 4 0 20.97m 52.42600m 0 20.55090m 52.25240m }
+Tie 3 { 5 0 20.97m 52.42600m 0 20.79640m 52.00690m }
+Tie 3 { 1 0 24.41014m 50.69710m 0 24.51536m 50.95110m }
+Tie 3 { 0 0 25.69710m 49.41014m 0 25.95110m 49.51536m }
+Tie 3 { 0 0 27.04050m 47.72389m 0 27.29450m 47.82911m }
+Tie 3 { 0 0 14m 51m 0 14.41910m 51.17360m }
+Tie 3 { 1 0 14m 51m 0 14.17360m 51.41910m }
+Tie 3 { 5 0 12.72118m 52.42690m 0 12.61596m 52.17290m }
+Tie 3 { 4 0 11.72690m 53.42118m 0 11.47290m 53.31596m }
+Tie 3 { 0 0 10.42900m 54.07700m 0 10.84810m 54.25060m }
+Tie 3 { 1 0 10.42900m 54.07700m 0 10.60260m 54.49610m }
+Tie 3 { 5 0 10.55600m 54.96600m 0 10.38240m 54.54690m }
+Tie 3 { 4 0 10.55600m 54.96600m 0 10.13690m 54.79240m }
+Tie 3 { 2 0 104.92500m 62.62500m 0 104.75140m 63.04410m }
+Tie 3 { 2 0 103.00111m 62.31550m 0 102.89589m 62.56950m }
+Tie 3 { 3 0 102.68450m 61.99889m 0 102.43050m 62.10411m }
+Tie 3 { 3 0 102.55690m 58.75492m 0 102.30290m 58.86014m }
+Tie 3 { 4 0 102.55690m 57.14508m 0 102.30290m 57.03986m }
+Tie 3 { 4 0 103.21890m 53.59142m 0 102.96490m 53.48620m }
+Tie 3 { 4 0 103.69490m 52.97942m 0 103.44090m 52.87420m }
+Tie 3 { 0 0 105.71710m 49.55160m 0 105.97110m 49.65682m }
+Tie 3 { 4 0 106.27590m 48.25374m 0 106.02190m 48.14852m }
+Tie 3 { 0 0 105.97110m 43.96360m 0 106.22510m 44.06882m }
+Tie 3 { 7 0 105.97110m 43.61640m 0 106.22510m 43.51118m }
+Tie 3 { 3 0 69.92400m 55.47400m 0 69.50490m 55.64760m }
+Tie 3 { 4 0 69.92400m 54.71200m 0 69.50490m 54.53840m }
+Tie 3 { 4 0 70.40m 54.10m 0 69.98090m 53.92640m }
+Tie 3 { 0 0 73.96910m 48.77360m 0 74.22310m 48.87882m }
+Tie 3 { 4 0 74.58090m 48.32640m 0 74.32690m 48.22118m }
+Tie 3 { 0 0 75.58110m 44.41426m 0 75.83510m 44.51948m }
+Tie 3 { 7 0 75.58110m 43.43574m 0 75.83510m 43.33052m }
+Tie 3 { 7 0 72.80250m 39.46045m 0 73.05650m 39.35523m }
+Tie 3 { 6 0 72.03955m 38.69750m 0 72.14477m 38.44350m }
+Tie 3 { 5 0 70.96045m 38.69750m 0 70.85523m 38.44350m }
+Tie 3 { 7 0 33.10m 38.40m 0 33.51910m 38.22640m }
+Tie 3 { 3 0 33.95m 38.40m 0 33.53090m 38.57360m }
+Tie 3 { 7 0 36.62910m 42.74918m 0 36.88310m 42.64396m }
+Tie 3 { 0 0 36.62910m 43.30682m 0 36.88310m 43.41204m }
+Tie 3 { 4 0 35.04390m 48.11074m 0 34.78990m 48.00552m }
+Tie 3 { 0 0 34.34310m 49.10526m 0 34.59710m 49.21048m }
+Tie 3 { 4 0 31.98090m 53.90708m 0 31.72690m 53.80186m }
+Tie 3 { 4 0 31.66090m 55.97530m 0 31.40690m 55.87008m }
+Tie 3 { 4 0 31.57290m 57.56596m 0 31.31890m 57.46074m }
+Tie 3 { 3 0 31.57290m 58.33404m 0 31.31890m 58.43926m }
+Tie 3 { 3 0 32.07500m 59.22500m 0 31.65590m 59.39860m }
+Tie 3 { 2 0 32.07500m 59.22500m 0 31.90140m 59.64410m }
+Tie 3 { 1 0 32.07500m 59.22500m 0 32.24860m 59.64410m }
+Tie 3 { 7 0 36.65m 38.40m 0 37.06910m 38.22640m }
+Tie 3 { 7 0 37.89910m 42.22308m 0 38.15310m 42.11786m }
+Tie 3 { 0 0 37.89910m 43.83292m 0 38.15310m 43.93814m }
+Tie 3 { 4 0 37.95150m 45.06567m 0 37.69750m 44.96045m }
+Tie 3 { 0 0 36.22500m 48.60m 0 36.64410m 48.77360m }
+Tie 3 { 0 0 35.86710m 49.73658m 0 36.12110m 49.84180m }
+Tie 3 { 4 0 33.50490m 54.53840m 0 33.25090m 54.43318m }
+Tie 3 { 4 0 33.35m 56.67500m 0 32.93090m 56.50140m }
+Tie 3 { 3 0 33.35m 56.67500m 0 32.93090m 56.84860m }
+Tie 3 { 7 0 32.92500m 57.52500m 0 33.34410m 57.35140m }
+Tie 3 { 0 0 42.21710m 50.12126m 0 42.47110m 50.22648m }
+Tie 3 { 0 0 42.69710m 45.41014m 0 42.95110m 45.51536m }
+Tie 3 { 7 0 42.69710m 42.58986m 0 42.95110m 42.48464m }
+Tie 3 { 3 0 42.01990m 37.15060m 0 41.76590m 37.25582m }
+Tie 3 { 7 0 40.81050m 33.75001m 0 41.06450m 33.64479m }
+Tie 3 { 6 0 39.74999m 32.68950m 0 39.85521m 32.43550m }
+Tie 3 { 2 0 39m 31m 0 38.77611m 31.54050m }
+Tie 3 { 3 0 39m 31m 0 38.45950m 31.22389m }
+Tie 3 { 7 0 36.41910m 20.82640m 0 36.67310m 20.72118m }
+Tie 3 { 6 0 36.17360m 20.58090m 0 1428.3 20.32690m }
+Tie 3 { 5 0 34.82640m 20.58090m 0 34.72118m 20.32690m }
+Tie 3 { 1 0 32.72389m 20.54050m 0 32.82911m 20.79450m }
+Tie 3 { 0 0 35.10510m 55.26660m 0 35.35910m 55.37182m }
+Tie 3 { 7 0 35.10510m 54.91940m 0 35.35910m 54.81418m }
+Tie 3 { 3 0 35.48090m 54.29860m 0 35.22690m 54.40382m }
+Tie 3 { 4 0 35.48090m 53.95140m 0 35.22690m 53.84618m }
+Tie 3 { 0 0 37.15210m 48.98404m 0 37.40610m 49.08926m }
+Tie 3 { 4 0 39m 45.50m 0 38.45950m 45.27611m }
+Tie 3 { 0 0 38.77500m 44.35m 0 39.19410m 44.52360m }
+Tie 3 { 4 0 39.62500m 44.35m 0 39.20590m 44.17640m }
+Tie 3 { 6 0 78m 29m 0 78.22389m 28.45950m }
+Tie 3 { 7 0 78m 29m 0 78.54050m 28.77611m }
+Tie 3 { 7 0 79.81050m 33.75001m 0 80.06450m 33.64479m }
+Tie 3 { 7 0 82.50m 43m 0 82.91910m 42.82640m }
+Tie 3 { 0 0 82.50m 43m 0 82.91910m 43.17360m }
+Tie 3 { 0 0 82.43800m 49.12400m 0 82.85710m 49.29760m }
+Tie 3 { 0 0 82.33450m 51.33633m 0 82.58850m 51.44155m }
+Tie 3 { 4 0 80.99390m 53.48252m 0 80.73990m 53.37730m }
+Tie 3 { 4 0 80.19790m 56.29096m 0 79.94390m 56.18574m }
+Tie 3 { 4 0 80.27500m 57.52500m 0 79.85590m 57.35140m }
+Tie 3 { 3 0 80.27500m 57.52500m 0 79.85590m 57.69860m }
 Tie 3 { 4 0 104.92500m 57.52500m 0 104.50590m 57.35140m }
 Tie 3 { 4 0 105.25090m 54.43318m 0 104.99690m 54.32796m }
 Tie 3 { 4 0 105.72690m 53.82118m 0 105.47290m 53.71596m }
@@ -21874,172 +22040,19 @@ Tie 3 { 1 0 22.50m 48.50m 0 22.67360m 48.91910m }
 Tie 3 { 5 0 19.95464m 49.97490m 0 19.84942m 49.72090m }
 Tie 3 { 5 0 15.23018m 54.29290m 0 15.12496m 54.03890m }
 Tie 3 { 1 0 9.55m 58.80m 0 9.72360m 59.21910m }
-Tie 3 { 4 0 45.55m 56.25m 0 45.13090m 56.07640m }
-Tie 3 { 4 0 46.42900m 54.07700m 0 46.00990m 53.90340m }
-Tie 3 { 0 0 47.60450m 51.86243m 0 47.85850m 51.96765m }
-Tie 3 { 0 0 47.81850m 48.46043m 0 48.07250m 48.56565m }
-Tie 3 { 1 0 90.50m 60m 0 90.67360m 60.41910m }
-Tie 3 { 1 0 98.42389m 53.64050m 0 98.52911m 53.89450m }
-Tie 3 { 0 0 98.74050m 53.32389m 0 98.99450m 53.42911m }
-Tie 3 { 4 0 100.33600m 52.68m 0 99.91690m 52.50640m }
-Tie 3 { 5 0 100.33600m 52.68m 0 100.16240m 52.26090m }
-Tie 3 { 0 0 97.50m 25.50m 0 98.04050m 25.72389m }
-Tie 3 { 4 0 97.50m 29m 0 96.95950m 28.77611m }
-Tie 3 { 0 0 95.68110m 48.98926m 0 95.93510m 49.09448m }
-Tie 3 { 1 0 94.98926m 49.68110m 0 95.09448m 49.93510m }
-Tie 3 { 5 0 92.79640m 52.00690m 0 92.69118m 51.75290m }
-Tie 3 { 4 0 92.55090m 52.25240m 0 92.29690m 52.14718m }
-Tie 3 { 4 0 87.34390m 58.54074m 0 87.08990m 58.43552m }
-Tie 3 { 4 0 87.08990m 58.89996m 0 86.83590m 58.79474m }
-Tie 3 { 3 0 87.08990m 59.66804m 0 86.83590m 59.77326m }
-Tie 3 { 3 0 87.72490m 60.33660m 0 87.47090m 60.44182m }
-Tie 3 { 2 0 87.97040m 60.58210m 0 87.86518m 60.83610m }
-Tie 3 { 3 0 78m 36.50m 0 77.45950m 36.72389m }
-Tie 3 { 7 0 79.04850m 39.56567m 0 79.30250m 39.46045m }
-Tie 3 { 0 0 79.04850m 47.93433m 0 79.30250m 48.03955m }
-Tie 3 { 4 0 78.33250m 49.39001m 0 78.07850m 49.28479m }
-Tie 3 { 4 0 77.95150m 50.15201m 0 77.69750m 50.04679m }
-Tie 3 { 0 0 76.82010m 53.67726m 0 77.07410m 53.78248m }
-Tie 3 { 4 0 75.73090m 59.05140m 0 75.47690m 58.94618m }
-Tie 3 { 3 0 75.73090m 59.39860m 0 75.47690m 59.50382m }
-Tie 3 { 2 0 75.97640m 59.64410m 0 75.87118m 59.89810m }
-Tie 3 { 7 0 35.95600m 43.02800m 0 36.37510m 42.85440m }
-Tie 3 { 0 0 35.95600m 43.02800m 0 36.37510m 43.20160m }
-Tie 3 { 4 0 34.53590m 47.90030m 0 34.28190m 47.79508m }
-Tie 3 { 0 0 33.83510m 48.89482m 0 34.08910m 49.00004m }
-Tie 3 { 4 0 31.47290m 53.69664m 0 31.21890m 53.59142m }
-Tie 3 { 4 0 31.15290m 55.76486m 0 30.89890m 55.65964m }
-Tie 3 { 4 0 30.68450m 60.70111m 0 30.43050m 60.59589m }
-Tie 3 { 3 0 30.68450m 61.99889m 0 30.43050m 62.10411m }
-Tie 3 { 2 0 31.00111m 62.31550m 0 30.89589m 62.56950m }
-Tie 3 { 2 0 32.92500m 62.62500m 0 32.75140m 63.04410m }
-Tie 3 { 1 0 52m 25.50m 0 52.22389m 26.04050m }
-Tie 3 { 0 0 52m 25.50m 0 52.54050m 25.72389m }
-Tie 3 { 4 0 53.40m 20.97500m 0 52.98090m 20.80140m }
-Tie 3 { 5 0 53.40m 20.97500m 0 53.22640m 20.55590m }
-Tie 3 { 5 0 58.27611m 17.45950m 0 58.17089m 17.20550m }
-Tie 3 { 6 0 65.22389m 17.45950m 0 65.32911m 17.20550m }
-Tie 3 { 6 0 68.98926m 19.81890m 0 69.09448m 19.56490m }
-Tie 3 { 6 0 72.14477m 21.94350m 0 72.24999m 21.68950m }
-Tie 3 { 7 0 73.05650m 22.85523m 0 73.31050m 22.75001m }
-Tie 3 { 3 0 74.17500m 26.50m 0 73.75590m 26.67360m }
-Tie 3 { 3 0 78m 31m 0 77.45950m 31.22389m }
-Tie 3 { 7 0 79.55650m 33.85523m 0 79.81050m 33.75001m }
-Tie 3 { 3 0 80.50m 37.50m 0 80.08090m 37.67360m }
-Tie 3 { 7 0 80.57250m 38.93435m 0 80.82650m 38.82913m }
-Tie 3 { 0 0 80.57250m 48.56565m 0 80.82650m 48.67087m }
-Tie 3 { 4 0 79.76200m 50.90200m 0 79.22150m 50.67811m }
-Tie 3 { 0 0 77.42500m 58.80m 0 77.84410m 58.97360m }
-Tie 3 { 4 0 58.50m 29m 0 57.95950m 28.77611m }
-Tie 3 { 0 0 55.50m 48.50m 0 55.91910m 48.67360m }
-Tie 3 { 4 0 50.58190m 58.68952m 0 50.32790m 58.58430m }
-Tie 3 { 3 0 50.58190m 59.87848m 0 50.32790m 59.98370m }
-Tie 3 { 3 0 51.72490m 61.18660m 0 51.47090m 61.29182m }
-Tie 3 { 2 0 51.97040m 61.43210m 0 51.86518m 61.68610m }
-Tie 3 { 2 0 105.35m 63.05m 0 105.17640m 63.46910m }
-Tie 3 { 2 0 102.89589m 62.56950m 0 102.79067m 62.82350m }
-Tie 3 { 3 0 102.43050m 62.10411m 0 102.17650m 62.20933m }
-Tie 3 { 3 0 102.30290m 58.86014m 0 102.04890m 58.96536m }
-Tie 3 { 4 0 102.30290m 57.03986m 0 102.04890m 56.93464m }
-Tie 3 { 4 0 102.96490m 53.48620m 0 102.71090m 53.38098m }
-Tie 3 { 4 0 103.44090m 52.87420m 0 103.18690m 52.76898m }
-Tie 3 { 0 0 105.29800m 49.37800m 0 105.71710m 49.55160m }
-Tie 3 { 4 0 106.02190m 48.14852m 0 105.76790m 48.04330m }
-Tie 3 { 0 0 105.55200m 43.79m 0 105.97110m 43.96360m }
-Tie 3 { 7 0 105.55200m 43.79m 0 105.97110m 43.61640m }
-Tie 3 { 7 0 104m 40m 0 104.54050m 39.77611m }
-Tie 3 { 2 0 15.84340m 59.70310m 0 15.73818m 59.95710m }
-Tie 3 { 3 0 15.59790m 59.45760m 0 15.34390m 59.56282m }
-Tie 3 { 4 0 15.59790m 59.11040m 0 15.34390m 59.00518m }
-Tie 3 { 4 0 15.85190m 58.75118m 0 15.59790m 58.64596m }
-Tie 3 { 4 0 20.97m 52.42600m 0 20.55090m 52.25240m }
-Tie 3 { 5 0 20.97m 52.42600m 0 20.79640m 52.00690m }
-Tie 3 { 1 0 24.41014m 50.69710m 0 24.51536m 50.95110m }
-Tie 3 { 0 0 25.69710m 49.41014m 0 25.95110m 49.51536m }
-Tie 3 { 0 0 27.04050m 47.72389m 0 27.29450m 47.82911m }
-Tie 3 { 0 0 14m 51m 0 14.41910m 51.17360m }
-Tie 3 { 1 0 14m 51m 0 14.17360m 51.41910m }
-Tie 3 { 5 0 12.72118m 52.42690m 0 12.61596m 52.17290m }
-Tie 3 { 4 0 11.72690m 53.42118m 0 11.47290m 53.31596m }
-Tie 3 { 0 0 10.42900m 54.07700m 0 10.84810m 54.25060m }
-Tie 3 { 1 0 10.42900m 54.07700m 0 10.60260m 54.49610m }
-Tie 3 { 5 0 10.55600m 54.96600m 0 10.38240m 54.54690m }
-Tie 3 { 4 0 10.55600m 54.96600m 0 10.13690m 54.79240m }
-Tie 3 { 2 0 104.92500m 62.62500m 0 104.75140m 63.04410m }
-Tie 3 { 2 0 103.00111m 62.31550m 0 102.89589m 62.56950m }
-Tie 3 { 3 0 102.68450m 61.99889m 0 102.43050m 62.10411m }
-Tie 3 { 3 0 102.55690m 58.75492m 0 102.30290m 58.86014m }
-Tie 3 { 4 0 102.55690m 57.14508m 0 102.30290m 57.03986m }
-Tie 3 { 4 0 103.21890m 53.59142m 0 102.96490m 53.48620m }
-Tie 3 { 4 0 103.69490m 52.97942m 0 103.44090m 52.87420m }
-Tie 3 { 0 0 105.71710m 49.55160m 0 105.97110m 49.65682m }
-Tie 3 { 4 0 106.27590m 48.25374m 0 106.02190m 48.14852m }
-Tie 3 { 0 0 105.97110m 43.96360m 0 106.22510m 44.06882m }
-Tie 3 { 7 0 105.97110m 43.61640m 0 106.22510m 43.51118m }
-Tie 3 { 3 0 69.92400m 55.47400m 0 69.50490m 55.64760m }
-Tie 3 { 4 0 69.92400m 54.71200m 0 69.50490m 54.53840m }
-Tie 3 { 4 0 70.40m 54.10m 0 69.98090m 53.92640m }
-Tie 3 { 0 0 73.96910m 48.77360m 0 74.22310m 48.87882m }
-Tie 3 { 4 0 74.58090m 48.32640m 0 74.32690m 48.22118m }
-Tie 3 { 0 0 75.58110m 44.41426m 0 75.83510m 44.51948m }
-Tie 3 { 7 0 75.58110m 43.43574m 0 75.83510m 43.33052m }
-Tie 3 { 7 0 72.80250m 39.46045m 0 73.05650m 39.35523m }
-Tie 3 { 6 0 72.03955m 38.69750m 0 72.14477m 38.44350m }
-Tie 3 { 5 0 70.96045m 38.69750m 0 70.85523m 38.44350m }
-Tie 3 { 7 0 33.10m 38.40m 0 33.51910m 38.22640m }
-Tie 3 { 3 0 33.95m 38.40m 0 33.53090m 38.57360m }
-Tie 3 { 7 0 36.62910m 42.74918m 0 36.88310m 42.64396m }
-Tie 3 { 0 0 36.62910m 43.30682m 0 36.88310m 43.41204m }
-Tie 3 { 4 0 35.04390m 48.11074m 0 34.78990m 48.00552m }
-Tie 3 { 0 0 34.34310m 49.10526m 0 34.59710m 49.21048m }
-Tie 3 { 4 0 31.98090m 53.90708m 0 31.72690m 53.80186m }
-Tie 3 { 4 0 31.66090m 55.97530m 0 31.40690m 55.87008m }
-Tie 3 { 4 0 31.57290m 57.56596m 0 31.31890m 57.46074m }
-Tie 3 { 3 0 31.57290m 58.33404m 0 31.31890m 58.43926m }
-Tie 3 { 3 0 32.07500m 59.22500m 0 31.65590m 59.39860m }
-Tie 3 { 2 0 32.07500m 59.22500m 0 31.90140m 59.64410m }
-Tie 3 { 1 0 32.07500m 59.22500m 0 32.24860m 59.64410m }
-Tie 3 { 7 0 36.65m 38.40m 0 37.06910m 38.22640m }
-Tie 3 { 7 0 37.89910m 42.22308m 0 38.15310m 42.11786m }
-Tie 3 { 0 0 37.89910m 43.83292m 0 38.15310m 43.93814m }
-Tie 3 { 4 0 37.95150m 45.06567m 0 37.69750m 44.96045m }
-Tie 3 { 0 0 36.22500m 48.60m 0 36.64410m 48.77360m }
-Tie 3 { 0 0 35.86710m 49.73658m 0 36.12110m 49.84180m }
-Tie 3 { 4 0 33.50490m 54.53840m 0 33.25090m 54.43318m }
-Tie 3 { 4 0 33.35m 56.67500m 0 32.93090m 56.50140m }
-Tie 3 { 3 0 33.35m 56.67500m 0 32.93090m 56.84860m }
-Tie 3 { 7 0 32.92500m 57.52500m 0 33.34410m 57.35140m }
-Tie 3 { 0 0 42.21710m 50.12126m 0 42.47110m 50.22648m }
-Tie 3 { 0 0 42.69710m 45.41014m 0 42.95110m 45.51536m }
-Tie 3 { 7 0 42.69710m 42.58986m 0 42.95110m 42.48464m }
-Tie 3 { 3 0 42.01990m 37.15060m 0 41.76590m 37.25582m }
-Tie 3 { 7 0 40.81050m 33.75001m 0 41.06450m 33.64479m }
-Tie 3 { 6 0 39.74999m 32.68950m 0 39.85521m 32.43550m }
-Tie 3 { 2 0 39m 31m 0 38.77611m 31.54050m }
-Tie 3 { 3 0 39m 31m 0 38.45950m 31.22389m }
-Tie 3 { 7 0 36.41910m 20.82640m 0 36.67310m 20.72118m }
-Tie 3 { 6 0 36.17360m 20.58090m 0 1428.3 20.32690m }
-Tie 3 { 5 0 34.82640m 20.58090m 0 34.72118m 20.32690m }
-Tie 3 { 1 0 32.72389m 20.54050m 0 32.82911m 20.79450m }
-Tie 3 { 0 0 35.10510m 55.26660m 0 35.35910m 55.37182m }
-Tie 3 { 7 0 35.10510m 54.91940m 0 35.35910m 54.81418m }
-Tie 3 { 3 0 35.48090m 54.29860m 0 35.22690m 54.40382m }
-Tie 3 { 4 0 35.48090m 53.95140m 0 35.22690m 53.84618m }
-Tie 3 { 0 0 37.15210m 48.98404m 0 37.40610m 49.08926m }
-Tie 3 { 4 0 39m 45.50m 0 38.45950m 45.27611m }
-Tie 3 { 0 0 38.77500m 44.35m 0 39.19410m 44.52360m }
-Tie 3 { 4 0 39.62500m 44.35m 0 39.20590m 44.17640m }
-Tie 3 { 6 0 78m 29m 0 78.22389m 28.45950m }
-Tie 3 { 7 0 78m 29m 0 78.54050m 28.77611m }
-Tie 3 { 7 0 79.81050m 33.75001m 0 80.06450m 33.64479m }
-Tie 3 { 7 0 82.50m 43m 0 82.91910m 42.82640m }
-Tie 3 { 0 0 82.50m 43m 0 82.91910m 43.17360m }
-Tie 3 { 0 0 82.43800m 49.12400m 0 82.85710m 49.29760m }
-Tie 3 { 0 0 82.33450m 51.33633m 0 82.58850m 51.44155m }
-Tie 3 { 4 0 80.99390m 53.48252m 0 80.73990m 53.37730m }
-Tie 3 { 4 0 80.19790m 56.29096m 0 79.94390m 56.18574m }
-Tie 3 { 4 0 80.27500m 57.52500m 0 79.85590m 57.35140m }
-Tie 3 { 3 0 80.27500m 57.52500m 0 79.85590m 57.69860m }
+Tie 4 { 5 0 26.27611m 44.95950m 0 26.17089m 44.70550m }
+Tie 4 { 6 0 88.60m 57.10m 0 89.42890m 55.70950m }
+Tie 4 { 1 0 29.77882m 38.17310m 0 29.88404m 38.42710m }
+Tie 4 { 2 0 28.22118m 38.17310m 0 28.11596m 38.42710m }
+Tie 4 { 2 0 16m 37.50m 0 15.82640m 37.91910m }
+Tie 4 { 1 0 32.72389m 42.54050m 0 32.82911m 42.79450m }
+Tie 4 { 0 0 33.04050m 42.22389m 0 33.29450m 42.32911m }
+Tie 4 { 0 0 35.80m 38.40m 0 36.21910m 38.57360m }
+Tie 4 { 4 0 36.65m 38.40m 0 36.23090m 38.22640m }
+Tie 4 { 2 0 32.67800m 52.42600m 0 32.29910m 53.06650m }
+Tie 4 { 6 0 32.52882m 37.72690m 0 32.63404m 37.47290m }
+Tie 4 { 5 0 31.97118m 37.72690m 0 31.86596m 37.47290m }
+Tie 4 { 6 0 16.60m 57.10m 0 17.42890m 55.70950m }
 Tie 4 { 2 0 22.50m 32m 0 22.32640m 32.41910m }
 Tie 4 { 6 0 33.95m 32.87500m 0 34.12360m 32.45590m }
 Tie 4 { 4 0 108.15m 38.40m 0 107.73090m 38.22640m }
@@ -22264,18 +22277,5 @@ Tie 4 { 5 0 106.45m 32.02500m 0 106.27640m 31.60590m }
 Tie 4 { 1 0 104.22389m 31.54050m 0 104.32911m 31.79450m }
 Tie 4 { 6 0 52.60m 57.10m 0 2103.5 55.70950m }
 Tie 4 { 2 0 68.67800m 52.42600m 0 68.29910m 53.06650m }
-Tie 4 { 5 0 26.27611m 44.95950m 0 26.17089m 44.70550m }
-Tie 4 { 6 0 88.60m 57.10m 0 89.42890m 55.70950m }
-Tie 4 { 1 0 29.77882m 38.17310m 0 29.88404m 38.42710m }
-Tie 4 { 2 0 28.22118m 38.17310m 0 28.11596m 38.42710m }
-Tie 4 { 2 0 16m 37.50m 0 15.82640m 37.91910m }
-Tie 4 { 1 0 32.72389m 42.54050m 0 32.82911m 42.79450m }
-Tie 4 { 0 0 33.04050m 42.22389m 0 33.29450m 42.32911m }
-Tie 4 { 0 0 35.80m 38.40m 0 36.21910m 38.57360m }
-Tie 4 { 4 0 36.65m 38.40m 0 36.23090m 38.22640m }
-Tie 4 { 2 0 32.67800m 52.42600m 0 32.29910m 53.06650m }
-Tie 4 { 6 0 32.52882m 37.72690m 0 32.63404m 37.47290m }
-Tie 4 { 5 0 31.97118m 37.72690m 0 31.86596m 37.47290m }
-Tie 4 { 6 0 16.60m 57.10m 0 17.42890m 55.70950m }
 
 End
