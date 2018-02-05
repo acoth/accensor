@@ -1,3 +1,3 @@
-include <tile.scad>
+//include <tile.scad>
 
-tiling(0.8,28,68,2);
+import(file="/Users/acoth/Documents/ws-logo.DXF",layer="C00-00-00-BLACK",convexity=10);
