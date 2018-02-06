@@ -23,11 +23,13 @@ sinkThick=1.5;
 boardThick=25.4/16;
 hboard = hb/2-tg-boardThick/2-bclear;
 standoff=3.7;
-$fs = 0.5;
-$fa = 5;
+$fs = 0.25 ;
+$fa = 1;
 nf = 8;
+bs=3;
 //$fn = 10;
 include <tile.scad>
+include <decoration2.scad>
 
 module rpi() {
     translate([0,0,standoff/2]){ 
@@ -123,24 +125,24 @@ module bottomMask() {
 }
 
 module cornerBlock(t) {
-            translate([-4-clear,-5-clear,-t/2]) {
-                cube([4+bhd/2+wt+clear,5+clear,t]);
-                cube([4+clear,5+bhd/2+wt+clear,t]);
+            translate([-4-clear-wt+ep,-5-clear-wt+ep,-t/2]) {
+                cube([4+bhd/2+2*wt+clear,5+clear+wt,t]);
+                cube([4+clear+wt,5+bhd/2+2*wt+clear,t]);
             }
             cylinder(r=bhd/2+wt,h=t,center=true);
 
 }
 module cornerBlockShort(t) {
-            translate([-4-clear,-5-clear,-t/2]) {
-                cube([5.5+bhd/2+wt+clear,3.75+clear,t]);
-                cube([5.5+clear,3.75+bhd/2+wt+clear,t]);
+            translate([-4-clear-wt+ep,-5-clear-wt+ep,-t/2]) {
+                cube([5.5+bhd/2+2*wt+clear,3.75+clear+wt,t]);
+                cube([5.5+clear+wt,3.75+bhd/2+2*wt+clear,t]);
             }
             translate([1.5,-1.25,0])cylinder(r=bhd/2+wt,h=t,center=true);
 
 }
 module fifthBlock(t) {
-            translate([-bhd/2-wt,-5-clear,-t/2]) {
-                cube([bhd+2*wt,5+clear,t]);
+            translate([-bhd/2-wt,-5-clear-wt,-t/2]) {
+                cube([bhd+2*wt,5+clear+wt,t]);
 
             }
             cylinder(r=bhd/2+wt,h=t,center=true);
@@ -149,11 +151,11 @@ module fifthBlock(t) {
 module backCornerBlock(t,w) {
         difference() { 
             union() {
-                translate([-4-clear,-4-clear,-t/2]) {
-                    cube([w+clear,4+clear,t]);
-                    cube([w+clear-(wt+bhd/2),4+bhd/2+wt+clear,t]);
+                translate([-4-clear-wt+ep,-4-clear-wt+ep,-t/2]) {
+                    cube([w+clear+wt,4+clear+wt,t]);
+                    cube([w+clear-(wt+bhd/2)+wt,4+bhd/2+wt+clear+wt,t]);
                 }
-                translate([w-4-bhd/2-wt,0,0])cylinder(r=bhd/2+wt,h=t,              center=true);
+                translate([w-4-bhd/2-wt,0,0])cylinder(r=bhd/2+wt,h=t,center=true);
             }
             cylinder(r=tapdia/2,h=100,center=true);
         }
@@ -162,8 +164,9 @@ module backCornerBlock(t,w) {
 module taperCut() {
         rotate_extrude(convexity=4) {
             difference(){
-                translate([0,0]) square([clear+(tt+wt)/ta,tt+wt]);
+                translate([0,-1]) square([clear+(tt+wt)/ta,tt+wt+1]);
                 translate([clear+(tt+wt)/ta,0]) scale([1/ta,1]) circle(r=tt+wt,center=true);
+                translate([clear,-1]) square([clear+(tt+wt)/ta+ep,1]);
             }
         }
 }
@@ -175,7 +178,7 @@ module sink() {
    
         linear_extrude(height=sinkThick,center=true) {
              difference() {
-        square([121.5+2*clear+ep,68+2*clear+ep],center=true);
+        square([121.5+2*clear+2*wt-ep,68+2*clear+2*wt-ep],center=true);
         //LED drivers cutout
             translate([.75,34+clear-(topClear+clear)/2]) {
                 square([121.5-2*sideClear-2*radi+3,topClear+clear+ep],center=true);
@@ -233,9 +236,9 @@ module sink() {
 
 module batteryShelf() {
     translate([-17,0,-3]){
-        translate([0,0,0.4]) tiling(2,54+2*clear,68+2*clear+ep,0.95,nf);
+        translate([0,0,0.4]) tiling(2,54+2*clear,68+2*clear+2*wt-ep,0.95,nf);
         translate([0,0,-0.4+ep])
-            rotate([180,0,0]) tiling(2,54+2*clear+ep,68+2*clear+ep,0.95,nf);
+            rotate([180,0,0]) tiling(2,54+2*clear+ep,68+2*clear+2*wt-ep,0.95,nf);
         s = 54/(4+sqrt(3));
         for (angle=[0:60:359]) {
             rotate([0,0,angle]) {
@@ -264,84 +267,83 @@ module batteryShelf() {
     }
 }
 module case() {
-    difference(){
-    union() {
-        difference(){union(){
-                                           cube([121.5+2*clear+2*wt,68+2*clear+2*wt-2*ro,hb],center=true);
-                    cube([121.5+2*clear+2*wt-2*ro,68+2*clear+2*wt,hb],center=true);
-             minkowski() {
-                union() {
-                    translate([60.75+wt+clear-ro,34+wt+clear-ro,0]) cylinder(r=ro,h=hb-2*tt/ta,center=true);
-                    translate([-(60.75+wt+clear-ro),34+wt+clear-ro,0]) cylinder(r=ro,h=hb-2*tt/ta,center=true);
-                    translate([60.75+wt+clear-ro,-(34+wt+clear-ro),0]) cylinder(r=ro,h=hb-2*tt/ta,center=true);
-                    translate([-(60.75+wt+clear-ro),-(34+wt+clear-ro),0]) cylinder(r=ro,h=hb-2*tt/ta,center=true);
-                }
-                scale([1,1,1/ta]) sphere(r=tt,center=true);
-            }}
-            cube([121.5+2*clear-2*ri,68+2*clear,hb+10],center=true);
-            cube([121.5+2*clear,68+2*clear-2*ri,hb+10],center=true);
-            translate([60.75+clear-ri,34+clear-ri,0]) cylinder(r=ri,h=100,center=true);
-            translate([-(60.75+clear-ri),34+clear-ri,0]) cylinder(r=ri,h=100,center=true);
-            translate([60.75+clear-ri,-(34+clear-ri),0]) cylinder(r=ri,h=100,center=true);
-            translate([-(60.75+clear-ri),-(34+clear-ri),0]) cylinder(r=ri,h=100,center=true);
-
-        }
-//        translate([0,-34-clear-wt-tt/2+ep,0]) rotate([0,90,-90]) 
-//                        tiling(2/ta*tt,hb,121.5+2*clear-1*ro,tt,nf);
-//        translate([0,34+clear+wt+tt/2-ep,0]) rotate([0,90,90]) 
-//                        tiling(2/ta*tt,hb,121.5+2*clear-1*ro,tt,nf);
-//        translate([60.75+clear+wt+tt/2-ep,0,0]) rotate([90,90,90])
-//                        tiling(2/ta*tt,hb,68+2*clear-1*ro,tt,nf);
-//        translate([-(60.75+clear+wt+tt/2-ep),0,0]) rotate([90,90,-90])
-//                        tiling(2/ta*tt,hb,68+2*clear-1*ro,tt,nf);
-        
-        translate([0,0,hboard-boardThick/2-sinkThick/2]) sink();    
+    difference() {
         union() {
-                translate([-60.75,-34,0]) {
-                    translate([0,0,hboard-boardThick/2-standoff/2]) {
-                        translate([3.5,5,standoff/2-wt/2]) cornerBlockShort(wt);
-                        //translate([3.5,63,0]) mirror([0,1,0]) cornerBlock(standoff);
-                        translate([117.5,5,0]) mirror([1,0,0]) cornerBlock(standoff);
-                        translate([117.5,63,0]) rotate([0,0,180]) cornerBlock(standoff);
-                        translate([94.5,5,0]) mirror([1,0,0]) fifthBlock(standoff);
-                    }
-                    translate([0,0,zbacklip]){
-                        translate([3.5,64,0]) mirror([0,1,0]) backCornerBlock(blip,12);
-                        translate([117.5,64,0]) rotate([0,0,180]) backCornerBlock(blip,7.5);
-                        translate([3.5,4,0]) backCornerBlock(blip,12);
-                        translate([117.5,4,0]) mirror([1,0,0]) backCornerBlock(blip,7.5);
-                        //translate([9-clear,66.5,0]) cube([6,5.5,blip],center=true);
-                    }
-                    
+            for (rangle = [0:180:359]) rotate([0,0,rangle]) {     
+                difference(){
+                    translate([60.75+clear-ri/2+ep,34+clear-ri/2+ep,0])
+                        cube([ri+2*wt,ri+2*wt,hb],center=true);
+                    translate([60.75+clear-ri,34+clear-ri,0]) cylinder(r=ri,h=100,center=true);
+                                translate([60.75+clear-ri-wt/2,34+clear-ri,0]) cube([wt,2*ri,100],center=true);
+                translate([60.75+clear-ri,34+clear-ri-wt/2,0]) cube([2*ri,wt,100],center=true);
                 }
-                //translate([-20,34+clear+ep-wbl/2,hb/2-tg-0.8-bclear-25.4/32-6.9+hbl/2]) cube([81.5+2*clear,wbl,hbl],center=true);
-                //translate([-25,-(34+clear+ep-wbl/2),hb/2-tg-0.8-bclear-25.4/32-6.9+hbl/2]) cube([71.5+2*clear,wbl,hbl],center=true);
-                batteryShelf();
-                
-              
+                mirror([0,1,0])
+                difference(){
+                    translate([60.75+clear-ri/2+ep,34+clear-ri/2+ep,0])
+                        cube([ri+2*wt,ri+2*wt,hb],center=true);
+                    translate([60.75+clear-ri,34+clear-ri,0]) cylinder(r=ri,h=100,center=true);
+                    translate([60.75+clear-ri-wt/2,34+clear-ri,0]) cube([wt,2*ri,100],center=true);
+                translate([60.75+clear-ri,34+clear-ri-wt/2,0]) cube([2*ri,wt,100],center=true);
+
+                }
             }
+            decoration();
+            for (zoff = [-hb/2+1,hb/2-1]){
+                    for(xoff=[-60.75-clear-bs/2,60.75+clear+bs/2]) {
+                        translate([xoff,0,zoff]) scale([bs/2,1,1])
+                            rotate([90,0,0]) cylinder(r=1,h=68+bs+2*clear,center=true);
+                        for(yoff=[-34-clear-bs/2,34+clear+bs/2])
+                            translate([xoff,yoff,zoff]) 
+                                 scale([bs/2,bs/2,1]) sphere(r=1,center=true);
+                    }
+                    for(yoff=[-34-clear-bs/2,34+clear+bs/2])
+                        translate([0,yoff,zoff]) scale([1,bs/2,1])rotate([0,90,0]) cylinder(r=1,h=121.5+bs+2*clear,center=true);
+            }
+          
+                
+                translate([0,0,hboard-boardThick/2-sinkThick/2]) sink();    
+                union() {
+                    translate([-60.75,-34,0]) {
+                        translate([0,0,hboard-boardThick/2-standoff/2]) {
+                            translate([3.5,5,standoff/2-wt/2]) cornerBlockShort(wt);
+                            translate([117.5,5,0]) mirror([1,0,0]) cornerBlock(standoff);
+                            translate([117.5,63,0]) rotate([0,0,180]) cornerBlock(standoff);
+                            translate([94.5,5,0]) mirror([1,0,0]) fifthBlock(standoff);
+                        }
+                        translate([0,0,zbacklip]){
+                            translate([3.5,64,0]) mirror([0,1,0]) backCornerBlock(blip,12);
+                            translate([117.5,64,0]) rotate([0,0,180]) backCornerBlock(blip,7.5);
+                            translate([3.5,4,0]) backCornerBlock(blip,12);
+                            translate([117.5,4,0]) mirror([1,0,0]) backCornerBlock(blip,7.5);
+                        }   
+                    }
+                    batteryShelf();   
+                }
+                translate([-60.75,-34,0]) {
+                    translate([80.93,-clear-wt/2+.1,hb/2-tg-0.8-bclear-25.4/32-6.9/2])
+                        cube([14.5+2*clear+2*wt,wt,7.12+2*clear+2*wt],center=true);
+                    translate([-clear-wt/2,11.75,hb/2-tg-0.8-bclear-25.4/32-2.66/2]) 
+                        cube([wt,8+2*clear+2*wt,2.66+2*clear+2*wt],center=true);
+                }
         }
-            translate([-60.75,-34,0]) {
-                
-                translate([80.93,-clear,hb/2-tg-0.8-bclear-25.4/32-6.9/2]) 
-                    minkowski() {
-                        cube([14.5,ep,7.12],center=true);
-                        rotate([90,0,0]) taperCut();
-                    }
-                translate([-clear,11.75,hb/2-tg-0.8-bclear-25.4/32-2.66/2]) 
-                    minkowski() {
-                        cube([ep,8,2.66],center=true);
-                        rotate([0,-90,0]) taperCut();
-                        
-                    }
-                translate([3.5,63,50]) cylinder(r=bhd/2,h=100,center=true);
-                translate([3.5,5,50]) cylinder(r=bhd/2,h=100,center=true);
-                translate([3.5,5+bhd/2,50]) cube([bhd,bhd,100],center=true);
-                translate([117.5,5,50]) cylinder(r=bhd/2,h=100,center=true);
-                translate([117.5,63,50]) cylinder(r=bhd/2,h=100,center=true);
-                translate([94.5,5,50]) cylinder(r=bhd/2,h=100,center=true);
+        translate([-60.75,-34,0]) {
+            translate([80.93,-clear,hb/2-tg-0.8-bclear-25.4/32-6.9/2]) 
+                minkowski() {
+                    cube([14.5,ep,7.12],center=true);
+                    rotate([90,0,0]) taperCut();
+             }
+            translate([-clear,11.75,hb/2-tg-0.8-bclear-25.4/32-2.66/2]) 
+                minkowski() {
+                    cube([ep,8,2.66],center=true);
+                    rotate([0,-90,0]) taperCut();   
             }
-        
+            translate([3.5,63,50]) cylinder(r=bhd/2,h=100,center=true);
+            translate([3.5,5,50]) cylinder(r=bhd/2,h=100,center=true);
+            translate([3.5,5+bhd/2,50]) cube([bhd,bhd,100],center=true);
+            translate([117.5,5,50]) cylinder(r=bhd/2,h=100,center=true);
+            translate([117.5,63,50]) cylinder(r=bhd/2,h=100,center=true);
+            translate([94.5,5,50]) cylinder(r=bhd/2,h=100,center=true);
+        }
     }
 }
 
