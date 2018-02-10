@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main void() {
+  long pos;
+  fseek(stdin,0,SEEK_END);
+  pos = ftell(stdin);
+  rewind(stdin);
+  printf("%ld, %d\n",pos,fgetc(stdin));
+  return(0);
+}

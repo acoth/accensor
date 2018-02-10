@@ -1,0 +1,59 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <wiringPi.h>
+#include <wiringPiSPI.h>
+#include "spiExpander.h"
+
+#define PORT 0
+#define SPEED 30000000
+
+int main(int argc, char *argv[]) {
+  FILE * fPtr = stdin;
+  char inStr[1025];
+  char buf[256];
+  char tempStr[3];
+  char *inPtr;
+  int retval;
+  int k,m,n;
+  portNums portNum = DC590_1;
+
+  if (argc>1) {
+    portNum = atoi(argv[1]);
+  }
+  
+  wiringPiSetupGpio();
+  wiringPiSPISetup(PORT,SPEED);
+  setSPIAddr(portNum);
+
+  tempStr[2] = '\0';
+  while(!feof(fPtr)) {
+    //Read a line of input characters and proceed if we didn't hit EOF
+    if(fgets(inStr,1025,fPtr)) {
+      
+      //Translate valid pairs of hex characters in the input into bytes to send
+      for (k=m=n=0; inStr[k];k++) {
+	if (isxdigit(inStr[k])) {
+	  tempStr[m++] = inStr[k];
+	  if (m>=2) {
+	    buf[n++] = (unsigned char)strtoul(tempStr,NULL,16);
+	    m = 0;
+	  }
+	}
+      }
+      // Dump the return values back to stdout
+      if (n>0) {
+	retval = wiringPiSPIDataRW(PORT,buf,n);
+	for (k=0;k<n;k++) {
+	  printf("%02x",buf[k]);
+	  if (k%32==31)
+	    printf("\n");
+	  else if (k%4==3)
+	    printf(" ");
+	}
+	printf("\n");
+	fflush(stdout);
+      }
+    }
+  }
+  return(0);
+}

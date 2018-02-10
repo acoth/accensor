@@ -1,0 +1,22 @@
+typedef enum pn { MA742_FLASH = 0,
+		  DC590_1 = 1,
+		  DC590_2 = 2,
+		  DC590_3 = 3,
+		  DC590_4 = 4,
+		  DC590_5 = 5,
+		  DC590_6 = 6,
+		  DC590_7 = 7} portNums;
+
+#define SPI_EXPANDER_PINA0 23
+#define SPI_EXPANDER_PINA1 24
+#define SPI_EXPANDER_PINA2 25
+#define MA742_PROGB 22
+
+#define SPI_MOSI 10
+#define SPI_MISO 9 
+#define SPI_SCLK 11
+#define SPI_CE0  8
+#define SPI_CE1  7
+
+void setSPIAddr(portNums addr);
+void relinquishSPI(void);

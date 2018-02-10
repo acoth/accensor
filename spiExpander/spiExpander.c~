@@ -1,0 +1,18 @@
+#include "spiExpander.h"
+#include <wiringPi.h>
+
+void setSPIAddr(portNums addr) {
+  pinMode(SPI_EXPANDER_PINA2,OUTPUT);
+  pinMode(SPI_EXPANDER_PINA1,OUTPUT);
+  pinMode(SPI_EXPANDER_PINA0,OUTPUT);
+  digitalWrite(SPI_EXPANDER_PINA2,addr&0x04U);
+  digitalWrite(SPI_EXPANDER_PINA1,addr&0x02U);
+  digitalWrite(SPI_EXPANDER_PINA0,addr&0x01U);
+}
+
+void relinquishSPI(void) {
+  pinMode(SPI_MOSI,INPUT);
+  pinMode(SPI_SCLK,INPUT);
+  pinMode(SPI_CE0 ,INPUT);
+  pinMode(SPI_CE1 ,INPUT);
+}

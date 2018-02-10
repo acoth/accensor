@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <wiringPi.h>
+
+int main(void) {
+  wiringPiSetupGpio();
+  pinMode(4,OUTPUT);
+  digitalWrite(4,1);
+  return(0);
+}
