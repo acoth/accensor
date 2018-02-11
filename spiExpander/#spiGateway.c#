@@ -60,7 +60,7 @@ int main(int argc, char *argv[]) {
 	//	retval = wiringPiSPIDataRW(PORT,buf,n);
 	transfer.len = n;
 	retval = ioctl(fd,SPI_IOC_MESSAGE(1),&transfer);
-	//	WritePin(gpio,SPI_CSB0,1);
+\	//	WritePin(gpio,SPI_CSB0,1);
 	//usleep(1);
 	//WritePin(gpio,SPI_CSB0,0);
 	for (k=0;k<n;k++) {

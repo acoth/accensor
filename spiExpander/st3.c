@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main (int argc, char *argv[]) {
+  char buf[434];
+  buf[0]=0x20;
+  printf("%c",buf[0]);
+  return(0);
+}

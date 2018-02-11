@@ -5,6 +5,7 @@
 #include "interface.h"
 #include <stdio.h>
 #include <fcntl.h>
+#include <unistd.h>
 #include <sys/mman.h>
 #include <sys/ioctl.h>
 //#include <linux/spi/spidev.h>
@@ -37,7 +38,8 @@ int SetupSPI(uint32_t *gpio,uint8_t addr) {
   WritePin(gpio,MUXSEL2,addr&0x04);
   WritePin(gpio,MUXSEL1,addr&0x02);
   WritePin(gpio,MUXSEL0,addr&0x01);
-
+  //  WritePin(gpio,SPI_CSB0,0);
+  
   if (addr&0x08)
     fd = open("/dev/spidev0.1",O_RDWR);
   else
