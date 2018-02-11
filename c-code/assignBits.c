@@ -12,20 +12,29 @@
 #define DISABLE 0
 
 
-void WriteDisplay(uint16_t pixelColors[3][16][6]);
+void WriteDisplay(uint16_t pixelColors[288]);
 void StuffPacket(char *buf, uint16_t pixel[288], char c);
 
 int main(int argc, char *argv[]) {
   uint16_t pixelColors[288];
-  for (int col = 0;col<16;col++) {
-    for (int row = 0;row<6;row++) {
-      pixelColors[col*6+row] = (col%2)<<(row+2);
-      pixelColors[96+col*6+row] = ((col>>1)%2)<<(row+2);
-      pixelColors[192+col*6+row] = ((col>>2)%2)<<(row+2);
+  uint16_t dim=1;
+  int up = 1;
+  while (1) {
+    dim = up ? dim+1 : dim-1;
+    if (dim>99) up = 0;
+    if (dim<1) up = 1;
+    
+    for (int col = 0;col<16;col++) {
+      for (int row = 0;row<6;row++) {
+	pixelColors[col*6+row] = dim*((col%2)<<(row));
+	pixelColors[96+col*6+row] = dim*(((col>>1)%2)<<(row));
+	pixelColors[192+col*6+row] = dim*(((col>>2)%2)<<(row));
+      }
     }
+    WriteDisplay(pixelColors);
+    usleep(10000);
   }
-  WriteDisplay(pixelColors);
-
+    
   return(0);
 }
 
@@ -35,7 +44,7 @@ int main(int argc, char *argv[]) {
 // [Left=0 to right =15]
 // [Bottom=0 to top = 5]
 
-void WriteDisplay(uint16_t *pixelColors) {
+void WriteDisplay(uint16_t pixelColors[288]) {
   char buf[435];
   uint32_t *gpio;
   int fd,retval;
@@ -47,7 +56,7 @@ void WriteDisplay(uint16_t *pixelColors) {
   struct spi_ioc_transfer transfer = {
     .tx_buf = (unsigned long)buf,
     .rx_buf = (unsigned long)buf,
-    .len = 434,
+    .len = 435,
     .delay_usecs = 0,
     .speed_hz = 1000000,
     .bits_per_word = 8,
@@ -59,7 +68,6 @@ void WriteDisplay(uint16_t *pixelColors) {
 
   RelinquishSPI(gpio,fd);
   CleanupGPIO(gpio);  
-  free(buf);
 
   return;
 }
