@@ -6,7 +6,7 @@ Assuming your setup is as I gave it to you:
  1. Plug in the Accensor and wait for it to boot.  You can tell it has booted when the clock face starts showing an (incorrect) time
  2. While you wait, get this directory on your laptop.  (You'll need to download it before switching your WiFi in the next step)
  3. On your laptop, join the WiFi network it is generating.  The SSID is one of `Accensor[0-9]`, and the password is `LetThereBeLight`
- 4. Copy the directory to the Pi: `scp-r path/to/autohotspot/ pi@192.168.17.1:` The password is `RhubarbAppleTarragon`.
+ 4. Copy the directory to the Pi: `scp -r path/to/autohotspot/ pi@192.168.17.1:` The password is `RhubarbAppleTarragon`.
  5. SSH into it: `ssh pi@192.168.17.1`
  6. Tell the Pi about your home WiFi: `sudo emacs /etc/wpa_supplicant/wpa_supplicant.conf` (vi and nano are also installed if you prefer).  Just replace my home network's SSID and password with yours.
  7. `cd ~/autohotspot`
