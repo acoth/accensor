@@ -1,6 +1,9 @@
 import ctypes
 
 libDis = ctypes.cdll.LoadLibrary('../c-code/libdisplay.so')
+
+pixelArray = ctypes.c_short*288
+
 DigitPattern = {
     0:(0,1,1,1,1,0)+
       (1,0,0,0,0,1)+
@@ -19,7 +22,7 @@ DigitPattern = {
       (1,1,1,0,0,0),
     5:(1,0,0,1,1,0)+
       (1,0,1,0,0,1)+
-      (1,1,0,0,1,0),
+      (1,1,1,0,1,0),
     6:(1,0,0,1,1,0)+
       (1,0,1,0,0,1)+
       (0,1,1,1,1,0),
@@ -29,12 +32,18 @@ DigitPattern = {
     8:(0,1,0,1,1,0)+
       (1,0,1,0,0,1)+
       (0,1,0,1,1,0),
-    9:(0,1,1,1,1,1)+
-      (1,0,0,1,0,0)+
-      (0,1,1,0,0,0),
+    9:(0,1,1,1,1,0)+
+      (1,0,0,1,0,1)+
+      (0,1,1,0,0,1),
     ' ':(0,0,0,0,0,0),
     ':':(0,2,0,0,2,0)}
 
+
+def Initialize(mode=0):
+    libDis.Initialize(ctypes.c_char(chr(mode)))
+
+def Cleanup():
+    libDis.Cleanup()
 
 def DrawNumber(number, fg, bg):
     digit3 = (number/1000) % 10
@@ -52,13 +61,12 @@ def DrawNumber(number, fg, bg):
     libDis.WriteDisplay(pixels,ctypes.c_char('\2'))
 
 
-def DrawTime(h,m, fg, bg, colon):
+def DrawTime(h,m, fg, dimmer=1, bg=(0,0,0), colon=(0,0,0)):
     h10 = (h/10) % 10
     h1 = h%10
     m10 = (m/10) % 10
     m1 = m % 10
 
-    pixelArray = ctypes.c_short*288
 
     fgInt = [int(4095.99*x) for x in fg]
     bgInt = [int(4095.99*x) for x in bg]
@@ -83,8 +91,13 @@ def DrawTime(h,m, fg, bg, colon):
     pixelsBlue = pixelsMBlue+pixelsCBlue+pixelsHBlue
     
     pixels = pixelArray(*(pixelsRed+pixelsGreen+pixelsBlue))
-    libDis.WriteDisplay(pixels,ctypes.c_char('\2'))
+    libDis.WriteDisplay(pixels,ctypes.c_short(int(65535*dimmer)),ctypes.c_char('\2'))
 
-
+def SetDotCorrection(r,g,b):
+    rInt = int((2*r-1)*2048)
+    gInt = int((2*g-1)*2048)
+    bInt = int((2*r-1)*2048)
+    dcs = pixelArray(*(([rInt]*96)+([gInt]*96)+[bInt]*96))
+    libDis.WriteDisplay(dcs,ctypes.c_char('\3'))
     
     

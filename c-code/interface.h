@@ -17,7 +17,7 @@
 
 uint32_t *SetupGPIO(void);
 void CleanupGPIO(uint32_t *);
-int SetupSPI(uint32_t *gpio, uint8_t addr);
+int SetupSPI(uint32_t *gpio, uint8_t addr,char mode);
 void RelinquishSPI(uint32_t *gpio, int fd);
 void SetPinMode(uint32_t *gpio, uint8_t pin, uint8_t mode);
 void SetPin(uint32_t *gpio, uint8_t pin);

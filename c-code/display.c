@@ -6,34 +6,78 @@
 #include <sys/ioctl.h>
 #include <linux/spi/spidev.h>
 #include "display.h"
+#include "pthread.h"
+#include "string.h"
+
+static uint32_t *gpio;
+static int fd;
+//unsigned short *black;
+static char *bufOn;
+static char *bufOff;
+static unsigned short dimmer;
+static pthread_t threadId;
+
 
 void StuffPacket(char *buf, unsigned short pixel[288], char c);
-  
-void WriteDisplay(unsigned short pixel[288], char c) {
-  char buf[435];
-  uint32_t *gpio;
-  int fd,retval;
+void *WriteLoop(void *);
 
-  StuffPacket(buf,pixel,c);
+void Initialize(char mode) {
+  unsigned short *black;
   gpio = SetupGPIO();
-  fd = SetupSPI(gpio,0);
+  fd = SetupSPI(gpio,0,mode);
+  black = (unsigned short *)calloc(288,sizeof(unsigned short));
+  bufOn = (char *)malloc(435);
+  bufOff= (char *)malloc(435);
+  StuffPacket(bufOn ,black,PIXEL|ENABLE);
+  StuffPacket(bufOff,black,PIXEL|ENABLE);
+  free(black);
+  dimmer = 0xffff;
+  pthread_create(&threadId,NULL,WriteLoop,NULL);
+};
 
+void Cleanup(void) {
+  pthread_cancel(threadId);
+  RelinquishSPI(gpio,fd);
+  CleanupGPIO(gpio);
+  free(bufOn);
+  free(bufOff);
+}
+
+void *WriteLoop(void *unused) {
+  unsigned int dimCounter=0;
+  char *buf;
+  /*  char ret[435];
   struct spi_ioc_transfer transfer = {
-    .tx_buf = (unsigned long)buf,
-    .rx_buf = (unsigned long)buf,
+    .tx_buf = (unsigned long)ret,
+    .rx_buf = (unsigned long)ret,
     .len = 435,
     .delay_usecs = 0,
-    .speed_hz = 15000000,
+    .speed_hz = 16000000,
     .bits_per_word = 8,
     .tx_nbits = 1,
     .rx_nbits = 1
-  };
+    };*/
+  
+  while (1) {
+    dimCounter+=dimmer;
+    if (dimCounter >= 0xffff) {
+      buf = bufOn;
+      dimCounter-=0xffff;
+    } else {
+      buf = bufOff;
+    }
+    write(fd,buf,435);
+    //    ioctl(fd,SPI_IOC_MESSAGE(1),&transfer); 
+  }
+  return(NULL);
 
-  retval = ioctl(fd,SPI_IOC_MESSAGE(1),&transfer);
+}
 
-  RelinquishSPI(gpio,fd);
-  CleanupGPIO(gpio);  
-
+void WriteDisplay(unsigned short pixel[288], unsigned short d,char c) {
+  char buf[435];
+  dimmer = d;
+  StuffPacket(buf,pixel,c);
+  memcpy(bufOn,buf,435);
   return;
 }
 

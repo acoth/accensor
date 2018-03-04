@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <sys/mman.h>
 #include <sys/ioctl.h>
-//#include <linux/spi/spidev.h>
+#include <linux/spi/spidev.h>
 
 uint32_t *SetupGPIO(void) {
   int fd;
@@ -23,7 +23,7 @@ void CleanupGPIO(uint32_t *gpio) {
   munmap(gpio,BLOCK_SIZE);
 }
 
-int SetupSPI(uint32_t *gpio,uint8_t addr) {
+int SetupSPI(uint32_t *gpio,uint8_t addr,char mode) {
   int fd;
   SetPinMode(gpio,SPI_MOSI,ALT0);
   SetPinMode(gpio,SPI_MISO,ALT0);
@@ -45,6 +45,10 @@ int SetupSPI(uint32_t *gpio,uint8_t addr) {
   else
     fd = open("/dev/spidev0.0",O_RDWR);
 
+  //  mode = SPI_MODE_1;
+  uint32_t speed = 30000000; 
+  ioctl(fd,SPI_IOC_WR_MODE,&mode);
+  ioctl(fd,SPI_IOC_WR_MAX_SPEED_HZ,&speed); 
   return(fd);
 }
 
