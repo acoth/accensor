@@ -10,6 +10,4 @@
 #define ENABLE 2
 #define DISABLE 0
 
-void WriteDisplay(unsigned short pixel[288], unsigned short dimmer,char c);
-void Initialize(char mode);
-void Cleanup();
+void WriteDisplay(unsigned short pixel[288], char c);

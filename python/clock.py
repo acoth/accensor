@@ -18,16 +18,17 @@ def runClock(cycles):
         cycleFrac = ((t.hour+t.minute/60.0+t.second/3600.0)%cycleHours)/cycleHours
         fgColor = colorsys.hsv_to_rgb(cycleFrac,1,brightness)
         fsec = t.second+t.microsecond/1.0e6
-        colonColor = (0,0,0) 
-        display.DrawTime(t.hour,t.minute,fgColor, dimmer=1)
+        colonColor = (0,0,0) if (t.second%2)==1 else fgColor 
+        display.DrawTime(t.hour,t.minute,fg=fgColor,colon=colonColor,h24=False)
         time.sleep(1/60.0)
         if (cycles>0):
             n=n+1
 
+#                    colonColor = colorsys.hsv_to_rgb(t.second/60.0,1,brightness)
+
 #        colonColor = colorsys.hsv_to_rgb(fsec/60.0,0.9,brightness/4) 
 
 if (__name__ == "__main__"):
-    display.Initialize()
     runClock(0)
-    display.Cleanup()
+
     

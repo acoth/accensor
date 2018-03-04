@@ -38,12 +38,12 @@ DigitPattern = {
     ' ':(0,0,0,0,0,0),
     ':':(0,2,0,0,2,0)}
 
+DigitPatternH12 = {
+    0:(0,0,0,0,0,0)+
+      (0,0,0,0,0,0),
+    1:(1,1,1,1,1,1)+
+      (0,1,0,0,0,0)}
 
-def Initialize(mode=0):
-    libDis.Initialize(ctypes.c_char(chr(mode)))
-
-def Cleanup():
-    libDis.Cleanup()
 
 def DrawNumber(number, fg, bg):
     digit3 = (number/1000) % 10
@@ -61,18 +61,28 @@ def DrawNumber(number, fg, bg):
     libDis.WriteDisplay(pixels,ctypes.c_char('\2'))
 
 
-def DrawTime(h,m, fg, dimmer=1, bg=(0,0,0), colon=(0,0,0)):
-    h10 = (h/10) % 10
-    h1 = h%10
-    m10 = (m/10) % 10
-    m1 = m % 10
-
+    
+def DrawTime(h,m, fg, bg=(0,0,0), colon=(0,0,0), h24=True):
 
     fgInt = [int(4095.99*x) for x in fg]
     bgInt = [int(4095.99*x) for x in bg]
     cInt = [int(4095.99*x) for x in colon]
-    pixelsH = DigitPattern[h1]+DigitPattern[' ']+DigitPattern[h10]
-    pixelsC = DigitPattern[':']+DigitPattern[':']
+
+    m10 = (m/10) % 10
+    m1 = m % 10
+
+    if h24:
+        h10 = (h/10) % 10
+        h1 = h%10
+        pixelsH = DigitPattern[h1]+DigitPattern[' ']+DigitPattern[h10]
+        pixelsC = DigitPattern[':']+DigitPattern[':']
+    else:
+        h = ((h-1)%12)+1
+        h10 = (h/10) % 10
+        h1 = h%10
+        pixelsH = DigitPattern[h1]+DigitPattern[' ']+DigitPatternH12[h10]
+        pixelsC = DigitPattern[' ']+DigitPattern[':']+DigitPattern[' ']
+        
     pixelsM = DigitPattern[m1]+DigitPattern[' ']+DigitPattern[m10]
 
     pixelsMRed = [fgInt[0] if x else bgInt[0] for x in pixelsM]
@@ -91,7 +101,7 @@ def DrawTime(h,m, fg, dimmer=1, bg=(0,0,0), colon=(0,0,0)):
     pixelsBlue = pixelsMBlue+pixelsCBlue+pixelsHBlue
     
     pixels = pixelArray(*(pixelsRed+pixelsGreen+pixelsBlue))
-    libDis.WriteDisplay(pixels,ctypes.c_short(int(65535*dimmer)),ctypes.c_char('\2'))
+    libDis.WriteDisplay(pixels,ctypes.c_char('\2'))
 
 def SetDotCorrection(r,g,b):
     rInt = int((2*r-1)*2048)
