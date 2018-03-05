@@ -38,7 +38,8 @@ int SetupSPI(uint32_t *gpio,uint8_t addr,char mode) {
   WritePin(gpio,MUXSEL2,addr&0x04);
   WritePin(gpio,MUXSEL1,addr&0x02);
   WritePin(gpio,MUXSEL0,addr&0x01);
-  //  WritePin(gpio,SPI_CSB0,0);
+  WritePin(gpio,SPI_CSB0,1);
+  WritePin(gpio,SPI_CSB1,1);
   
   if (addr&0x08)
     fd = open("/dev/spidev0.1",O_RDWR);
@@ -57,8 +58,11 @@ void RelinquishSPI(uint32_t *gpio,int fd) {
   SetPinMode(gpio,SPI_MOSI,INPUT);
   SetPinMode(gpio,SPI_MISO,INPUT);
   SetPinMode(gpio,SPI_SCLK,INPUT);
-  SetPinMode(gpio,SPI_CSB0,INPUT);
-  SetPinMode(gpio,SPI_CSB1,INPUT);
+  SetPinMode(gpio,SPI_CSB0,OUTPUT);
+  SetPinMode(gpio,SPI_CSB1,OUTPUT);
+  WritePin(gpio,SPI_CSB0,1);
+  WritePin(gpio,SPI_CSB1,1);
+
 }
 
 void SetPinMode(uint32_t *gpio,uint8_t pin, uint8_t mode) {

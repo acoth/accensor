@@ -1,19 +1,20 @@
 #! /usr/bin/python
 from datetime import datetime
 import time
-import display
 import colorsys
 import math
+import display
+import accelerometer
 
 # Make the color the time is displayed in change smoothly
 # in a full cycle every 6 hours
 # Draw the background black and the colon pale gray
 def runClock(cycles):
     n=-1
-    display.SetDotCorrection(0.5,0.5,0.5)
+    brightness = 0.0015
+    display.SetDotCorrection(1,1,1)
     while (n<cycles):
         t = datetime.now().time()
-        brightness = 0.0015
         cycleHours = 24
         cycleFrac = ((t.hour+t.minute/60.0+t.second/3600.0)%cycleHours)/cycleHours
         fgColor = colorsys.hsv_to_rgb(cycleFrac,1,brightness)
