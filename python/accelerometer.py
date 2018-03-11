@@ -1,27 +1,49 @@
 import ctypes
+import time
 
-lib = ctypes.cdll.LoadLibrary('../c-code/libaccelerometer.so')
+class XL:
+    lib = ctypes.cdll.LoadLibrary('../c-code/libaccelerometer.so')
 
-def WriteReg(reg,val):
-    lib.WriteReg(ctypes.c_char(chr(reg)),ctypes.c_char(chr(val)))
+    def __init__(self):
+        self.WriteReg(29,4) #Tap Threshold of +/-0.25g
+        self.WriteReg(30,0) #No X offset adjust
+        self.WriteReg(31,0) #No Y offset adjust
+        self.WriteReg(32,0) #No Z offset adjust
+        self.WriteReg(33,255) #160ms max time for a tap
+        self.WriteReg(42,7) #Enable all axes for tap
+        self.WriteReg(44,10) #Set data rate to 100Hz
+        self.WriteReg(45,8) #Turn on accelerometer
+        #WriteReg(46,64) #turn on single-tap interrupts
+        self.WriteReg(47,0) #direct all interrupts to pin 1
+        self.WriteReg(49,15) #Set data format to full resolution
+        self.dataLog = []
     
-def ReadReg(reg):
-    return(lib.ReadReg(ctypes.c_char(chr(reg))))
+    def WriteReg(self,reg,val):
+        self.lib.WriteReg(ctypes.c_char(chr(reg)),ctypes.c_char(chr(val)))
+    
+    def ReadReg(self,reg):
+        return(self.lib.ReadReg(ctypes.c_char(chr(reg))))
 
-def ReadAccelerations():
-    aType = ctypes.c_float*3
-    a = aType(0,0,0)
-    lib.ReadAccelerations(a)
-    return(list(a))
+    def ReadAccelerations(self):
+        aType = ctypes.c_float*3
+        a = aType(0,0,0)
+        self.lib.ReadAccelerations(a)
+        aList = list(a)
+        self.LogAccel(aList)
+        return(aList)
 
-WriteReg(29,4) #Tap Threshold of +/-0.25g
-WriteReg(30,0) #No X offset adjust
-WriteReg(31,0) #No X offset adjust
-WriteReg(32,0) #No X offset adjust
-WriteReg(33,255) #160ms max time for a tap
-WriteReg(42,7) #Enable all axes for tap
-WriteReg(44,10) #Set data rate to 100Hz
-WriteReg(45,8) #Turn on accelerometer
-WriteReg(46,64) #turn on single-tap interrupts
-WriteReg(47,0) #direct all interrupts to pin 1
-WriteReg(49,15) #Set data format to full resolution
+    def LogAccel(self,a):
+        t = time.time()
+        self.dataLog = filter(lambda x: (t-x[0])<3,self.dataLog)
+        self.dataLog.append((t,a))
+
+    def AmBeingShaken(self,threshold=2,duration=1,sampling=0.25):
+        self.ReadAccelerations()
+        meanAccel = reduce(lambda x,y: (x[0]+y[1][0]/len(self.dataLog),x[1]+y[1][1]/len(self.dataLog),x[2]+y[1][2]/len(self.dataLog)),self.dataLog,(0.,0.,0.))
+        varianceMag = map(lambda x: (x[0],sum([(x[1][n]-meanAccel[n])**2 for n in range(3)])),self.dataLog);
+        tOverThresh = [x[0] for x in varianceMag if x[1]>threshold]
+        for sind in range(int(duration/sampling)+1):
+            timeSeps = [abs(self.dataLog[0][0]-t) for t in tOverThresh]
+            if len(timeSeps)==0 or min(timeSeps)>sampling/2.0:
+                return False
+        return True
