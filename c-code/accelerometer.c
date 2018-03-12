@@ -22,7 +22,7 @@ void WriteReg(unsigned char reg, unsigned char val) {
     .rx_buf = (unsigned long)buf,
     .len = 2,
     .delay_usecs = 0,
-    .speed_hz = 1000000,
+    .speed_hz = 5000000,
     .bits_per_word = 8,
     .tx_nbits = 1,
     .rx_nbits = 1
@@ -48,7 +48,7 @@ unsigned char ReadReg(unsigned char reg) {
     .rx_buf = (unsigned long)buf,
     .len = 2,
     .delay_usecs = 0,
-    .speed_hz = 1000000,
+    .speed_hz = 5000000,
     .bits_per_word = 8,
     .tx_nbits = 1,
     .rx_nbits = 1
@@ -75,7 +75,7 @@ void ReadAccelerations(float accelerations[3]) {
     .rx_buf = (unsigned long)buf,
     .len = 7,
     .delay_usecs = 0,
-    .speed_hz = 1000000,
+    .speed_hz = 5000000,
     .bits_per_word = 8,
     .tx_nbits = 1,
     .rx_nbits = 1

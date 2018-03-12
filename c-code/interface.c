@@ -38,7 +38,7 @@ int SetupSPI(uint32_t *gpio,uint8_t addr,char mode) {
   WritePin(gpio,MUXSEL2,addr&0x04);
   WritePin(gpio,MUXSEL1,addr&0x02);
   WritePin(gpio,MUXSEL0,addr&0x01);
-  WritePin(gpio,SPI_CSB0,1);
+  WritePin(gpio,SPI_CSB0,0);
   WritePin(gpio,SPI_CSB1,1);
   
   if (addr&0x08)
@@ -60,7 +60,7 @@ void RelinquishSPI(uint32_t *gpio,int fd) {
   SetPinMode(gpio,SPI_SCLK,INPUT);
   SetPinMode(gpio,SPI_CSB0,OUTPUT);
   SetPinMode(gpio,SPI_CSB1,OUTPUT);
-  WritePin(gpio,SPI_CSB0,1);
+  WritePin(gpio,SPI_CSB0,0);
   WritePin(gpio,SPI_CSB1,1);
 
 }
