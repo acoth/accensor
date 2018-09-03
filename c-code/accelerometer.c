@@ -61,6 +61,25 @@ unsigned char ReadReg(unsigned char reg) {
   return(buf[1]);
 }
 
+uint32_t Int(void) {
+  uint32_t *gpio,retVal;
+  gpio = SetupGPIO();
+  
+  retVal=ReadPin(gpio,INTXL2);
+  CleanupGPIO(gpio);
+  return(retVal);
+}
+
+uint32_t LowPins(void) {
+  uint32_t *gpio,retVal;
+  gpio = SetupGPIO();
+  
+  retVal=ReadLowPins(gpio);
+  CleanupGPIO(gpio);
+  return(retVal);
+}
+
+
 void ReadAccelerations(float accelerations[3]) {
   unsigned char buf[7];
   uint32_t *gpio;

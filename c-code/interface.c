@@ -31,13 +31,9 @@ int SetupSPI(uint32_t *gpio,uint8_t addr,char mode) {
   SetPinMode(gpio,SPI_CSB0,OUTPUT);
   SetPinMode(gpio,SPI_CSB1,OUTPUT);
 
-  SetPinMode(gpio,MUXSEL0,OUTPUT);
-  SetPinMode(gpio,MUXSEL1,OUTPUT);
-  SetPinMode(gpio,MUXSEL2,OUTPUT);
+  SetPinMode(gpio,INTXL1,INPUT);
+  SetPinMode(gpio,INTXL2,INPUT);
 
-  WritePin(gpio,MUXSEL2,addr&0x04);
-  WritePin(gpio,MUXSEL1,addr&0x02);
-  WritePin(gpio,MUXSEL0,addr&0x01);
   WritePin(gpio,SPI_CSB0,0);
   WritePin(gpio,SPI_CSB1,1);
   
@@ -47,7 +43,7 @@ int SetupSPI(uint32_t *gpio,uint8_t addr,char mode) {
     fd = open("/dev/spidev0.0",O_RDWR);
 
   //  mode = SPI_MODE_1;
-  uint32_t speed = 30000000; 
+  uint32_t speed = 3000000; 
   ioctl(fd,SPI_IOC_WR_MODE,&mode);
   ioctl(fd,SPI_IOC_WR_MAX_SPEED_HZ,&speed); 
   return(fd);
@@ -86,4 +82,12 @@ void WritePin(uint32_t *gpio,uint8_t pin, int value) {
     SetPin(gpio,pin);
   else
     ClearPin(gpio,pin);
+}
+
+uint32_t ReadPin(uint32_t *gpio,uint8_t pin) {
+  return (gpio[13+pin/32]&(1<<(pin%32)));
+}
+
+uint32_t ReadLowPins(uint32_t *gpio) {
+  return (gpio[13]);
 }

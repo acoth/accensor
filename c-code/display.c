@@ -23,7 +23,7 @@ void WriteDisplay(unsigned short pixel[288], char c) {
     .rx_buf = (unsigned long)buf,
     .len = 435,
     .delay_usecs = 0,
-    .speed_hz = 15000000,
+    .speed_hz = 3000000,
     .bits_per_word = 8,
     .tx_nbits = 1,
     .rx_nbits = 1

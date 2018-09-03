@@ -10,10 +10,8 @@
 #define SPI_CSB0 8
 #define SPI_CSB1 7
 
-#define MUXSEL0 25
-#define MUXSEL1 24
-#define MUXSEL2 23
-#define MA742_PROGB 22
+#define INTXL1 22
+#define INTXL2 27
 
 uint32_t *SetupGPIO(void);
 void CleanupGPIO(uint32_t *);
@@ -23,3 +21,5 @@ void SetPinMode(uint32_t *gpio, uint8_t pin, uint8_t mode);
 void SetPin(uint32_t *gpio, uint8_t pin);
 void ClearPin(uint32_t *gpio, uint8_t pin);
 void WritePin(uint32_t *gpio, uint8_t pin, int value);
+uint32_t ReadPin(uint32_t *gpio,uint8_t pin);
+uint32_t ReadLowPins(uint32_t *gpio);

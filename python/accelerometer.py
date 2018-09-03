@@ -27,6 +27,12 @@ class XL:
     def ReadReg(self,reg):
         return(self.lib.ReadReg(ctypes.c_char(chr(reg))))
 
+    def Int(self):
+        return(self.lib.Int())
+
+    def LowPins(self):
+        return(self.lib.LowPins())
+
     def ReadAccelerations(self):
         aType = ctypes.c_float*3
         a = aType(0,0,0)

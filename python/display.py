@@ -84,8 +84,9 @@ def DrawNumber(number, fg, bg):
 
 
     
-def DrawTime(h,m, fg, bg=(0,0,0), colon=(0,0,0), h24=True):
-
+def DrawTime(dt, fg, bg=(0,0,0), colon=(0,0,0), h24=True):
+    h = dt.hour
+    m = dt.minute
     fgInt = [int(4095.99*x) for x in fg]
     bgInt = [int(4095.99*x) for x in bg]
     cInt = [int(4095.99*x) for x in colon]
@@ -123,13 +124,13 @@ def DrawMonochrome(pixmap,fg,bg):
     DrawPixels(colorPix)
 
 def DrawPixels(pixmap):
-    try:
-        a=DrawPixels.xl.ReadAccelerations()
-    except AttributeError:
-        DrawPixels.xl=accelerometer.XL()
-        a=DrawPixels.xl.ReadAccelerations()
-    if (a[0])<0:
-        pixmap.reverse()
+#    try:
+#        a=DrawPixels.xl.ReadAccelerations()
+#    except AttributeError:
+#        DrawPixels.xl=accelerometer.XL()
+#        a=DrawPixels.xl.ReadAccelerations()
+#    if (a[0])<0:
+#        pixmap.reverse()
     pixelsRed = [int(4095.99*x[0]) for x in pixmap]
     pixelsGreen = [int(4095.99*x[1]) for x in pixmap]
     pixelsBlue =  [int(4095.99*x[2]) for x in pixmap]
